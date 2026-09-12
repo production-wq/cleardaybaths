@@ -1,0 +1,7 @@
+{
+  "_note": "PLACEHOLDER VALUES ARE NOT ALLOWED HERE. The live site renders 0%/0+/0/5 for these counters and the two design artifacts disagree (96%/10+/5 vs 64%/7+/3), so both are invented. Only the rating is verifiable and it is computed from data/reviews.json, not stored. Any stat with value null is omitted from the page entirely by StatsRow. See plan open item #1.",
+  "stats": [
+    { "key": "satisfaction", "label": "Customer satisfaction", "value": null, "suffix": "%" },
+    { "key": "experience", "label": "Years of experience", "value": null, "suffix": "+" }
+  ]
+}
