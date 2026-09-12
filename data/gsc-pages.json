@@ -1,0 +1,548 @@
+[
+ {
+  "url": "/",
+  "clicks": 96.0,
+  "impressions": 2827.0,
+  "position": 3.28
+ },
+ {
+  "url": "/bath-conversions/tub-to-shower-conversions/",
+  "clicks": 5.0,
+  "impressions": 1902.0,
+  "position": 26.5
+ },
+ {
+  "url": "/bathrooms/bathroom-renovations/",
+  "clicks": 1.0,
+  "impressions": 867.0,
+  "position": 34.99
+ },
+ {
+  "url": "/showers/acrylic-showers/",
+  "clicks": 0.0,
+  "impressions": 627.0,
+  "position": 41.37
+ },
+ {
+  "url": "/bath-conversions/",
+  "clicks": 1.0,
+  "impressions": 546.0,
+  "position": 42.89
+ },
+ {
+  "url": "/bathrooms/accessible-bathroom/",
+  "clicks": 0.0,
+  "impressions": 516.0,
+  "position": 33.85
+ },
+ {
+  "url": "/bathrooms/one-day-bath/",
+  "clicks": 2.0,
+  "impressions": 512.0,
+  "position": 27.76
+ },
+ {
+  "url": "/about-us/",
+  "clicks": 10.0,
+  "impressions": 491.0,
+  "position": 5.48
+ },
+ {
+  "url": "/pricing/",
+  "clicks": 2.0,
+  "impressions": 453.0,
+  "position": 28.09
+ },
+ {
+  "url": "/bathrooms/",
+  "clicks": 2.0,
+  "impressions": 442.0,
+  "position": 19.16
+ },
+ {
+  "url": "/showers/",
+  "clicks": 1.0,
+  "impressions": 438.0,
+  "position": 41.47
+ },
+ {
+  "url": "/bathrooms/installation/",
+  "clicks": 1.0,
+  "impressions": 413.0,
+  "position": 41.44
+ },
+ {
+  "url": "/stafford/shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 302.0,
+  "position": 12.74
+ },
+ {
+  "url": "/showers/shower-enclosures/",
+  "clicks": 0.0,
+  "impressions": 266.0,
+  "position": 44.32
+ },
+ {
+  "url": "/bath-conversions/walk-in-shower/",
+  "clicks": 1.0,
+  "impressions": 265.0,
+  "position": 25.97
+ },
+ {
+  "url": "/contact-us/",
+  "clicks": 0.0,
+  "impressions": 255.0,
+  "position": 19.2
+ },
+ {
+  "url": "/bath-conversions/walk-in-bathtubs/",
+  "clicks": 1.0,
+  "impressions": 253.0,
+  "position": 28.68
+ },
+ {
+  "url": "/showers/shower-surrounds/",
+  "clicks": 0.0,
+  "impressions": 236.0,
+  "position": 53.36
+ },
+ {
+  "url": "/reviews/",
+  "clicks": 6.0,
+  "impressions": 187.0,
+  "position": 6.72
+ },
+ {
+  "url": "/showers/replacement-showers/",
+  "clicks": 0.0,
+  "impressions": 173.0,
+  "position": 41.74
+ },
+ {
+  "url": "/showers/shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 168.0,
+  "position": 57.73
+ },
+ {
+  "url": "/stafford/tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 154.0,
+  "position": 11.96
+ },
+ {
+  "url": "/stafford/",
+  "clicks": 0.0,
+  "impressions": 141.0,
+  "position": 13.88
+ },
+ {
+  "url": "/offers/",
+  "clicks": 1.0,
+  "impressions": 120.0,
+  "position": 15.09
+ },
+ {
+  "url": "/bathrooms/bath-surrounds/",
+  "clicks": 0.0,
+  "impressions": 113.0,
+  "position": 24.77
+ },
+ {
+  "url": "/woodbridge/walk-in-bathtubs/",
+  "clicks": 1.0,
+  "impressions": 99.0,
+  "position": 13.38
+ },
+ {
+  "url": "/stafford/accessible-bathroom/",
+  "clicks": 0.0,
+  "impressions": 97.0,
+  "position": 15.98
+ },
+ {
+  "url": "/fredericksburg/walk-in-bathtubs/",
+  "clicks": 0.0,
+  "impressions": 75.0,
+  "position": 12.92
+ },
+ {
+  "url": "/get-quote/",
+  "clicks": 0.0,
+  "impressions": 75.0,
+  "position": 23.51
+ },
+ {
+  "url": "/fredericksburg/accessible-bathroom/",
+  "clicks": 0.0,
+  "impressions": 73.0,
+  "position": 8.01
+ },
+ {
+  "url": "/service-areas/",
+  "clicks": 0.0,
+  "impressions": 64.0,
+  "position": 22.45
+ },
+ {
+  "url": "/gallery/",
+  "clicks": 1.0,
+  "impressions": 58.0,
+  "position": 3.78
+ },
+ {
+  "url": "/fredericksburg/shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 47.0,
+  "position": 43.87
+ },
+ {
+  "url": "/financing/",
+  "clicks": 2.0,
+  "impressions": 46.0,
+  "position": 8.61
+ },
+ {
+  "url": "/bathrooms/replacement-bathtubs/",
+  "clicks": 1.0,
+  "impressions": 43.0,
+  "position": 43.3
+ },
+ {
+  "url": "/warranty/",
+  "clicks": 1.0,
+  "impressions": 39.0,
+  "position": 4.9
+ },
+ {
+  "url": "/alexandria/tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 38.0,
+  "position": 25.87
+ },
+ {
+  "url": "/blog/why-alexandria-homeowners-are-choosing-tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 34.0,
+  "position": 4.97
+ },
+ {
+  "url": "/frederick-walk-in-bathtubs/",
+  "clicks": 0.0,
+  "impressions": 33.0,
+  "position": 8.64
+ },
+ {
+  "url": "/careers/",
+  "clicks": 0.0,
+  "impressions": 26.0,
+  "position": 7.0
+ },
+ {
+  "url": "/fredericksburg/tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 23.0,
+  "position": 18.91
+ },
+ {
+  "url": "/warrenton-va-shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 16.0,
+  "position": 32.31
+ },
+ {
+  "url": "/bathroom-remodeling-annapolis-md/",
+  "clicks": 1.0,
+  "impressions": 15.0,
+  "position": 19.67
+ },
+ {
+  "url": "/bath-conversions/shower-to-tub-conversions/",
+  "clicks": 0.0,
+  "impressions": 15.0,
+  "position": 8.53
+ },
+ {
+  "url": "/bath-conversions/therapeutic-tubs/",
+  "clicks": 0.0,
+  "impressions": 15.0,
+  "position": 15.73
+ },
+ {
+  "url": "/hagerstown-shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 14.0,
+  "position": 4.64
+ },
+ {
+  "url": "/blog/creating-an-accessible-bathroom-in-frederick-md-a-guide-for-homeowners/",
+  "clicks": 0.0,
+  "impressions": 14.0,
+  "position": 5.86
+ },
+ {
+  "url": "/columbia-md-tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 13.0,
+  "position": 5.08
+ },
+ {
+  "url": "/blog/",
+  "clicks": 0.0,
+  "impressions": 13.0,
+  "position": 5.62
+ },
+ {
+  "url": "/stafford/walk-in-bathtubs/",
+  "clicks": 0.0,
+  "impressions": 13.0,
+  "position": 13.08
+ },
+ {
+  "url": "/hagerstown-bathroom-remodeling/",
+  "clicks": 0.0,
+  "impressions": 12.0,
+  "position": 11.5
+ },
+ {
+  "url": "/manassas/",
+  "clicks": 0.0,
+  "impressions": 11.0,
+  "position": 7.64
+ },
+ {
+  "url": "/alexandria/shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 11.0,
+  "position": 9.73
+ },
+ {
+  "url": "/alexandria/walk-in-bathtubs/",
+  "clicks": 0.0,
+  "impressions": 9.0,
+  "position": 3.56
+ },
+ {
+  "url": "/fredericksburg/",
+  "clicks": 0.0,
+  "impressions": 9.0,
+  "position": 11.22
+ },
+ {
+  "url": "/blog/high-quality-bath-renovation-in-annapolis-md-clear-day-bath-solutions/",
+  "clicks": 0.0,
+  "impressions": 8.0,
+  "position": 5.0
+ },
+ {
+  "url": "/columbia-shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 8.0,
+  "position": 6.88
+ },
+ {
+  "url": "/blog/top-benefits-of-a-one-day-bath-in-woodbridge-va/",
+  "clicks": 0.0,
+  "impressions": 7.0,
+  "position": 2.86
+ },
+ {
+  "url": "/manassas/shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 7.0,
+  "position": 4.43
+ },
+ {
+  "url": "/frederick-tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 7.0,
+  "position": 5.0
+ },
+ {
+  "url": "/manassas/tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 7.0,
+  "position": 8.57
+ },
+ {
+  "url": "/blog/custom-shower-enclosures-in-college-park-modernize-your-bathroom-today/",
+  "clicks": 0.0,
+  "impressions": 7.0,
+  "position": 35.29
+ },
+ {
+  "url": "/shower-remodel-college-park-md/",
+  "clicks": 0.0,
+  "impressions": 5.0,
+  "position": 3.6
+ },
+ {
+  "url": "/frederick-shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 5.0,
+  "position": 4.4
+ },
+ {
+  "url": "/privacy-policy/",
+  "clicks": 0.0,
+  "impressions": 5.0,
+  "position": 4.6
+ },
+ {
+  "url": "/columbia-md-walk-in-bathtubs/",
+  "clicks": 0.0,
+  "impressions": 4.0,
+  "position": 4.0
+ },
+ {
+  "url": "/hagerstown-tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 4.0,
+  "position": 6.0
+ },
+ {
+  "url": "/woodbridge/",
+  "clicks": 0.0,
+  "impressions": 4.0,
+  "position": 7.75
+ },
+ {
+  "url": "/alexandria/accessible-bathroom/",
+  "clicks": 0.0,
+  "impressions": 4.0,
+  "position": 10.5
+ },
+ {
+  "url": "/tub-shower-conversions-waldorf-md/",
+  "clicks": 0.0,
+  "impressions": 4.0,
+  "position": 22.25
+ },
+ {
+  "url": "/blog/the-long-lasting-benefits-of-acrylic-showers-for-hagerstown-homes/",
+  "clicks": 0.0,
+  "impressions": 4.0,
+  "position": 23.25
+ },
+ {
+  "url": "/columbia-bathroom-remodeling/",
+  "clicks": 1.0,
+  "impressions": 3.0,
+  "position": 5.0
+ },
+ {
+  "url": "/manassas/walk-in-bathtubs/",
+  "clicks": 0.0,
+  "impressions": 3.0,
+  "position": 6.0
+ },
+ {
+  "url": "/sitemap/",
+  "clicks": 0.0,
+  "impressions": 3.0,
+  "position": 7.67
+ },
+ {
+  "url": "/frederick-bathroom-remodeling/",
+  "clicks": 0.0,
+  "impressions": 3.0,
+  "position": 15.33
+ },
+ {
+  "url": "/blog/columbia-md-bathroom-remodeling-top-design-trends-for-2026/",
+  "clicks": 0.0,
+  "impressions": 3.0,
+  "position": 35.67
+ },
+ {
+  "url": "/warrenton-bathroom-remodeling/",
+  "clicks": 0.0,
+  "impressions": 2.0,
+  "position": 1.0
+ },
+ {
+  "url": "/woodbridge/tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 2.0,
+  "position": 3.5
+ },
+ {
+  "url": "/blog/stylish-bath-surrounds-capital-heights/",
+  "clicks": 0.0,
+  "impressions": 2.0,
+  "position": 6.0
+ },
+ {
+  "url": "/blog/bathroom-remodeling-small-spaces-alexandria/",
+  "clicks": 0.0,
+  "impressions": 2.0,
+  "position": 6.5
+ },
+ {
+  "url": "/blog/one-day-bath-options-for-busy-waldorf-md-families/",
+  "clicks": 0.0,
+  "impressions": 2.0,
+  "position": 11.0
+ },
+ {
+  "url": "/hagerstown-walk-in-bathtubs/",
+  "clicks": 0.0,
+  "impressions": 2.0,
+  "position": 21.0
+ },
+ {
+  "url": "/manassas/accessible-bathroom/",
+  "clicks": 0.0,
+  "impressions": 1.0,
+  "position": 1.0
+ },
+ {
+  "url": "/blog/top-professional-shower-remodel-tips-for-your-manassas-home/",
+  "clicks": 0.0,
+  "impressions": 1.0,
+  "position": 2.0
+ },
+ {
+  "url": "/warrenton-tub-to-shower-conversions/",
+  "clicks": 0.0,
+  "impressions": 1.0,
+  "position": 4.0
+ },
+ {
+  "url": "/blog/signs-replacement-bathtub-woodbridge-va/",
+  "clicks": 0.0,
+  "impressions": 1.0,
+  "position": 5.0
+ },
+ {
+  "url": "/walk-in-bathtubs-davidsonville-md/",
+  "clicks": 0.0,
+  "impressions": 1.0,
+  "position": 6.0
+ },
+ {
+  "url": "/woodbridge/shower-remodel/",
+  "clicks": 0.0,
+  "impressions": 1.0,
+  "position": 6.0
+ },
+ {
+  "url": "/blog/shower-tub-conversions-davidsonville-md/",
+  "clicks": 0.0,
+  "impressions": 1.0,
+  "position": 10.0
+ },
+ {
+  "url": "/warrenton-walk-in-bathtubs/",
+  "clicks": 0.0,
+  "impressions": 1.0,
+  "position": 12.0
+ },
+ {
+  "url": "/blog/page/2/",
+  "clicks": 0.0,
+  "impressions": 1.0,
+  "position": 15.0
+ }
+]

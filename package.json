@@ -1,0 +1,43 @@
+{
+  "name": "cleardaybaths",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clear Day Bath Solutions — bathroom remodeling, Northern Virginia & Maryland. Next.js rebuild of cleardaybaths.com.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "import:wp": "tsx scripts/import-wp.ts",
+    "images:process": "tsx scripts/images-process.ts",
+    "images:generate": "tsx scripts/images-generate.ts",
+    "test:preservation": "tsx scripts/test-preservation.ts",
+    "audit:seo": "tsx scripts/audit-seo.ts",
+    "audit:schema": "tsx scripts/audit-schema.ts",
+    "audit:content": "tsx scripts/audit-content.ts",
+    "verify": "npm run typecheck && npm run audit:schema && npm run audit:seo"
+  },
+  "dependencies": {
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "server-only": "0.0.1",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.0",
+    "autoprefixer": "10.4.20",
+    "dotenv": "16.4.7",
+    "eslint": "9.17.0",
+    "eslint-config-next": "15.5.4",
+    "postcss": "8.4.49",
+    "sharp": "0.34.2",
+    "tailwindcss": "3.4.17",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  }
+}

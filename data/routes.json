@@ -1,0 +1,559 @@
+{
+ "preserved": [
+  {
+   "url": "/",
+   "kind": "home"
+  },
+  {
+   "url": "/about-us/",
+   "kind": "company"
+  },
+  {
+   "url": "/accessible-bathroom-prince-georges-county-md/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/alexandria/",
+   "kind": "city-hub"
+  },
+  {
+   "url": "/alexandria/accessible-bathroom/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/alexandria/shower-remodel/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/alexandria/tub-to-shower-conversions/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/alexandria/walk-in-bathtubs/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/bath-conversions/",
+   "kind": "service-hub"
+  },
+  {
+   "url": "/bath-conversions/shower-to-tub-conversions/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bath-conversions/therapeutic-tubs/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bath-conversions/tub-to-shower-conversions/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bath-conversions/walk-in-bathtubs/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bath-conversions/walk-in-shower/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bathroom-remodeling-annapolis-md/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/bathrooms/",
+   "kind": "service-hub"
+  },
+  {
+   "url": "/bathrooms/accessible-bathroom/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bathrooms/bath-surrounds/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bathrooms/bathroom-renovations/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bathrooms/installation/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bathrooms/one-day-bath/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/bathrooms/replacement-bathtubs/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/blog/",
+   "kind": "company"
+  },
+  {
+   "url": "/blog/accessible-bathroom-remodeling-fredericksburg-va/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/bathroom-remodeling-small-spaces-alexandria/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/columbia-md-bathroom-remodeling-top-design-trends-for-2026/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/creating-an-accessible-bathroom-in-frederick-md-a-guide-for-homeowners/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/custom-shower-enclosures-in-college-park-modernize-your-bathroom-today/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/durable-shower-surrounds-northern-virginia/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/high-quality-bath-renovation-in-annapolis-md-clear-day-bath-solutions/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/modern-replacement-showers-for-fredericksburg-homes-clear-day-bath-solutions/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/modern-shower-doors-prince-georges-county/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/one-day-bath-options-for-busy-waldorf-md-families/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/page/2/",
+   "kind": "blog-pagination"
+  },
+  {
+   "url": "/blog/relax-and-rejuvenate-the-benefits-of-therapeutic-tubs-in-warrenton-va/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/shower-tub-conversions-davidsonville-md/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/signs-replacement-bathtub-woodbridge-va/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/stylish-bath-surrounds-capital-heights/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/the-long-lasting-benefits-of-acrylic-showers-for-hagerstown-homes/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/the-ultimate-guide-to-walk-in-bathtubs-in-stafford-va-safety-meets-luxury/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/top-benefits-of-a-one-day-bath-in-woodbridge-va/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/top-professional-shower-remodel-tips-for-your-manassas-home/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/tub-shower-conversions-stafford-va/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/blog/why-alexandria-homeowners-are-choosing-tub-to-shower-conversions/",
+   "kind": "blog-post"
+  },
+  {
+   "url": "/careers/",
+   "kind": "company"
+  },
+  {
+   "url": "/columbia-bathroom-remodeling/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/columbia-md-tub-to-shower-conversions/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/columbia-md-walk-in-bathtubs/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/columbia-shower-remodel/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/contact-us/",
+   "kind": "company"
+  },
+  {
+   "url": "/financing/",
+   "kind": "company"
+  },
+  {
+   "url": "/frederick-bathroom-remodeling/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/frederick-shower-remodel/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/frederick-tub-to-shower-conversions/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/frederick-walk-in-bathtubs/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/fredericksburg/",
+   "kind": "city-hub"
+  },
+  {
+   "url": "/fredericksburg/accessible-bathroom/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/fredericksburg/shower-remodel/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/fredericksburg/tub-to-shower-conversions/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/fredericksburg/walk-in-bathtubs/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/gallery/",
+   "kind": "company"
+  },
+  {
+   "url": "/get-quote/",
+   "kind": "company"
+  },
+  {
+   "url": "/hagerstown-bathroom-remodeling/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/hagerstown-shower-remodel/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/hagerstown-tub-to-shower-conversions/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/hagerstown-walk-in-bathtubs/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/manassas/",
+   "kind": "city-hub"
+  },
+  {
+   "url": "/manassas/accessible-bathroom/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/manassas/shower-remodel/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/manassas/tub-to-shower-conversions/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/manassas/walk-in-bathtubs/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/offers/",
+   "kind": "company"
+  },
+  {
+   "url": "/pricing/",
+   "kind": "company"
+  },
+  {
+   "url": "/privacy-policy/",
+   "kind": "company"
+  },
+  {
+   "url": "/reviews/",
+   "kind": "company"
+  },
+  {
+   "url": "/service-areas/",
+   "kind": "company"
+  },
+  {
+   "url": "/shower-remodel-annapolis-md/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/shower-remodel-college-park-md/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/shower-remodel-waldorf-md/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/showers/",
+   "kind": "service-hub"
+  },
+  {
+   "url": "/showers/acrylic-showers/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/showers/replacement-showers/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/showers/shower-enclosures/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/showers/shower-remodel/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/showers/shower-surrounds/",
+   "kind": "service-detail"
+  },
+  {
+   "url": "/sitemap/",
+   "kind": "company"
+  },
+  {
+   "url": "/stafford/",
+   "kind": "city-hub"
+  },
+  {
+   "url": "/stafford/accessible-bathroom/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/stafford/shower-remodel/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/stafford/tub-to-shower-conversions/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/stafford/walk-in-bathtubs/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/terms-and-conditions/",
+   "kind": "company"
+  },
+  {
+   "url": "/thank-you/",
+   "kind": "company"
+  },
+  {
+   "url": "/tub-shower-conversions-capitol-heights-md/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/tub-shower-conversions-waldorf-md/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/walk-in-bathtubs-davidsonville-md/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/warranty/",
+   "kind": "company"
+  },
+  {
+   "url": "/warrenton-bathroom-remodeling/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/warrenton-tub-to-shower-conversions/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/warrenton-va-shower-remodel/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/warrenton-walk-in-bathtubs/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/woodbridge/",
+   "kind": "city-hub"
+  },
+  {
+   "url": "/woodbridge/accessible-bathroom/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/woodbridge/shower-remodel/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/woodbridge/tub-to-shower-conversions/",
+   "kind": "city-service-nested"
+  },
+  {
+   "url": "/woodbridge/walk-in-bathtubs/",
+   "kind": "city-service-nested"
+  }
+ ],
+ "redirects": [
+  {
+   "from": "/annapolis-bathroom-remodeling/",
+   "to": "/bathroom-remodeling-annapolis-md/"
+  },
+  {
+   "from": "/annapolis-shower-remodel/",
+   "to": "/shower-remodel-annapolis-md/"
+  },
+  {
+   "from": "/annapolis-tub-to-shower-conversions/",
+   "to": "/annapolis/"
+  },
+  {
+   "from": "/annapolis-walk-in-bathtubs/",
+   "to": "/annapolis/"
+  },
+  {
+   "from": "/college-park-bathroom-remodeling/",
+   "to": "/college-park/"
+  },
+  {
+   "from": "/college-park-md-walk-in-bathtubs/",
+   "to": "/college-park/"
+  },
+  {
+   "from": "/college-park-shower-remodel/",
+   "to": "/shower-remodel-college-park-md/"
+  },
+  {
+   "from": "/college-park-tub-to-shower-conversions/",
+   "to": "/college-park/"
+  },
+  {
+   "from": "/davidsonville-bathroom-remodeling/",
+   "to": "/davidsonville/"
+  },
+  {
+   "from": "/davidsonville-md-shower-remodel/",
+   "to": "/davidsonville/"
+  },
+  {
+   "from": "/davidsonville-md-walk-in-bathtubs/",
+   "to": "/walk-in-bathtubs-davidsonville-md/"
+  },
+  {
+   "from": "/davidsonville-tub-to-shower-conversions/",
+   "to": "/davidsonville/"
+  },
+  {
+   "from": "/home/",
+   "to": "/"
+  },
+  {
+   "from": "/waldorf-md-bathroom-remodeling/",
+   "to": "/waldorf/"
+  },
+  {
+   "from": "/waldorf-md-shower-remodel/",
+   "to": "/shower-remodel-waldorf-md/"
+  },
+  {
+   "from": "/waldorf-tub-to-shower-conversions/",
+   "to": "/tub-shower-conversions-waldorf-md/"
+  },
+  {
+   "from": "/waldorf-walk-in-bathtubs/",
+   "to": "/waldorf/"
+  }
+ ],
+ "build": [
+  "/annapolis/",
+  "/arlington/",
+  "/arlington/shower-remodel/",
+  "/arlington/tub-to-shower-conversions/",
+  "/ashburn/",
+  "/ashburn/accessible-bathroom/",
+  "/ashburn/shower-remodel/",
+  "/ashburn/tub-to-shower-conversions/",
+  "/bethesda/",
+  "/bethesda/shower-remodel/",
+  "/bethesda/tub-to-shower-conversions/",
+  "/bethesda/walk-in-bathtubs/",
+  "/chantilly/",
+  "/chantilly/tub-to-shower-conversions/",
+  "/college-park/",
+  "/culpeper/",
+  "/culpeper/accessible-bathroom/",
+  "/dahlgren/",
+  "/dahlgren/shower-remodel/",
+  "/davidsonville/",
+  "/ellicott-city/",
+  "/ellicott-city/shower-remodel/",
+  "/ellicott-city/tub-to-shower-conversions/",
+  "/fairfax/",
+  "/fairfax/tub-to-shower-conversions/",
+  "/fairfax/walk-in-bathtubs/",
+  "/gaithersburg/",
+  "/gaithersburg/shower-remodel/",
+  "/gaithersburg/tub-to-shower-conversions/",
+  "/germantown/",
+  "/germantown/tub-to-shower-conversions/",
+  "/king-george/",
+  "/king-george/shower-remodel/",
+  "/laurel/",
+  "/laurel/tub-to-shower-conversions/",
+  "/leesburg/",
+  "/leesburg/shower-remodel/",
+  "/leesburg/tub-to-shower-conversions/",
+  "/mclean/",
+  "/mclean/shower-remodel/",
+  "/oakton/",
+  "/oakton/tub-to-shower-conversions/",
+  "/silver-spring/",
+  "/silver-spring/shower-remodel/",
+  "/silver-spring/tub-to-shower-conversions/",
+  "/towson/",
+  "/towson/shower-remodel/",
+  "/towson/tub-to-shower-conversions/",
+  "/tysons/",
+  "/tysons/tub-to-shower-conversions/",
+  "/vienna/",
+  "/vienna/tub-to-shower-conversions/",
+  "/waldorf/",
+  "/washington-dc/",
+  "/washington-dc/shower-remodel/",
+  "/woodlawn/",
+  "/woodlawn/shower-remodel/",
+  "/woodlawn/tub-to-shower-conversions/",
+  "/woodlawn/walk-in-bathtubs/"
+ ]
+}
