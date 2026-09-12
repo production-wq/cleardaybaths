@@ -1,0 +1,1689 @@
+[
+ {
+  "slug": "annapolis",
+  "name": "Annapolis",
+  "state": "MD",
+  "county": "Anne Arundel County",
+  "nearby": [
+   "Parole",
+   "Cape Saint Claire",
+   "Severna Park"
+  ],
+  "note": "Waterfront and historic-district homes; humidity and salt air make moisture-proof surrounds a priority.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/bathroom-remodeling-annapolis-md/",
+    "status": "preserve",
+    "gscImpressions": 15,
+    "gscPosition": 19.7,
+    "service": null
+   },
+   {
+    "url": "/shower-remodel-annapolis-md/",
+    "status": "preserve",
+    "gscImpressions": 0,
+    "gscPosition": null,
+    "service": "shower-remodel"
+   }
+  ],
+  "pagesToBuild": [
+   "/annapolis/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 4,
+   "topQueries": [
+    {
+     "query": "one day bath annapolis md",
+     "impressions": 4,
+     "position": 26.5
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {}
+  }
+ },
+ {
+  "slug": "capitol-heights",
+  "name": "Capitol Heights",
+  "state": "MD",
+  "county": "Prince George's County",
+  "nearby": [
+   "District Heights",
+   "Seat Pleasant",
+   "Landover"
+  ],
+  "note": "Compact post-war homes inside the Beltway; space-saving layouts matter.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/tub-shower-conversions-capitol-heights-md/",
+    "status": "preserve",
+    "gscImpressions": 0,
+    "gscPosition": null,
+    "service": "tub-to-shower-conversions"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "college-park",
+  "name": "College Park",
+  "state": "MD",
+  "county": "Prince George's County",
+  "nearby": [
+   "Greenbelt",
+   "Riverdale Park",
+   "Hyattsville"
+  ],
+  "note": "University-adjacent rentals and mid-century capes; landlord-driven durable-finish demand.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/shower-remodel-college-park-md/",
+    "status": "preserve",
+    "gscImpressions": 5,
+    "gscPosition": 3.6,
+    "service": "shower-remodel"
+   }
+  ],
+  "pagesToBuild": [
+   "/college-park/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 0,
+   "topQueries": [],
+   "hubImpressions": 0,
+   "byService": {}
+  }
+ },
+ {
+  "slug": "columbia",
+  "name": "Columbia",
+  "state": "MD",
+  "county": "Howard County",
+  "nearby": [
+   "Ellicott City",
+   "Elkridge",
+   "Clarksville"
+  ],
+  "note": "Planned-community villages from the late 60s/70s, now at the age where original baths need full replacement.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/columbia-bathroom-remodeling/",
+    "status": "restore",
+    "gscImpressions": 3,
+    "gscPosition": 5.0,
+    "service": null
+   },
+   {
+    "url": "/columbia-md-tub-to-shower-conversions/",
+    "status": "restore",
+    "gscImpressions": 13,
+    "gscPosition": 5.1,
+    "service": "tub-to-shower-conversions"
+   },
+   {
+    "url": "/columbia-md-walk-in-bathtubs/",
+    "status": "restore",
+    "gscImpressions": 4,
+    "gscPosition": 4.0,
+    "service": "walk-in-bathtubs"
+   },
+   {
+    "url": "/columbia-shower-remodel/",
+    "status": "restore",
+    "gscImpressions": 8,
+    "gscPosition": 6.9,
+    "service": "shower-remodel"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "davidsonville",
+  "name": "Davidsonville",
+  "state": "MD",
+  "county": "Anne Arundel County",
+  "nearby": [
+   "Edgewater",
+   "Crofton",
+   "Riva"
+  ],
+  "note": "Large lots and custom homes between Annapolis and Bowie; higher-end custom tile and enclosure work.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/walk-in-bathtubs-davidsonville-md/",
+    "status": "preserve",
+    "gscImpressions": 1,
+    "gscPosition": 6.0,
+    "service": "walk-in-bathtubs"
+   }
+  ],
+  "pagesToBuild": [
+   "/davidsonville/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 0,
+   "topQueries": [],
+   "hubImpressions": 0,
+   "byService": {}
+  }
+ },
+ {
+  "slug": "frederick",
+  "name": "Frederick",
+  "state": "MD",
+  "county": "Frederick County",
+  "nearby": [
+   "Urbana",
+   "Walkersville",
+   "Ballenger Creek"
+  ],
+  "note": "Historic downtown rowhomes with narrow second-floor baths; newer Urbana construction.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/frederick-bathroom-remodeling/",
+    "status": "preserve",
+    "gscImpressions": 3,
+    "gscPosition": 15.3,
+    "service": null
+   },
+   {
+    "url": "/frederick-shower-remodel/",
+    "status": "preserve",
+    "gscImpressions": 5,
+    "gscPosition": 4.4,
+    "service": "shower-remodel"
+   },
+   {
+    "url": "/frederick-tub-to-shower-conversions/",
+    "status": "preserve",
+    "gscImpressions": 7,
+    "gscPosition": 5.0,
+    "service": "tub-to-shower-conversions"
+   },
+   {
+    "url": "/frederick-walk-in-bathtubs/",
+    "status": "preserve",
+    "gscImpressions": 33,
+    "gscPosition": 8.6,
+    "service": "walk-in-bathtubs"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "hagerstown",
+  "name": "Hagerstown",
+  "state": "MD",
+  "county": "Washington County",
+  "nearby": [
+   "Williamsport",
+   "Smithsburg",
+   "Halfway"
+  ],
+  "note": "Older housing stock with cast-iron tubs and plaster walls; groutless surrounds are a common request.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/hagerstown-bathroom-remodeling/",
+    "status": "preserve",
+    "gscImpressions": 12,
+    "gscPosition": 11.5,
+    "service": null
+   },
+   {
+    "url": "/hagerstown-shower-remodel/",
+    "status": "preserve",
+    "gscImpressions": 14,
+    "gscPosition": 4.6,
+    "service": "shower-remodel"
+   },
+   {
+    "url": "/hagerstown-tub-to-shower-conversions/",
+    "status": "preserve",
+    "gscImpressions": 4,
+    "gscPosition": 6.0,
+    "service": "tub-to-shower-conversions"
+   },
+   {
+    "url": "/hagerstown-walk-in-bathtubs/",
+    "status": "preserve",
+    "gscImpressions": 2,
+    "gscPosition": 21.0,
+    "service": "walk-in-bathtubs"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "prince-georges-county",
+  "name": "Prince George's County",
+  "state": "MD",
+  "county": "Prince George's County",
+  "nearby": [
+   "Bowie",
+   "Largo",
+   "Upper Marlboro"
+  ],
+  "note": "County-wide accessibility work; strong aging-in-place demand.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/accessible-bathroom-prince-georges-county-md/",
+    "status": "preserve",
+    "gscImpressions": 0,
+    "gscPosition": null,
+    "service": "accessible-bathroom"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "waldorf",
+  "name": "Waldorf",
+  "state": "MD",
+  "county": "Charles County",
+  "nearby": [
+   "St. Charles",
+   "Bryans Road",
+   "La Plata"
+  ],
+  "note": "Fast-growing commuter subdivisions; young families favour one-day bath conversions.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/shower-remodel-waldorf-md/",
+    "status": "preserve",
+    "gscImpressions": 0,
+    "gscPosition": null,
+    "service": "shower-remodel"
+   },
+   {
+    "url": "/tub-shower-conversions-waldorf-md/",
+    "status": "preserve",
+    "gscImpressions": 4,
+    "gscPosition": 22.2,
+    "service": "tub-to-shower-conversions"
+   }
+  ],
+  "pagesToBuild": [
+   "/waldorf/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 0,
+   "topQueries": [],
+   "hubImpressions": 0,
+   "byService": {}
+  }
+ },
+ {
+  "slug": "alexandria",
+  "name": "Alexandria",
+  "state": "VA",
+  "county": "City of Alexandria",
+  "nearby": [
+   "Del Ray",
+   "Old Town",
+   "Kingstowne",
+   "Huntington"
+  ],
+  "note": "Old Town rowhouses under historic-district review; mid-century condos in Huntington with tight bathroom footprints.",
+  "pattern": "nested",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/alexandria/",
+    "status": "preserve",
+    "gscImpressions": 0,
+    "gscPosition": null,
+    "service": null
+   },
+   {
+    "url": "/alexandria/accessible-bathroom/",
+    "status": "preserve",
+    "gscImpressions": 4,
+    "gscPosition": 10.5,
+    "service": "accessible-bathroom"
+   },
+   {
+    "url": "/alexandria/shower-remodel/",
+    "status": "preserve",
+    "gscImpressions": 11,
+    "gscPosition": 9.7,
+    "service": "shower-remodel"
+   },
+   {
+    "url": "/alexandria/tub-to-shower-conversions/",
+    "status": "preserve",
+    "gscImpressions": 38,
+    "gscPosition": 25.9,
+    "service": "tub-to-shower-conversions"
+   },
+   {
+    "url": "/alexandria/walk-in-bathtubs/",
+    "status": "preserve",
+    "gscImpressions": 9,
+    "gscPosition": 3.6,
+    "service": "walk-in-bathtubs"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "fredericksburg",
+  "name": "Fredericksburg",
+  "state": "VA",
+  "county": "City of Fredericksburg",
+  "nearby": [
+   "Spotsylvania",
+   "Falmouth",
+   "Stafford"
+  ],
+  "note": "Historic-district homes plus fast-growing Spotsylvania subdivisions; long commuter hours make one-day installs valuable.",
+  "pattern": "nested",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/fredericksburg/",
+    "status": "preserve",
+    "gscImpressions": 9,
+    "gscPosition": 11.2,
+    "service": null
+   },
+   {
+    "url": "/fredericksburg/accessible-bathroom/",
+    "status": "preserve",
+    "gscImpressions": 73,
+    "gscPosition": 8.0,
+    "service": "accessible-bathroom"
+   },
+   {
+    "url": "/fredericksburg/shower-remodel/",
+    "status": "preserve",
+    "gscImpressions": 47,
+    "gscPosition": 43.9,
+    "service": "shower-remodel"
+   },
+   {
+    "url": "/fredericksburg/tub-to-shower-conversions/",
+    "status": "preserve",
+    "gscImpressions": 23,
+    "gscPosition": 18.9,
+    "service": "tub-to-shower-conversions"
+   },
+   {
+    "url": "/fredericksburg/walk-in-bathtubs/",
+    "status": "preserve",
+    "gscImpressions": 75,
+    "gscPosition": 12.9,
+    "service": "walk-in-bathtubs"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "manassas",
+  "name": "Manassas",
+  "state": "VA",
+  "county": "City of Manassas",
+  "nearby": [
+   "Manassas Park",
+   "Bristow",
+   "Gainesville",
+   "Sudley"
+  ],
+  "note": "Post-war ramblers near Old Town Manassas and 2000s colonials in Bristow/Gainesville.",
+  "pattern": "nested",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/manassas/",
+    "status": "preserve",
+    "gscImpressions": 11,
+    "gscPosition": 7.6,
+    "service": null
+   },
+   {
+    "url": "/manassas/accessible-bathroom/",
+    "status": "preserve",
+    "gscImpressions": 1,
+    "gscPosition": 1.0,
+    "service": "accessible-bathroom"
+   },
+   {
+    "url": "/manassas/shower-remodel/",
+    "status": "preserve",
+    "gscImpressions": 7,
+    "gscPosition": 4.4,
+    "service": "shower-remodel"
+   },
+   {
+    "url": "/manassas/tub-to-shower-conversions/",
+    "status": "preserve",
+    "gscImpressions": 7,
+    "gscPosition": 8.6,
+    "service": "tub-to-shower-conversions"
+   },
+   {
+    "url": "/manassas/walk-in-bathtubs/",
+    "status": "preserve",
+    "gscImpressions": 3,
+    "gscPosition": 6.0,
+    "service": "walk-in-bathtubs"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "stafford",
+  "name": "Stafford",
+  "state": "VA",
+  "county": "Stafford County",
+  "nearby": [
+   "Aquia Harbour",
+   "Garrisonville",
+   "Falmouth"
+  ],
+  "note": "Large military population at Quantico; frequent PCS moves drive quick-turnaround remodels.",
+  "pattern": "nested",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/stafford/",
+    "status": "preserve",
+    "gscImpressions": 141,
+    "gscPosition": 13.9,
+    "service": null
+   },
+   {
+    "url": "/stafford/accessible-bathroom/",
+    "status": "preserve",
+    "gscImpressions": 97,
+    "gscPosition": 16.0,
+    "service": "accessible-bathroom"
+   },
+   {
+    "url": "/stafford/shower-remodel/",
+    "status": "preserve",
+    "gscImpressions": 302,
+    "gscPosition": 12.7,
+    "service": "shower-remodel"
+   },
+   {
+    "url": "/stafford/tub-to-shower-conversions/",
+    "status": "preserve",
+    "gscImpressions": 154,
+    "gscPosition": 12.0,
+    "service": "tub-to-shower-conversions"
+   },
+   {
+    "url": "/stafford/walk-in-bathtubs/",
+    "status": "preserve",
+    "gscImpressions": 13,
+    "gscPosition": 13.1,
+    "service": "walk-in-bathtubs"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "warrenton",
+  "name": "Warrenton",
+  "state": "VA",
+  "county": "Fauquier County",
+  "nearby": [
+   "New Baltimore",
+   "Bealeton",
+   "Marshall"
+  ],
+  "note": "Rural Fauquier properties, many on well and septic, which affects fixture and drain planning.",
+  "pattern": "flat",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/warrenton-bathroom-remodeling/",
+    "status": "preserve",
+    "gscImpressions": 2,
+    "gscPosition": 1.0,
+    "service": null
+   },
+   {
+    "url": "/warrenton-tub-to-shower-conversions/",
+    "status": "preserve",
+    "gscImpressions": 1,
+    "gscPosition": 4.0,
+    "service": "tub-to-shower-conversions"
+   },
+   {
+    "url": "/warrenton-va-shower-remodel/",
+    "status": "preserve",
+    "gscImpressions": 16,
+    "gscPosition": 32.3,
+    "service": "shower-remodel"
+   },
+   {
+    "url": "/warrenton-walk-in-bathtubs/",
+    "status": "preserve",
+    "gscImpressions": 1,
+    "gscPosition": 12.0,
+    "service": "walk-in-bathtubs"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "woodbridge",
+  "name": "Woodbridge",
+  "state": "VA",
+  "county": "Prince William County",
+  "nearby": [
+   "Lake Ridge",
+   "Dale City",
+   "Occoquan",
+   "Montclair"
+  ],
+  "note": "Company home base. 1970s-90s split-levels and townhomes around Lake Ridge with original builder-grade tub/shower units.",
+  "pattern": "nested",
+  "tier": 0,
+  "existingPages": [
+   {
+    "url": "/woodbridge/",
+    "status": "preserve",
+    "gscImpressions": 4,
+    "gscPosition": 7.8,
+    "service": null
+   },
+   {
+    "url": "/woodbridge/accessible-bathroom/",
+    "status": "preserve",
+    "gscImpressions": 0,
+    "gscPosition": null,
+    "service": "accessible-bathroom"
+   },
+   {
+    "url": "/woodbridge/shower-remodel/",
+    "status": "preserve",
+    "gscImpressions": 1,
+    "gscPosition": 6.0,
+    "service": "shower-remodel"
+   },
+   {
+    "url": "/woodbridge/tub-to-shower-conversions/",
+    "status": "preserve",
+    "gscImpressions": 2,
+    "gscPosition": 3.5,
+    "service": "tub-to-shower-conversions"
+   },
+   {
+    "url": "/woodbridge/walk-in-bathtubs/",
+    "status": "preserve",
+    "gscImpressions": 99,
+    "gscPosition": 13.4,
+    "service": "walk-in-bathtubs"
+   }
+  ],
+  "pagesToBuild": []
+ },
+ {
+  "slug": "washington-dc",
+  "name": "Washington",
+  "state": "DC",
+  "county": "District of Columbia",
+  "nearby": [
+   "Capitol Hill",
+   "Petworth",
+   "Brookland"
+  ],
+  "note": "Rowhouses with stacked plumbing and narrow stairs; permit and HOA/historic review common.",
+  "pattern": "new",
+  "tier": 1,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/washington-dc/",
+   "/washington-dc/shower-remodel/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 276,
+   "topQueries": [
+    {
+     "query": "shower enclosures dc",
+     "impressions": 38,
+     "position": 69.6
+    },
+    {
+     "query": "bathtub enclosures dc",
+     "impressions": 34,
+     "position": 19.7
+    },
+    {
+     "query": "custom bathtub enclosures washington dc",
+     "impressions": 29,
+     "position": 25.9
+    },
+    {
+     "query": "eco-friendly bathroom updates in hill east dc",
+     "impressions": 23,
+     "position": 66.2
+    }
+   ],
+   "hubImpressions": 40,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 38,
+     "topQuery": "shower enclosures dc",
+     "bestPosition": 69.6
+    }
+   }
+  }
+ },
+ {
+  "slug": "bethesda",
+  "name": "Bethesda",
+  "state": "MD",
+  "county": "Montgomery County",
+  "nearby": [
+   "Chevy Chase",
+   "North Bethesda",
+   "Potomac"
+  ],
+  "note": "High-end renovations; frequent requests for curbless showers and heated floors.",
+  "pattern": "new",
+  "tier": 1,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/bethesda/",
+   "/bethesda/shower-remodel/",
+   "/bethesda/tub-to-shower-conversions/",
+   "/bethesda/walk-in-bathtubs/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 70,
+   "topQueries": [
+    {
+     "query": "bath conversion bethesda md",
+     "impressions": 20,
+     "position": 45.2
+    },
+    {
+     "query": "tub to shower conversion bethesda md",
+     "impressions": 18,
+     "position": 29.0
+    },
+    {
+     "query": "showers replacement bethesda md",
+     "impressions": 15,
+     "position": 53.3
+    },
+    {
+     "query": "shower to tub bethesda md",
+     "impressions": 14,
+     "position": 35.9
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 15,
+     "topQuery": "showers replacement bethesda md",
+     "bestPosition": 53.3
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 52,
+     "topQuery": "bath conversion bethesda md",
+     "bestPosition": 29.0
+    },
+    "walk-in-bathtubs": {
+     "impressions": 3,
+     "topQuery": "walk-in tubs bethesda md",
+     "bestPosition": 26.0
+    }
+   }
+  }
+ },
+ {
+  "slug": "woodlawn",
+  "name": "Woodlawn",
+  "state": "MD",
+  "county": "Baltimore County",
+  "nearby": [
+   "Catonsville",
+   "Randallstown",
+   "Arbutus"
+  ],
+  "note": "Mid-century ramblers and split-levels west of Baltimore with original 1950s-60s tub alcoves.",
+  "pattern": "new",
+  "tier": 1,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/woodlawn/",
+   "/woodlawn/shower-remodel/",
+   "/woodlawn/tub-to-shower-conversions/",
+   "/woodlawn/walk-in-bathtubs/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 229,
+   "topQueries": [
+    {
+     "query": "tub to shower conversions woodlawn",
+     "impressions": 106,
+     "position": 16.4
+    },
+    {
+     "query": "shower replacement woodlawn",
+     "impressions": 82,
+     "position": 27.9
+    },
+    {
+     "query": "walk in showers woodlawn",
+     "impressions": 24,
+     "position": 11.0
+    },
+    {
+     "query": "bathtub replacement woodlawn",
+     "impressions": 17,
+     "position": 26.4
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 106,
+     "topQuery": "shower replacement woodlawn",
+     "bestPosition": 11.0
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 106,
+     "topQuery": "tub to shower conversions woodlawn",
+     "bestPosition": 16.4
+    },
+    "walk-in-bathtubs": {
+     "impressions": 17,
+     "topQuery": "bathtub replacement woodlawn",
+     "bestPosition": 26.4
+    }
+   }
+  }
+ },
+ {
+  "slug": "ashburn",
+  "name": "Ashburn",
+  "state": "VA",
+  "county": "Loudoun County",
+  "nearby": [
+   "Brambleton",
+   "Broadlands",
+   "Sterling"
+  ],
+  "note": "Newer 2000s-2010s construction; owners upgrading builder-grade fibreglass to custom tile and glass.",
+  "pattern": "new",
+  "tier": 1,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/ashburn/",
+   "/ashburn/accessible-bathroom/",
+   "/ashburn/shower-remodel/",
+   "/ashburn/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 125,
+   "topQueries": [
+    {
+     "query": "accessible bathroom remodels in ashburn, va",
+     "impressions": 42,
+     "position": 23.8
+    },
+    {
+     "query": "tub to shower conversion ashburn",
+     "impressions": 38,
+     "position": 28.8
+    },
+    {
+     "query": "walk-in showers in ashburn, va",
+     "impressions": 35,
+     "position": 27.4
+    },
+    {
+     "query": "shower installation ashburn va",
+     "impressions": 6,
+     "position": 63.0
+    }
+   ],
+   "hubImpressions": 42,
+   "byService": {
+    "accessible-bathroom": {
+     "impressions": 42,
+     "topQuery": "accessible bathroom remodels in ashburn, va",
+     "bestPosition": 23.8
+    },
+    "shower-remodel": {
+     "impressions": 45,
+     "topQuery": "walk-in showers in ashburn, va",
+     "bestPosition": 27.4
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 38,
+     "topQuery": "tub to shower conversion ashburn",
+     "bestPosition": 28.8
+    }
+   }
+  }
+ },
+ {
+  "slug": "dahlgren",
+  "name": "Dahlgren",
+  "state": "VA",
+  "county": "King George County",
+  "nearby": [
+   "King George",
+   "Colonial Beach"
+  ],
+  "note": "Naval Support Facility community; frequent relocations and rental-property turnovers.",
+  "pattern": "new",
+  "tier": 1,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/dahlgren/",
+   "/dahlgren/shower-remodel/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 72,
+   "topQueries": [
+    {
+     "query": "shower enclosures dahlgren va",
+     "impressions": 72,
+     "position": 45.3
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 72,
+     "topQuery": "shower enclosures dahlgren va",
+     "bestPosition": 45.3
+    }
+   }
+  }
+ },
+ {
+  "slug": "fairfax",
+  "name": "Fairfax",
+  "state": "VA",
+  "county": "Fairfax County",
+  "nearby": [
+   "Greenbriar",
+   "Chantilly",
+   "Oakton",
+   "Fair Oaks"
+  ],
+  "note": "Greenbriar and Fair Oaks colonials from the 60s-80s; the site already ranks ~2nd for 'bathroom remodeling in greenbriar'.",
+  "pattern": "new",
+  "tier": 1,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/fairfax/",
+   "/fairfax/tub-to-shower-conversions/",
+   "/fairfax/walk-in-bathtubs/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 133,
+   "topQueries": [
+    {
+     "query": "bathroom remodeling in greenbriar",
+     "impressions": 90,
+     "position": 2.1
+    },
+    {
+     "query": "bathtub installation fairfax va",
+     "impressions": 13,
+     "position": 3.3
+    },
+    {
+     "query": "tub to shower fairfax va",
+     "impressions": 11,
+     "position": 22.8
+    },
+    {
+     "query": "walk in bathtubs fairfax",
+     "impressions": 8,
+     "position": 22.4
+    }
+   ],
+   "hubImpressions": 90,
+   "byService": {
+    "tub-to-shower-conversions": {
+     "impressions": 11,
+     "topQuery": "tub to shower fairfax va",
+     "bestPosition": 22.8
+    },
+    "walk-in-bathtubs": {
+     "impressions": 21,
+     "topQuery": "bathtub installation fairfax va",
+     "bestPosition": 3.3
+    }
+   }
+  }
+ },
+ {
+  "slug": "king-george",
+  "name": "King George",
+  "state": "VA",
+  "county": "King George County",
+  "nearby": [
+   "Dahlgren",
+   "Colonial Beach"
+  ],
+  "note": "Rural county served off Route 3; Navy-base households at Dahlgren.",
+  "pattern": "new",
+  "tier": 1,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/king-george/",
+   "/king-george/shower-remodel/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 102,
+   "topQueries": [
+    {
+     "query": "shower enclosures king george va",
+     "impressions": 61,
+     "position": 57.6
+    },
+    {
+     "query": "shower installation king george va",
+     "impressions": 41,
+     "position": 46.5
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 102,
+     "topQuery": "shower enclosures king george va",
+     "bestPosition": 46.5
+    }
+   }
+  }
+ },
+ {
+  "slug": "ellicott-city",
+  "name": "Ellicott City",
+  "state": "MD",
+  "county": "Howard County",
+  "nearby": [
+   "Columbia",
+   "Catonsville",
+   "Elkridge"
+  ],
+  "note": "Historic Main Street properties plus 80s-90s colonials on the west side.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/ellicott-city/",
+   "/ellicott-city/shower-remodel/",
+   "/ellicott-city/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 41,
+   "topQueries": [
+    {
+     "query": "tub to shower conversions ellicott city",
+     "impressions": 18,
+     "position": 15.1
+    },
+    {
+     "query": "walk in showers ellicott city",
+     "impressions": 15,
+     "position": 38.3
+    },
+    {
+     "query": "shower to tub ellicott city md",
+     "impressions": 5,
+     "position": 65.0
+    },
+    {
+     "query": "tub to shower conversion ellicott city md",
+     "impressions": 3,
+     "position": 59.0
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 15,
+     "topQuery": "walk in showers ellicott city",
+     "bestPosition": 38.3
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 26,
+     "topQuery": "tub to shower conversions ellicott city",
+     "bestPosition": 15.1
+    }
+   }
+  }
+ },
+ {
+  "slug": "gaithersburg",
+  "name": "Gaithersburg",
+  "state": "MD",
+  "county": "Montgomery County",
+  "nearby": [
+   "Rockville",
+   "Germantown",
+   "Montgomery Village"
+  ],
+  "note": "Montgomery Village townhomes with small second baths.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/gaithersburg/",
+   "/gaithersburg/shower-remodel/",
+   "/gaithersburg/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 39,
+   "topQueries": [
+    {
+     "query": "showers replacement gaithersburg md",
+     "impressions": 21,
+     "position": 54.9
+    },
+    {
+     "query": "tub to shower conversion gaithersburg md",
+     "impressions": 7,
+     "position": 46.1
+    },
+    {
+     "query": "bath conversion gaithersburg md",
+     "impressions": 7,
+     "position": 79.3
+    },
+    {
+     "query": "shower to tub gaithersburg md",
+     "impressions": 4,
+     "position": 19.5
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 21,
+     "topQuery": "showers replacement gaithersburg md",
+     "bestPosition": 54.9
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 18,
+     "topQuery": "tub to shower conversion gaithersburg md",
+     "bestPosition": 19.5
+    }
+   }
+  }
+ },
+ {
+  "slug": "germantown",
+  "name": "Germantown",
+  "state": "MD",
+  "county": "Montgomery County",
+  "nearby": [
+   "Clarksburg",
+   "Boyds",
+   "Gaithersburg"
+  ],
+  "note": "90s-2000s townhome communities upgrading builder-grade units.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/germantown/",
+   "/germantown/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 8,
+   "topQueries": [
+    {
+     "query": "tub to shower conversion germantown",
+     "impressions": 6,
+     "position": 14.8
+    },
+    {
+     "query": "shower to tub germantown md",
+     "impressions": 1,
+     "position": 14.0
+    },
+    {
+     "query": "tub to shower conversion germantown md",
+     "impressions": 1,
+     "position": 15.0
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "tub-to-shower-conversions": {
+     "impressions": 8,
+     "topQuery": "tub to shower conversion germantown",
+     "bestPosition": 14.0
+    }
+   }
+  }
+ },
+ {
+  "slug": "laurel",
+  "name": "Laurel",
+  "state": "MD",
+  "county": "Prince George's County",
+  "nearby": [
+   "South Laurel",
+   "North Laurel",
+   "Savage"
+  ],
+  "note": "Mix of older town centre homes and newer corridor developments.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/laurel/",
+   "/laurel/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 16,
+   "topQueries": [
+    {
+     "query": "tub to shower conversions laurel",
+     "impressions": 11,
+     "position": 14.4
+    },
+    {
+     "query": "bath conversion laurel md",
+     "impressions": 2,
+     "position": 74.0
+    },
+    {
+     "query": "shower to tub laurel md",
+     "impressions": 2,
+     "position": 82.0
+    },
+    {
+     "query": "tub to shower conversion laurel md",
+     "impressions": 1,
+     "position": 77.0
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "tub-to-shower-conversions": {
+     "impressions": 16,
+     "topQuery": "tub to shower conversions laurel",
+     "bestPosition": 14.4
+    }
+   }
+  }
+ },
+ {
+  "slug": "silver-spring",
+  "name": "Silver Spring",
+  "state": "MD",
+  "county": "Montgomery County",
+  "nearby": [
+   "Wheaton",
+   "Takoma Park",
+   "Colesville"
+  ],
+  "note": "Dense inside-the-Beltway housing with compact original baths.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/silver-spring/",
+   "/silver-spring/shower-remodel/",
+   "/silver-spring/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 29,
+   "topQueries": [
+    {
+     "query": "walk in showers silver spring",
+     "impressions": 13,
+     "position": 12.8
+    },
+    {
+     "query": "tub to shower conversions silver spring",
+     "impressions": 13,
+     "position": 16.1
+    },
+    {
+     "query": "shower replacement silver spring",
+     "impressions": 3,
+     "position": 44.3
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 16,
+     "topQuery": "walk in showers silver spring",
+     "bestPosition": 12.8
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 13,
+     "topQuery": "tub to shower conversions silver spring",
+     "bestPosition": 16.1
+    }
+   }
+  }
+ },
+ {
+  "slug": "towson",
+  "name": "Towson",
+  "state": "MD",
+  "county": "Baltimore County",
+  "nearby": [
+   "Lutherville",
+   "Rodgers Forge",
+   "Parkville"
+  ],
+  "note": "Rodgers Forge and Stoneleigh rowhomes with original 1940s tile.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/towson/",
+   "/towson/shower-remodel/",
+   "/towson/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 12,
+   "topQueries": [
+    {
+     "query": "tub to shower conversions towson",
+     "impressions": 9,
+     "position": 19.6
+    },
+    {
+     "query": "shower replacement towson",
+     "impressions": 3,
+     "position": 49.3
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 3,
+     "topQuery": "shower replacement towson",
+     "bestPosition": 49.3
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 9,
+     "topQuery": "tub to shower conversions towson",
+     "bestPosition": 19.6
+    }
+   }
+  }
+ },
+ {
+  "slug": "arlington",
+  "name": "Arlington",
+  "state": "VA",
+  "county": "Arlington County",
+  "nearby": [
+   "Ballston",
+   "Clarendon",
+   "Shirlington"
+  ],
+  "note": "Pre-war bungalows and mid-rise condos; strict condo association rules on wet-area work.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/arlington/",
+   "/arlington/shower-remodel/",
+   "/arlington/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 38,
+   "topQueries": [
+    {
+     "query": "tub to shower conversion arlington",
+     "impressions": 13,
+     "position": 14.0
+    },
+    {
+     "query": "tub-to-shower conversions arlington heights",
+     "impressions": 12,
+     "position": 17.1
+    },
+    {
+     "query": "walk-in showers arlington heights",
+     "impressions": 9,
+     "position": 35.1
+    },
+    {
+     "query": "tub to shower conversion arlington heights",
+     "impressions": 3,
+     "position": 33.3
+    }
+   ],
+   "hubImpressions": 1,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 9,
+     "topQuery": "walk-in showers arlington heights",
+     "bestPosition": 35.1
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 28,
+     "topQuery": "tub to shower conversion arlington",
+     "bestPosition": 14.0
+    }
+   }
+  }
+ },
+ {
+  "slug": "chantilly",
+  "name": "Chantilly",
+  "state": "VA",
+  "county": "Fairfax County",
+  "nearby": [
+   "Greenbriar",
+   "Centreville",
+   "South Riding"
+  ],
+  "note": "80s-90s colonials; hall baths and primary suites upgraded together.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/chantilly/",
+   "/chantilly/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 27,
+   "topQueries": [
+    {
+     "query": "tub to shower chantilly va",
+     "impressions": 19,
+     "position": 24.1
+    },
+    {
+     "query": "tub replacement chantilly va",
+     "impressions": 8,
+     "position": 40.2
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "tub-to-shower-conversions": {
+     "impressions": 19,
+     "topQuery": "tub to shower chantilly va",
+     "bestPosition": 24.1
+    }
+   }
+  }
+ },
+ {
+  "slug": "culpeper",
+  "name": "Culpeper",
+  "state": "VA",
+  "county": "Culpeper County",
+  "nearby": [
+   "Brandy Station",
+   "Rixeyville"
+  ],
+  "note": "Rural and small-town properties; accessibility work for aging-in-place.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/culpeper/",
+   "/culpeper/accessible-bathroom/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 21,
+   "topQueries": [
+    {
+     "query": "accessible bathroom remodels in culpeper, va",
+     "impressions": 21,
+     "position": 34.7
+    }
+   ],
+   "hubImpressions": 21,
+   "byService": {
+    "accessible-bathroom": {
+     "impressions": 21,
+     "topQuery": "accessible bathroom remodels in culpeper, va",
+     "bestPosition": 34.7
+    }
+   }
+  }
+ },
+ {
+  "slug": "leesburg",
+  "name": "Leesburg",
+  "state": "VA",
+  "county": "Loudoun County",
+  "nearby": [
+   "Ashburn",
+   "Purcellville",
+   "Lansdowne"
+  ],
+  "note": "Historic district plus large newer subdivisions east of town.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/leesburg/",
+   "/leesburg/shower-remodel/",
+   "/leesburg/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 36,
+   "topQueries": [
+    {
+     "query": "tub to shower conversion leesburg",
+     "impressions": 32,
+     "position": 20.9
+    },
+    {
+     "query": "shower installation leesburg va",
+     "impressions": 4,
+     "position": 92.8
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 4,
+     "topQuery": "shower installation leesburg va",
+     "bestPosition": 92.8
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 32,
+     "topQuery": "tub to shower conversion leesburg",
+     "bestPosition": 20.9
+    }
+   }
+  }
+ },
+ {
+  "slug": "mclean",
+  "name": "McLean",
+  "state": "VA",
+  "county": "Fairfax County",
+  "nearby": [
+   "Tysons",
+   "Great Falls",
+   "Pimmit Hills"
+  ],
+  "note": "Premium market; frameless glass enclosures and large-format tile.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/mclean/",
+   "/mclean/shower-remodel/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 23,
+   "topQueries": [
+    {
+     "query": "shower enclosures mclean va",
+     "impressions": 19,
+     "position": 73.8
+    },
+    {
+     "query": "clear aligner therapy mclean",
+     "impressions": 3,
+     "position": 1.0
+    },
+    {
+     "query": "clear and brilliant mclean",
+     "impressions": 1,
+     "position": 1.0
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 19,
+     "topQuery": "shower enclosures mclean va",
+     "bestPosition": 73.8
+    }
+   }
+  }
+ },
+ {
+  "slug": "oakton",
+  "name": "Oakton",
+  "state": "VA",
+  "county": "Fairfax County",
+  "nearby": [
+   "Vienna",
+   "Fairfax",
+   "Fair Oaks"
+  ],
+  "note": "Wooded lots with 70s-80s custom homes.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/oakton/",
+   "/oakton/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 17,
+   "topQueries": [
+    {
+     "query": "tub to shower oakton va",
+     "impressions": 17,
+     "position": 9.9
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "tub-to-shower-conversions": {
+     "impressions": 17,
+     "topQuery": "tub to shower oakton va",
+     "bestPosition": 9.9
+    }
+   }
+  }
+ },
+ {
+  "slug": "tysons",
+  "name": "Tysons",
+  "state": "VA",
+  "county": "Fairfax County",
+  "nearby": [
+   "McLean",
+   "Vienna",
+   "Merrifield"
+  ],
+  "note": "High-rise condos; building rules and stack access shape the scope.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/tysons/",
+   "/tysons/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 17,
+   "topQueries": [
+    {
+     "query": "tub to shower tysons corner va",
+     "impressions": 17,
+     "position": 24.5
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "tub-to-shower-conversions": {
+     "impressions": 17,
+     "topQuery": "tub to shower tysons corner va",
+     "bestPosition": 24.5
+    }
+   }
+  }
+ },
+ {
+  "slug": "vienna",
+  "name": "Vienna",
+  "state": "VA",
+  "county": "Fairfax County",
+  "nearby": [
+   "Oakton",
+   "Tysons",
+   "Dunn Loring"
+  ],
+  "note": "Mature neighbourhoods with 60s-70s ranchers being expanded or fully renovated.",
+  "pattern": "new",
+  "tier": 2,
+  "existingPages": [],
+  "pagesToBuild": [
+   "/vienna/",
+   "/vienna/tub-to-shower-conversions/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 29,
+   "topQueries": [
+    {
+     "query": "tub-to-shower conversion vienna va",
+     "impressions": 16,
+     "position": 10.8
+    },
+    {
+     "query": "tub to shower vienna va",
+     "impressions": 12,
+     "position": 19.1
+    },
+    {
+     "query": "clear and brilliant vienna",
+     "impressions": 1,
+     "position": 1.0
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "tub-to-shower-conversions": {
+     "impressions": 28,
+     "topQuery": "tub-to-shower conversion vienna va",
+     "bestPosition": 10.8
+    }
+   }
+  }
+ }
+]
