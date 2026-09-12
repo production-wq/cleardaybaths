@@ -1,0 +1,12 @@
+{
+  "_note": "Verbatim from the live site's Site Reviews plugin (cleardaybaths.com/reviews/, read 2026-09-13) and the WordPress export. Three reviews, all 5 stars. aggregateRating in JSON-LD is computed from exactly this list — never hardcode a rating.",
+  "source": "https://cleardaybaths.com/reviews/",
+  "reviews": [
+    { "id": "1", "rating": 5, "title": "Easy process excellent service", "author": "Ryan Carroll", "date": "2026-06-24",
+      "body": "I highly recommend Clear Day Bath Solutions! The whole process was smooth and professional, and our new bathroom looks amazing. A big thank you to David, our sales rep. He was knowledgeable, honest, never pushy, and helped us find exactly the right option for our budget. Quick install, spotless cleanup, great result." },
+    { "id": "2", "rating": 5, "title": "My Bathroom Update is wonderful", "author": "Terry", "date": "2026-06-24",
+      "body": "We've lived in our home for 26 years and of late we have been talking about updating our hall bath. Then we got a call from Clear Day Baths and we spoke to a wonderful young woman who walked us through what they could do for us. We got a consultation set up and that was the start of a great experience." },
+    { "id": "3", "rating": 5, "title": "Bath tub conversion", "author": "Terry R. Rose", "date": "2026-07-15",
+      "body": "10 plus rating" }
+  ]
+}
