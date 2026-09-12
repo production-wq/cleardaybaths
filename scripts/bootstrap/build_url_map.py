@@ -33,29 +33,31 @@ REDIRECT_TO_LIVE = {
     "/waldorf-tub-to-shower-conversions/": "/tub-shower-conversions-waldorf-md/",
 }
 
-# Trashed slugs with no live equivalent -> the nested page built in Phase 3.
-# A bare city hub is the target where the old slug was a general "bathroom remodeling" page,
-# since the nested service vocabulary has no 'bathroom-remodeling' child.
+# Trashed slugs with no live equivalent are REBUILT at their original URL rather
+# than redirected: the slug already matches its city's pattern, it recovers any
+# residual equity, and it adds keyword coverage. Only true duplicates redirect.
 REDIRECT_TO_NEW = {
-    "/annapolis-tub-to-shower-conversions/": "/annapolis/tub-to-shower-conversions/",
-    "/annapolis-walk-in-bathtubs/": "/annapolis/walk-in-bathtubs/",
-    "/college-park-bathroom-remodeling/": "/college-park/",
-    "/college-park-md-walk-in-bathtubs/": "/college-park/walk-in-bathtubs/",
-    "/college-park-tub-to-shower-conversions/": "/college-park/tub-to-shower-conversions/",
-    "/davidsonville-bathroom-remodeling/": "/davidsonville/",
-    "/davidsonville-md-shower-remodel/": "/davidsonville/shower-remodel/",
-    "/davidsonville-tub-to-shower-conversions/": "/davidsonville/tub-to-shower-conversions/",
-    "/waldorf-md-bathroom-remodeling/": "/waldorf/",
     "/waldorf-md-shower-remodel/": "/shower-remodel-waldorf-md/",
-    "/waldorf-walk-in-bathtubs/": "/waldorf/walk-in-bathtubs/",
 }
 
 # Trashed but still ranking, no replacement anywhere -> rebuild at the original slug.
 RESTORE = [
+    # Still ranking in GSC, no replacement anywhere.
     "/columbia-bathroom-remodeling/",
     "/columbia-shower-remodel/",
     "/columbia-md-tub-to-shower-conversions/",
     "/columbia-md-walk-in-bathtubs/",
+    # Trashed with no live equivalent — rebuilt to widen keyword coverage.
+    "/annapolis-tub-to-shower-conversions/",
+    "/annapolis-walk-in-bathtubs/",
+    "/college-park-bathroom-remodeling/",
+    "/college-park-md-walk-in-bathtubs/",
+    "/college-park-tub-to-shower-conversions/",
+    "/davidsonville-bathroom-remodeling/",
+    "/davidsonville-md-shower-remodel/",
+    "/davidsonville-tub-to-shower-conversions/",
+    "/waldorf-md-bathroom-remodeling/",
+    "/waldorf-walk-in-bathtubs/",
 ]
 
 # Indexed pagination that is not a WP page record.
@@ -126,7 +128,7 @@ for p in sorted(pages, key=lambda x: x["clean_path"]):
                          "trashed; target built in Phase 3 geo expansion", imp(path), pos(path)])
         elif path in RESTORE:
             rows.append([path, "restore", path, "200",
-                         f"trashed but still ranking (pos {pos(path)}); no replacement anywhere",
+                         f"rebuilt at original slug; no live equivalent (GSC pos {pos(path) or chr(8212)})",
                          imp(path), pos(path)])
             preserved.append([path, "city-service-flat", p["title"].replace("&amp;", "&")])
 
