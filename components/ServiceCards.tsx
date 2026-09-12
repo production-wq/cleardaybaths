@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { serviceHubs } from '@/lib/routes';
+import { serviceHubs } from '@/lib/services';
 import { ArrowRight } from './Icons';
 
 const BLURB: Record<string, string> = {

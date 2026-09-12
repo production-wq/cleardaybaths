@@ -10,10 +10,12 @@
  * Data is derived from the WordPress export + GSC by scripts/bootstrap/*.py.
  * Do not hand-edit data/routes.json or data/cities.json — re-run the bootstrap.
  */
-import 'server-only';
 import citiesData from '@/data/cities.json';
-import servicesData from '@/data/services.json';
 import routesData from '@/data/routes.json';
+import { serviceHubs, hubBySlug } from './services';
+
+export { serviceHubs, hubBySlug };
+export type { ServiceHub, ServiceChild } from './services';
 
 export type ServiceSlug =
   | 'accessible-bathroom'
@@ -50,18 +52,11 @@ export interface City {
   };
 }
 
-export interface ServiceChild {
-  slug: string; path: string; title: string; seoTitle: string; seoDesc: string;
-}
-export interface ServiceHub extends ServiceChild { children: ServiceChild[] }
-
 export const cities = citiesData as City[];
-export const serviceHubs = servicesData as ServiceHub[];
 export const preserved = routesData.preserved as { url: string; kind: string }[];
 export const redirects = routesData.redirects as { from: string; to: string }[];
 
 export const cityBySlug = new Map(cities.map((c) => [c.slug, c]));
-export const hubBySlug = new Map(serviceHubs.map((h) => [h.slug, h]));
 
 /** Every URL the built site will serve, preserved + newly built. */
 export function allUrls(): string[] {

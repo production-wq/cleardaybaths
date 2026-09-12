@@ -2,7 +2,7 @@
  * Navigation trees. Mirrors the live site's header/footer so returning visitors
  * and existing internal links find the same structure.
  */
-import { serviceHubs } from './routes';
+import { serviceHubs } from './services';
 
 export interface NavLink { label: string; href: string }
 export interface NavGroup extends NavLink { children?: NavLink[] }
