@@ -1,0 +1,1422 @@
+{
+ "brand": {
+  "logo": "/img/brand/logo.png",
+  "logoWebp": "/img/brand/logo.webp",
+  "square": "/img/brand/logo-square.png"
+ },
+ "mascot": [
+  "/img/mascot/mascot-1.webp",
+  "/img/mascot/mascot-2.webp",
+  "/img/mascot/mascot-3.webp",
+  "/img/mascot/mascot-4.webp",
+  "/img/mascot/mascot-5.webp",
+  "/img/mascot/mascot-6.webp",
+  "/img/mascot/mascot-7.webp",
+  "/img/mascot/mascot-8.webp",
+  "/img/mascot/mascot-9.webp"
+ ],
+ "beforeAfter": [
+  {
+   "id": "1",
+   "width": 1280,
+   "height": 960,
+   "before": "/img/before-after/1-before.webp",
+   "after": "/img/before-after/1-after.webp",
+   "aspectDrift": 0,
+   "slider": true
+  },
+  {
+   "id": "2",
+   "width": 1280,
+   "height": 960,
+   "before": "/img/before-after/2-before.webp",
+   "after": "/img/before-after/2-after.webp",
+   "aspectDrift": 0,
+   "slider": true
+  },
+  {
+   "id": "3",
+   "width": 1280,
+   "height": 960,
+   "before": "/img/before-after/3-before.webp",
+   "after": "/img/before-after/3-after.webp",
+   "aspectDrift": 0,
+   "slider": true
+  },
+  {
+   "id": "4",
+   "width": 1280,
+   "height": 960,
+   "before": "/img/before-after/4-before.webp",
+   "after": "/img/before-after/4-after.webp",
+   "aspectDrift": 0.59,
+   "slider": false
+  },
+  {
+   "id": "5",
+   "width": 1280,
+   "height": 960,
+   "before": "/img/before-after/5-before.webp",
+   "after": "/img/before-after/5-after.webp",
+   "aspectDrift": 0,
+   "slider": true
+  },
+  {
+   "id": "6",
+   "width": 1280,
+   "height": 960,
+   "before": "/img/before-after/6-before.webp",
+   "after": "/img/before-after/6-after.webp",
+   "aspectDrift": 0,
+   "slider": true
+  },
+  {
+   "id": "mamu",
+   "width": 1280,
+   "height": 960,
+   "before": "/img/before-after/mamu-before.webp",
+   "after": "/img/before-after/mamu-after.webp",
+   "aspectDrift": 0.59,
+   "slider": false
+  }
+ ],
+ "gallery": [
+  {
+   "src": "/img/gallery/bathroom-remodeling1.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling1.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling10.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1086,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling10.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling11.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling11.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling12.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling12.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling13.webp",
+   "category": "bathrooms",
+   "width": 1475,
+   "height": 983,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling13.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling14.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1093,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling14.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling15.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling15.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling16.webp",
+   "category": "bathrooms",
+   "width": 800,
+   "height": 533,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling16.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling17.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1897,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling17.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling18.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 2133,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling18.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling19.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling19.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling2.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling2.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling20.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 985,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling20.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling21.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling21.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling22.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling22.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling23.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1633,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling23.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling24.webp",
+   "category": "bathrooms",
+   "width": 1475,
+   "height": 983,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling24.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling3.webp",
+   "category": "bathrooms",
+   "width": 1283,
+   "height": 962,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling3.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling4.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 2085,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling4.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling5.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling5.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling6.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling6.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling7.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1239,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling7.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling8.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1642,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling8.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling9.webp",
+   "category": "bathrooms",
+   "width": 1600,
+   "height": 1228,
+   "source": "assets/source/uploads/2026/03/Bathroom-Remodeling9.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement1.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement1.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement10.webp",
+   "category": "showers",
+   "width": 1400,
+   "height": 1868,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement10.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement11.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement11.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement12.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement12.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement13.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement13.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement14.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement14.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement15.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement15.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement16.webp",
+   "category": "showers",
+   "width": 1000,
+   "height": 667,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement16.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement17.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement17.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement18.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1067,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement18.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement19.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1113,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement19.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement2.webp",
+   "category": "showers",
+   "width": 1474,
+   "height": 983,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement2.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement20.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement20.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement21.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 2400,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement21.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement22.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement22.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement23.webp",
+   "category": "showers",
+   "width": 1000,
+   "height": 866,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement23.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement24.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement24.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement25.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement25.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement26.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement26.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement27.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1600,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement27.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement3.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1067,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement3.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement4.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement4.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement5.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement5.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement6.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement6.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement7.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement7.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement8.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1067,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement8.webp"
+  },
+  {
+   "src": "/img/gallery/shower-replacement9.webp",
+   "category": "showers",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/Shower-Replacement9.webp"
+  },
+  {
+   "src": "/img/gallery/about-us1.webp",
+   "category": "about",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/about-us1.jpg"
+  },
+  {
+   "src": "/img/gallery/about-us2.webp",
+   "category": "about",
+   "width": 1600,
+   "height": 1065,
+   "source": "assets/source/uploads/2026/03/about-us2.jpg"
+  },
+  {
+   "src": "/img/gallery/about-us3.webp",
+   "category": "about",
+   "width": 1600,
+   "height": 990,
+   "source": "assets/source/uploads/2026/03/about-us3.jpg"
+  },
+  {
+   "src": "/img/gallery/about-us4.webp",
+   "category": "about",
+   "width": 1600,
+   "height": 1000,
+   "source": "assets/source/uploads/2026/03/about-us4.jpg"
+  },
+  {
+   "src": "/img/gallery/about-us5.webp",
+   "category": "about",
+   "width": 1600,
+   "height": 1068,
+   "source": "assets/source/uploads/2026/03/about-us5.jpg"
+  },
+  {
+   "src": "/img/gallery/about-us6-1.webp",
+   "category": "about",
+   "width": 1600,
+   "height": 1068,
+   "source": "assets/source/uploads/2026/03/about-us6-1-scaled.jpg"
+  },
+  {
+   "src": "/img/gallery/about-us6.webp",
+   "category": "about",
+   "width": 1600,
+   "height": 1068,
+   "source": "assets/source/uploads/2026/03/about-us6-scaled.jpg"
+  },
+  {
+   "src": "/img/gallery/about-us7.webp",
+   "category": "about",
+   "width": 1600,
+   "height": 1067,
+   "source": "assets/source/uploads/2026/03/about-us7.jpg"
+  },
+  {
+   "src": "/img/gallery/about-us8.webp",
+   "category": "about",
+   "width": 1600,
+   "height": 1094,
+   "source": "assets/source/uploads/2026/03/about-us8.jpg"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel1.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1600,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel1.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel10.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel10.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel11.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel11.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel12.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel12.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel13.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel13.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel14.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel14.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel15.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel15.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel16.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel16.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel17.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel17.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel18.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1067,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel18.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel19.webp",
+   "category": "bath-and-shower",
+   "width": 1000,
+   "height": 866,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel19.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel2.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 2133,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel2-scaled.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel20.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel20.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel21.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel21.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel22.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel22.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel23.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1222,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel23.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel24.webp",
+   "category": "bath-and-shower",
+   "width": 1024,
+   "height": 777,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel24.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel25.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel25.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel26.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1157,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel26.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel27.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1270,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel27.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel28.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel28.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel29.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel29.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel3.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 2133,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel3.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel30.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel30.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel31.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel31.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel32.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1157,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel32.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel33.webp",
+   "category": "bath-and-shower",
+   "width": 1474,
+   "height": 983,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel33.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel34.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel34.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel35.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel35.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel36.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel36.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel37.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel37.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel38.webp",
+   "category": "bath-and-shower",
+   "width": 1000,
+   "height": 667,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel38.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel39.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1067,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel39.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel4.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1633,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel4.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel40.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel40.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel41.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel41.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel42.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1196,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel42.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel43.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1086,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel43.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel44.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel44.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel45.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel45.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel46.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel46.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel47.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel47.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel48.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel48.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel49.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1113,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel49.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel5.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1642,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel5.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel50.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel50.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel51.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel51.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel52.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel52.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel53.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel53.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel54.webp",
+   "category": "bath-and-shower",
+   "width": 1350,
+   "height": 1080,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel54.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel55.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel55.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel56.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel56.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel57.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel57.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel58.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel58.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel59.webp",
+   "category": "bath-and-shower",
+   "width": 1000,
+   "height": 667,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel59.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel6.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel6.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel60.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel60.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel61.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel61.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel62.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1194,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel62.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel63.webp",
+   "category": "bath-and-shower",
+   "width": 1475,
+   "height": 983,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel63.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel64.webp",
+   "category": "bath-and-shower",
+   "width": 1400,
+   "height": 1868,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel64.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel65.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel65.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel66.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel66.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel67.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel67.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel68.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 949,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel68.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel69.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel69.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel7.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1146,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel7.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel70.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel70.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel71.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1093,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel71.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel72.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel72.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel73.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 2400,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel73.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel74.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 2085,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel74.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel75.webp",
+   "category": "bath-and-shower",
+   "width": 720,
+   "height": 522,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel75.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel76.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1234,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel76.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel77.webp",
+   "category": "bath-and-shower",
+   "width": 1475,
+   "height": 983,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel77.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel78.webp",
+   "category": "bath-and-shower",
+   "width": 800,
+   "height": 533,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel78.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel79.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 985,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel79.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel8.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1067,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel8.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel80.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel80.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel81.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel81.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel82.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel82.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel83.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel83.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel84.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1239,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel84.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel85.webp",
+   "category": "bath-and-shower",
+   "width": 1475,
+   "height": 983,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel85.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel86.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1066,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel86.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel87.webp",
+   "category": "bath-and-shower",
+   "width": 1283,
+   "height": 962,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel87.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel88.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1200,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel88.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel89.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1897,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel89.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel9.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1199,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel9.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel90.webp",
+   "category": "bath-and-shower",
+   "width": 1600,
+   "height": 1228,
+   "source": "assets/source/uploads/2026/03/bath-and-shower-remodel90.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling-in-college-park-md-clear-day-bath-solutions.webp",
+   "category": "bathrooms",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/bathroom-remodeling-in-college-park-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling-in-frederick-md-clear-day-bath-solutions.webp",
+   "category": "bathrooms",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/bathroom-remodeling-in-frederick-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/bathroom-remodeling-in-hagerstown-md-clear-day-bath-solutions.webp",
+   "category": "bathrooms",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/bathroom-remodeling-in-hagerstown-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversions-in-annapolis-md-clear-day-bath-solutions.webp",
+   "category": "tubs",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/tub-to-shower-conversions-in-annapolis-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversions-in-college-park-md-clear-day-bath-solutions.webp",
+   "category": "tubs",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/tub-to-shower-conversions-in-college-park-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversions-in-columbia-md-clear-day-bath-solutions.webp",
+   "category": "tubs",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/tub-to-shower-conversions-in-columbia-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversions-in-davidsonville-md-clear-day-bath-solutions.webp",
+   "category": "tubs",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/tub-to-shower-conversions-in-davidsonville-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversions-in-frederick-md-clear-day-bath-solutions.webp",
+   "category": "tubs",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/tub-to-shower-conversions-in-frederick-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversions-in-hagerstown-md-clear-day-bath-solutions.webp",
+   "category": "tubs",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/tub-to-shower-conversions-in-hagerstown-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversions-in-waldorf-md-clear-day-bath-solutions.webp",
+   "category": "tubs",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/tub-to-shower-conversions-in-waldorf-md-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversions-in-warrenton-va-clear-day-bath-solutions.webp",
+   "category": "tubs",
+   "width": 1024,
+   "height": 1024,
+   "source": "assets/source/uploads/2026/05/tub-to-shower-conversions-in-warrenton-va-clear-day-bath-solutions.webp"
+  },
+  {
+   "src": "/img/gallery/tub-1.webp",
+   "category": "tubs",
+   "width": 1079,
+   "height": 1436,
+   "source": "assets/source/uploads/2026/07/Tub-1.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-10.webp",
+   "category": "tubs",
+   "width": 1078,
+   "height": 1507,
+   "source": "assets/source/uploads/2026/07/Tub-10.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-11.webp",
+   "category": "tubs",
+   "width": 1079,
+   "height": 810,
+   "source": "assets/source/uploads/2026/07/Tub-11.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-2.webp",
+   "category": "tubs",
+   "width": 1079,
+   "height": 1440,
+   "source": "assets/source/uploads/2026/07/Tub-2.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-3.webp",
+   "category": "tubs",
+   "width": 972,
+   "height": 1299,
+   "source": "assets/source/uploads/2026/07/Tub-3.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-4-1.webp",
+   "category": "tubs",
+   "width": 1079,
+   "height": 812,
+   "source": "assets/source/uploads/2026/07/Tub-4.1.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-4.webp",
+   "category": "tubs",
+   "width": 1079,
+   "height": 1440,
+   "source": "assets/source/uploads/2026/07/Tub-4.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-5.webp",
+   "category": "tubs",
+   "width": 1079,
+   "height": 1457,
+   "source": "assets/source/uploads/2026/07/Tub-5.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-6.webp",
+   "category": "tubs",
+   "width": 1079,
+   "height": 1457,
+   "source": "assets/source/uploads/2026/07/Tub-6.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-7.webp",
+   "category": "tubs",
+   "width": 1079,
+   "height": 1446,
+   "source": "assets/source/uploads/2026/07/Tub-7.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-8.webp",
+   "category": "tubs",
+   "width": 1079,
+   "height": 1080,
+   "source": "assets/source/uploads/2026/07/Tub-8.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-9.webp",
+   "category": "tubs",
+   "width": 969,
+   "height": 1680,
+   "source": "assets/source/uploads/2026/07/Tub-9.jpg"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversion-fredericksburg-va.webp",
+   "category": "tubs",
+   "width": 1280,
+   "height": 720,
+   "source": "assets/source/uploads/2026/08/tub-to-shower-conversion-fredericksburg-va.png"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversion-herndon-va.webp",
+   "category": "tubs",
+   "width": 1280,
+   "height": 720,
+   "source": "assets/source/uploads/2026/08/tub-to-shower-conversion-herndon-va.png"
+  },
+  {
+   "src": "/img/gallery/tub-to-shower-conversion-lusby-md.webp",
+   "category": "tubs",
+   "width": 1280,
+   "height": 720,
+   "source": "assets/source/uploads/2026/08/tub-to-shower-conversion-lusby-md.png"
+  },
+  {
+   "src": "/img/gallery/tub-1-rq5d5yh6fx08wy2903471v4jt387k5wext9jus1oy0.webp",
+   "category": "tubs",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/Tub-1-rq5d5yh6fx08wy2903471v4jt387k5wext9jus1oy0.jpg"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel14-rl39op6pmgjv8n8w8h1iog829po9v457bu43l5j820.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel14-rl39op6pmgjv8n8w8h1iog829po9v457bu43l5j820.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel22-rl39naffdemdtpamgv3nxt166wmgbgjp4uvvo7mhe0.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel22-rl39naffdemdtpamgv3nxt166wmgbgjp4uvvo7mhe0.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel24-rl39re036e8eghc9j4w3b9sjgef2vxtk15b40njo94.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel24-rl39re036e8eghc9j4w3b9sjgef2vxtk15b40njo94.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel28-rl39pdmik5hbmi9e9rltha21pqbtf8u8372q2cizk8.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel28-rl39pdmik5hbmi9e9rltha21pqbtf8u8372q2cizk8.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel39-rl39ra8qf23961hq539l1aqp2uxm15emomp63jp8y0.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel39-rl39ra8qf23961hq539l1aqp2uxm15emomp63jp8y0.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel4-rl39r8d21e0oitkgg2gbwb7rw36vlr760de74zs1ag.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel4-rl39r8d21e0oitkgg2gbwb7rw36vlr760de74zs1ag.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel48-rl39pvhg605rr3jgdhbqanjt01vshht4hngy6lsia0.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel48-rl39pvhg605rr3jgdhbqanjt01vshht4hngy6lsia0.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel6-rl39qi1kq10nhqmopr2ryhuv9aslm8aokr4lp8v24o.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel6-rl39qi1kq10nhqmopr2ryhuv9aslm8aokr4lp8v24o.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel60-rl39nwzjxfh9kcdut4uplnc8g5j9g7197yjj6up18o.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel60-rl39nwzjxfh9kcdut4uplnc8g5j9g7197yjj6up18o.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel64-rl39oa5al3za2vuqoajhkk0orjqefyhhxrobwq5itk.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel64-rl39oa5al3za2vuqoajhkk0orjqefyhhxrobwq5itk.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel65-rl39qu9h6vhdoo4xqecxcwruzb4dean6yflwxucxvs.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel65-rl39qu9h6vhdoo4xqecxcwruzb4dean6yflwxucxvs.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel66-rl39oeuhja5poxnwwukmf0tzqh38ig05mexrb3yjyg.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel66-rl39oeuhja5poxnwwukmf0tzqh38ig05mexrb3yjyg.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel72-rl39qg5wccy2uipf0q9itiby2j1v6u37whtmqoxuh4.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel72-rl39qg5wccy2uipf0q9itiby2j1v6u37whtmqoxuh4.webp"
+  },
+  {
+   "src": "/img/gallery/bath-and-shower-remodel85-rl39pgg14nl6lc5atatp6rcfhvxx2c5f3l16i6et1k.webp",
+   "category": "bath-and-shower",
+   "width": 500,
+   "height": 500,
+   "source": "assets/source/uploads/elementor/thumbs/bath-and-shower-remodel85-rl39pgg14nl6lc5atatp6rcfhvxx2c5f3l16i6et1k.webp"
+  }
+ ]
+}
