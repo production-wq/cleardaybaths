@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root { color-scheme: light; }
+
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  }
+
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+    /* Sticky mobile call bar must never cover the last line of content. */
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  h1, h2, h3, h4 { @apply font-display text-balance; }
+  p { text-wrap: pretty; }
+
+  /* Visible focus everywhere — a lead form people can't tab through is a broken form. */
+  :focus-visible { @apply outline-none ring-2 ring-teal ring-offset-2 ring-offset-cream rounded-sm; }
+  .on-dark :focus-visible { @apply ring-mint ring-offset-forest-900; }
+}
+
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-content px-5 sm:px-6 lg:px-8; }
+  .section { @apply py-section; }
+
+  .eyebrow { @apply text-eyebrow uppercase text-teal; }
+  .on-dark .eyebrow { @apply text-sage; }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3
+           text-sm font-semibold transition-colors duration-150
+           disabled:opacity-60 disabled:pointer-events-none;
+  }
+  .btn-primary { @apply btn bg-teal text-white hover:bg-teal-hover; }
+  .btn-outline { @apply btn border border-forest-800/25 text-ink hover:bg-forest-800/5; }
+  .on-dark .btn-outline { @apply border-white/35 text-white hover:bg-white/10; }
+
+  .card { @apply rounded-card bg-white shadow-sm ring-1 ring-forest-900/5; }
+
+  .prose-cd { @apply max-w-none leading-relaxed text-ink/80; }
+  .prose-cd :where(h2) { @apply text-display-md text-ink mt-10 mb-4; }
+  .prose-cd :where(h3) { @apply font-display text-xl text-ink mt-8 mb-3; }
+  .prose-cd :where(p) { @apply my-4; }
+  .prose-cd :where(a) { @apply text-teal underline underline-offset-2 hover:text-teal-hover; }
+  .prose-cd :where(ul) { @apply my-4 space-y-2 pl-5 list-disc marker:text-sage; }
+}
+
+/* Marquee: duplicated track translated -50%, so the seam is never visible. */
+.marquee-track { display: flex; width: max-content; animation: marquee 38s linear infinite; }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
