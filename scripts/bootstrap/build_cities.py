@@ -66,11 +66,19 @@ META = {
 TIER1 = ["washington-dc", "woodlawn", "ashburn", "king-george", "fairfax", "dahlgren", "bethesda"]
 TIER2 = ["ellicott-city", "gaithersburg", "arlington", "leesburg", "vienna", "silver-spring",
          "chantilly", "mclean", "culpeper", "oakton", "tysons", "laurel", "towson", "germantown"]
-# Cities needing nested pages built to absorb Phase-1 redirect targets.
-COMPLETE = {"annapolis": ["tub-to-shower-conversions", "walk-in-bathtubs"],
-            "college-park": ["walk-in-bathtubs", "tub-to-shower-conversions"],
-            "davidsonville": ["shower-remodel", "tub-to-shower-conversions"],
-            "waldorf": ["walk-in-bathtubs"]}
+def flat_slug(city_slug, state, service, existing_slugs):
+    """Build a new flat slug in the pattern that city already uses.
+
+    The legacy flat slugs are internally inconsistent — 'frederick-shower-remodel'
+    is city-first, 'shower-remodel-college-park-md' is service-first. New pages
+    follow whichever shape that particular city already uses, so each city stays
+    self-consistent even though the site as a whole is not.
+    """
+    city_first = sum(1 for sl in existing_slugs if sl.startswith(city_slug))
+    other = len(existing_slugs) - city_first
+    if city_first >= other:
+        return f"/{city_slug}-{service}/"
+    return f"/{service}-{city_slug}-{state.lower()}/"
 
 NESTED_EXISTING = {"alexandria", "fredericksburg", "manassas", "stafford", "woodbridge"}
 
@@ -93,21 +101,51 @@ for r in preserved:
                 existing[key].append(r["url"]); break
 
 restored = {r["old_url"] for r in urlmap if r["disposition"] == "restore"}
+
+SVC_RULES = [("accessible-bathroom", ("accessible-bathroom", "ada-")),
+             ("walk-in-bathtubs", ("walk-in-bathtubs", "walk-in-tubs", "walk-in-bathtub")),
+             ("tub-to-shower-conversions", ("tub-to-shower-conversions", "tub-shower-conversions")),
+             ("shower-remodel", ("shower-remodel",)),
+             (None, ("bathroom-remodeling", "bath-remodeling"))]
+
+
+def service_of(url, city_slug):
+    """Which nested-vocabulary service a URL represents; None = city hub/general."""
+    seg = [x for x in url.split("/") if x]
+    if len(seg) == 2:
+        return seg[1]
+    if seg[0] == city_slug:
+        return None
+    for name, pats in SVC_RULES:
+        if any(p in seg[0] for p in pats):
+            return name
+    return None
 cities = []
 for key, (name, state, county, nearby, note) in META.items():
     urls = sorted(set(existing.get(key, [])))
     pattern = "nested" if key in NESTED_EXISTING else ("flat" if urls else "new")
     tier = 0 if urls else (1 if key in TIER1 else 2)
-    pages = [{"url": u,
+    pages = [{"url": u, "service": service_of(u, key),
               "status": "restore" if u in restored else "preserve",
               "gscImpressions": int(float(gsc[u]["impressions"])) if u in gsc else 0,
               "gscPosition": round(float(gsc[u]["position"]), 1) if u in gsc else None}
              for u in urls]
     build = []
     if tier in (1, 2):
+        # New city: full nested set — hub plus every service.
         build = [f"/{key}/"] + [f"/{key}/{s}/" for s in NESTED_SERVICES]
-    elif key in COMPLETE:
-        build = [f"/{key}/"] + [f"/{key}/{s}/" for s in COMPLETE[key]]
+    elif pattern == "flat":
+        # Existing flat city: add the services it does not already cover, using
+        # that city's own slug shape. No hub — its '-bathroom-remodeling' page
+        # already plays that role, and a bare /city/ would cannibalise it.
+        have = {p["service"] for p in pages if p.get("service")}
+        slugs = [u.strip("/") for u in urls]
+        for svc in NESTED_SERVICES:
+            if svc not in have:
+                cand = flat_slug(key, state, svc, slugs)
+                if cand not in urls:
+                    build.append(cand)
+
     cities.append({"slug": key, "name": name, "state": state, "county": county,
                    "nearby": nearby, "note": note, "pattern": pattern, "tier": tier,
                    "existingPages": pages, "pagesToBuild": build})

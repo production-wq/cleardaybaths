@@ -33,6 +33,14 @@
    "kind": "city-service-nested"
   },
   {
+   "url": "/annapolis-tub-to-shower-conversions/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/annapolis-walk-in-bathtubs/",
+   "kind": "city-service-flat"
+  },
+  {
    "url": "/bath-conversions/",
    "kind": "service-hub"
   },
@@ -181,6 +189,18 @@
    "kind": "company"
   },
   {
+   "url": "/college-park-bathroom-remodeling/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/college-park-md-walk-in-bathtubs/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/college-park-tub-to-shower-conversions/",
+   "kind": "city-service-flat"
+  },
+  {
    "url": "/columbia-bathroom-remodeling/",
    "kind": "city-service-flat"
   },
@@ -199,6 +219,18 @@
   {
    "url": "/contact-us/",
    "kind": "company"
+  },
+  {
+   "url": "/davidsonville-bathroom-remodeling/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/davidsonville-md-shower-remodel/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/davidsonville-tub-to-shower-conversions/",
+   "kind": "city-service-flat"
   },
   {
    "url": "/financing/",
@@ -381,6 +413,14 @@
    "kind": "city-service-flat"
   },
   {
+   "url": "/waldorf-md-bathroom-remodeling/",
+   "kind": "city-service-flat"
+  },
+  {
+   "url": "/waldorf-walk-in-bathtubs/",
+   "kind": "city-service-flat"
+  },
+  {
    "url": "/walk-in-bathtubs-davidsonville-md/",
    "kind": "city-service-flat"
   },
@@ -435,52 +475,16 @@
    "to": "/shower-remodel-annapolis-md/"
   },
   {
-   "from": "/annapolis-tub-to-shower-conversions/",
-   "to": "/annapolis/"
-  },
-  {
-   "from": "/annapolis-walk-in-bathtubs/",
-   "to": "/annapolis/"
-  },
-  {
-   "from": "/college-park-bathroom-remodeling/",
-   "to": "/college-park/"
-  },
-  {
-   "from": "/college-park-md-walk-in-bathtubs/",
-   "to": "/college-park/"
-  },
-  {
    "from": "/college-park-shower-remodel/",
    "to": "/shower-remodel-college-park-md/"
-  },
-  {
-   "from": "/college-park-tub-to-shower-conversions/",
-   "to": "/college-park/"
-  },
-  {
-   "from": "/davidsonville-bathroom-remodeling/",
-   "to": "/davidsonville/"
-  },
-  {
-   "from": "/davidsonville-md-shower-remodel/",
-   "to": "/davidsonville/"
   },
   {
    "from": "/davidsonville-md-walk-in-bathtubs/",
    "to": "/walk-in-bathtubs-davidsonville-md/"
   },
   {
-   "from": "/davidsonville-tub-to-shower-conversions/",
-   "to": "/davidsonville/"
-  },
-  {
    "from": "/home/",
    "to": "/"
-  },
-  {
-   "from": "/waldorf-md-bathroom-remodeling/",
-   "to": "/waldorf/"
   },
   {
    "from": "/waldorf-md-shower-remodel/",
@@ -489,69 +493,125 @@
   {
    "from": "/waldorf-tub-to-shower-conversions/",
    "to": "/tub-shower-conversions-waldorf-md/"
-  },
-  {
-   "from": "/waldorf-walk-in-bathtubs/",
-   "to": "/waldorf/"
   }
  ],
  "build": [
-  "/annapolis/",
+  "/accessible-bathroom-capitol-heights-md/",
+  "/annapolis-accessible-bathroom/",
   "/arlington/",
+  "/arlington/accessible-bathroom/",
   "/arlington/shower-remodel/",
   "/arlington/tub-to-shower-conversions/",
+  "/arlington/walk-in-bathtubs/",
   "/ashburn/",
   "/ashburn/accessible-bathroom/",
   "/ashburn/shower-remodel/",
   "/ashburn/tub-to-shower-conversions/",
+  "/ashburn/walk-in-bathtubs/",
   "/bethesda/",
+  "/bethesda/accessible-bathroom/",
   "/bethesda/shower-remodel/",
   "/bethesda/tub-to-shower-conversions/",
   "/bethesda/walk-in-bathtubs/",
   "/chantilly/",
+  "/chantilly/accessible-bathroom/",
+  "/chantilly/shower-remodel/",
   "/chantilly/tub-to-shower-conversions/",
-  "/college-park/",
+  "/chantilly/walk-in-bathtubs/",
+  "/college-park-accessible-bathroom/",
+  "/columbia-accessible-bathroom/",
   "/culpeper/",
   "/culpeper/accessible-bathroom/",
+  "/culpeper/shower-remodel/",
+  "/culpeper/tub-to-shower-conversions/",
+  "/culpeper/walk-in-bathtubs/",
   "/dahlgren/",
+  "/dahlgren/accessible-bathroom/",
   "/dahlgren/shower-remodel/",
-  "/davidsonville/",
+  "/dahlgren/tub-to-shower-conversions/",
+  "/dahlgren/walk-in-bathtubs/",
+  "/davidsonville-accessible-bathroom/",
   "/ellicott-city/",
+  "/ellicott-city/accessible-bathroom/",
   "/ellicott-city/shower-remodel/",
   "/ellicott-city/tub-to-shower-conversions/",
+  "/ellicott-city/walk-in-bathtubs/",
   "/fairfax/",
+  "/fairfax/accessible-bathroom/",
+  "/fairfax/shower-remodel/",
   "/fairfax/tub-to-shower-conversions/",
   "/fairfax/walk-in-bathtubs/",
+  "/frederick-accessible-bathroom/",
   "/gaithersburg/",
+  "/gaithersburg/accessible-bathroom/",
   "/gaithersburg/shower-remodel/",
   "/gaithersburg/tub-to-shower-conversions/",
+  "/gaithersburg/walk-in-bathtubs/",
   "/germantown/",
+  "/germantown/accessible-bathroom/",
+  "/germantown/shower-remodel/",
   "/germantown/tub-to-shower-conversions/",
+  "/germantown/walk-in-bathtubs/",
+  "/hagerstown-accessible-bathroom/",
   "/king-george/",
+  "/king-george/accessible-bathroom/",
   "/king-george/shower-remodel/",
+  "/king-george/tub-to-shower-conversions/",
+  "/king-george/walk-in-bathtubs/",
   "/laurel/",
+  "/laurel/accessible-bathroom/",
+  "/laurel/shower-remodel/",
   "/laurel/tub-to-shower-conversions/",
+  "/laurel/walk-in-bathtubs/",
   "/leesburg/",
+  "/leesburg/accessible-bathroom/",
   "/leesburg/shower-remodel/",
   "/leesburg/tub-to-shower-conversions/",
+  "/leesburg/walk-in-bathtubs/",
   "/mclean/",
+  "/mclean/accessible-bathroom/",
   "/mclean/shower-remodel/",
+  "/mclean/tub-to-shower-conversions/",
+  "/mclean/walk-in-bathtubs/",
   "/oakton/",
+  "/oakton/accessible-bathroom/",
+  "/oakton/shower-remodel/",
   "/oakton/tub-to-shower-conversions/",
+  "/oakton/walk-in-bathtubs/",
+  "/shower-remodel-capitol-heights-md/",
+  "/shower-remodel-prince-georges-county-md/",
   "/silver-spring/",
+  "/silver-spring/accessible-bathroom/",
   "/silver-spring/shower-remodel/",
   "/silver-spring/tub-to-shower-conversions/",
+  "/silver-spring/walk-in-bathtubs/",
   "/towson/",
+  "/towson/accessible-bathroom/",
   "/towson/shower-remodel/",
   "/towson/tub-to-shower-conversions/",
+  "/towson/walk-in-bathtubs/",
+  "/tub-to-shower-conversions-prince-georges-county-md/",
   "/tysons/",
+  "/tysons/accessible-bathroom/",
+  "/tysons/shower-remodel/",
   "/tysons/tub-to-shower-conversions/",
+  "/tysons/walk-in-bathtubs/",
   "/vienna/",
+  "/vienna/accessible-bathroom/",
+  "/vienna/shower-remodel/",
   "/vienna/tub-to-shower-conversions/",
-  "/waldorf/",
+  "/vienna/walk-in-bathtubs/",
+  "/waldorf-accessible-bathroom/",
+  "/walk-in-bathtubs-capitol-heights-md/",
+  "/walk-in-bathtubs-prince-georges-county-md/",
+  "/warrenton-accessible-bathroom/",
   "/washington-dc/",
+  "/washington-dc/accessible-bathroom/",
   "/washington-dc/shower-remodel/",
+  "/washington-dc/tub-to-shower-conversions/",
+  "/washington-dc/walk-in-bathtubs/",
   "/woodlawn/",
+  "/woodlawn/accessible-bathroom/",
   "/woodlawn/shower-remodel/",
   "/woodlawn/tub-to-shower-conversions/",
   "/woodlawn/walk-in-bathtubs/"

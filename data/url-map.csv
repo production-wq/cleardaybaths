@@ -102,22 +102,22 @@ old_url,disposition,new_url,status,reason,gsc_impressions,gsc_position
 /shower-remodel-waldorf-md/,publish,/shower-remodel-waldorf-md/,200,scheduled in WordPress; publish on launch,0,
 /annapolis-bathroom-remodeling/,redirect,/bathroom-remodeling-annapolis-md/,301,trashed; live equivalent exists,0,
 /annapolis-shower-remodel/,redirect,/shower-remodel-annapolis-md/,301,trashed; live equivalent exists,0,
-/annapolis-tub-to-shower-conversions/,redirect,/annapolis/,301,trashed; target built in Phase 3 geo expansion; retargeted to city hub (no query demand for tub-to-shower-conversions),0,
-/annapolis-walk-in-bathtubs/,redirect,/annapolis/,301,trashed; target built in Phase 3 geo expansion; retargeted to city hub (no query demand for walk-in-bathtubs),0,
-/college-park-bathroom-remodeling/,redirect,/college-park/,301,trashed; target built in Phase 3 geo expansion,0,
-/college-park-md-walk-in-bathtubs/,redirect,/college-park/,301,trashed; target built in Phase 3 geo expansion; retargeted to city hub (no query demand for walk-in-bathtubs),0,
 /college-park-shower-remodel/,redirect,/shower-remodel-college-park-md/,301,trashed; live equivalent exists,0,
-/college-park-tub-to-shower-conversions/,redirect,/college-park/,301,trashed; target built in Phase 3 geo expansion; retargeted to city hub (no query demand for tub-to-shower-conversions),0,
-/davidsonville-bathroom-remodeling/,redirect,/davidsonville/,301,trashed; target built in Phase 3 geo expansion,0,
-/davidsonville-md-shower-remodel/,redirect,/davidsonville/,301,trashed; target built in Phase 3 geo expansion; retargeted to city hub (no query demand for shower-remodel),0,
 /davidsonville-md-walk-in-bathtubs/,redirect,/walk-in-bathtubs-davidsonville-md/,301,trashed; live equivalent exists,0,
-/davidsonville-tub-to-shower-conversions/,redirect,/davidsonville/,301,trashed; target built in Phase 3 geo expansion; retargeted to city hub (no query demand for tub-to-shower-conversions),0,
 /home/,redirect,/,301,WP front page renders at root,0,
-/waldorf-md-bathroom-remodeling/,redirect,/waldorf/,301,trashed; target built in Phase 3 geo expansion,0,
 /waldorf-md-shower-remodel/,redirect,/shower-remodel-waldorf-md/,301,trashed; target built in Phase 3 geo expansion,0,
 /waldorf-tub-to-shower-conversions/,redirect,/tub-shower-conversions-waldorf-md/,301,trashed; live equivalent exists,0,
-/waldorf-walk-in-bathtubs/,redirect,/waldorf/,301,trashed; target built in Phase 3 geo expansion; retargeted to city hub (no query demand for walk-in-bathtubs),0,
-/columbia-bathroom-remodeling/,restore,/columbia-bathroom-remodeling/,200,trashed but still ranking (pos 5.0); no replacement anywhere,3,5.0
-/columbia-md-tub-to-shower-conversions/,restore,/columbia-md-tub-to-shower-conversions/,200,trashed but still ranking (pos 5.1); no replacement anywhere,13,5.1
-/columbia-md-walk-in-bathtubs/,restore,/columbia-md-walk-in-bathtubs/,200,trashed but still ranking (pos 4.0); no replacement anywhere,4,4.0
-/columbia-shower-remodel/,restore,/columbia-shower-remodel/,200,trashed but still ranking (pos 6.9); no replacement anywhere,8,6.9
+/annapolis-tub-to-shower-conversions/,restore,/annapolis-tub-to-shower-conversions/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,
+/annapolis-walk-in-bathtubs/,restore,/annapolis-walk-in-bathtubs/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,
+/college-park-bathroom-remodeling/,restore,/college-park-bathroom-remodeling/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,
+/college-park-md-walk-in-bathtubs/,restore,/college-park-md-walk-in-bathtubs/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,
+/college-park-tub-to-shower-conversions/,restore,/college-park-tub-to-shower-conversions/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,
+/columbia-bathroom-remodeling/,restore,/columbia-bathroom-remodeling/,200,rebuilt at original slug; no live equivalent (GSC pos 5.0),3,5.0
+/columbia-md-tub-to-shower-conversions/,restore,/columbia-md-tub-to-shower-conversions/,200,rebuilt at original slug; no live equivalent (GSC pos 5.1),13,5.1
+/columbia-md-walk-in-bathtubs/,restore,/columbia-md-walk-in-bathtubs/,200,rebuilt at original slug; no live equivalent (GSC pos 4.0),4,4.0
+/columbia-shower-remodel/,restore,/columbia-shower-remodel/,200,rebuilt at original slug; no live equivalent (GSC pos 6.9),8,6.9
+/davidsonville-bathroom-remodeling/,restore,/davidsonville-bathroom-remodeling/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,
+/davidsonville-md-shower-remodel/,restore,/davidsonville-md-shower-remodel/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,
+/davidsonville-tub-to-shower-conversions/,restore,/davidsonville-tub-to-shower-conversions/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,
+/waldorf-md-bathroom-remodeling/,restore,/waldorf-md-bathroom-remodeling/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,
+/waldorf-walk-in-bathtubs/,restore,/waldorf-walk-in-bathtubs/,200,rebuilt at original slug; no live equivalent (GSC pos —),0,

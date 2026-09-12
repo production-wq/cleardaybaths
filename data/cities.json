@@ -14,22 +14,36 @@
   "tier": 0,
   "existingPages": [
    {
+    "url": "/annapolis-tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
+   },
+   {
+    "url": "/annapolis-walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
+   },
+   {
     "url": "/bathroom-remodeling-annapolis-md/",
+    "service": null,
     "status": "preserve",
     "gscImpressions": 15,
-    "gscPosition": 19.7,
-    "service": null
+    "gscPosition": 19.7
    },
    {
     "url": "/shower-remodel-annapolis-md/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 0,
-    "gscPosition": null,
-    "service": "shower-remodel"
+    "gscPosition": null
    }
   ],
   "pagesToBuild": [
-   "/annapolis/"
+   "/annapolis-accessible-bathroom/"
   ],
   "queryEvidence": {
    "totalImpressions": 4,
@@ -60,13 +74,23 @@
   "existingPages": [
    {
     "url": "/tub-shower-conversions-capitol-heights-md/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 0,
-    "gscPosition": null,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": null
    }
   ],
-  "pagesToBuild": []
+  "pagesToBuild": [
+   "/accessible-bathroom-capitol-heights-md/",
+   "/shower-remodel-capitol-heights-md/",
+   "/walk-in-bathtubs-capitol-heights-md/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 0,
+   "topQueries": [],
+   "hubImpressions": 0,
+   "byService": {}
+  }
  },
  {
   "slug": "college-park",
@@ -83,15 +107,36 @@
   "tier": 0,
   "existingPages": [
    {
+    "url": "/college-park-bathroom-remodeling/",
+    "service": null,
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
+   },
+   {
+    "url": "/college-park-md-walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
+   },
+   {
+    "url": "/college-park-tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
+   },
+   {
     "url": "/shower-remodel-college-park-md/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 5,
-    "gscPosition": 3.6,
-    "service": "shower-remodel"
+    "gscPosition": 3.6
    }
   ],
   "pagesToBuild": [
-   "/college-park/"
+   "/college-park-accessible-bathroom/"
   ],
   "queryEvidence": {
    "totalImpressions": 0,
@@ -116,34 +161,79 @@
   "existingPages": [
    {
     "url": "/columbia-bathroom-remodeling/",
+    "service": null,
     "status": "restore",
     "gscImpressions": 3,
-    "gscPosition": 5.0,
-    "service": null
+    "gscPosition": 5.0
    },
    {
     "url": "/columbia-md-tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
     "status": "restore",
     "gscImpressions": 13,
-    "gscPosition": 5.1,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 5.1
    },
    {
     "url": "/columbia-md-walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
     "status": "restore",
     "gscImpressions": 4,
-    "gscPosition": 4.0,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 4.0
    },
    {
     "url": "/columbia-shower-remodel/",
+    "service": "shower-remodel",
     "status": "restore",
     "gscImpressions": 8,
-    "gscPosition": 6.9,
-    "service": "shower-remodel"
+    "gscPosition": 6.9
    }
   ],
-  "pagesToBuild": []
+  "pagesToBuild": [
+   "/columbia-accessible-bathroom/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 51,
+   "topQueries": [
+    {
+     "query": "showers replacement columbia md",
+     "impressions": 15,
+     "position": 28.0
+    },
+    {
+     "query": "shower to tub columbia md",
+     "impressions": 14,
+     "position": 40.1
+    },
+    {
+     "query": "bath conversion columbia md",
+     "impressions": 10,
+     "position": 22.3
+    },
+    {
+     "query": "tub to shower conversion columbia md",
+     "impressions": 8,
+     "position": 8.0
+    }
+   ],
+   "hubImpressions": 0,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 15,
+     "topQuery": "showers replacement columbia md",
+     "bestPosition": 28.0
+    },
+    "tub-to-shower-conversions": {
+     "impressions": 32,
+     "topQuery": "shower to tub columbia md",
+     "bestPosition": 8.0
+    },
+    "walk-in-bathtubs": {
+     "impressions": 4,
+     "topQuery": "walk-in tubs columbia md",
+     "bestPosition": 4.0
+    }
+   }
+  }
  },
  {
   "slug": "davidsonville",
@@ -160,15 +250,36 @@
   "tier": 0,
   "existingPages": [
    {
+    "url": "/davidsonville-bathroom-remodeling/",
+    "service": null,
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
+   },
+   {
+    "url": "/davidsonville-md-shower-remodel/",
+    "service": "shower-remodel",
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
+   },
+   {
+    "url": "/davidsonville-tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
+   },
+   {
     "url": "/walk-in-bathtubs-davidsonville-md/",
+    "service": "walk-in-bathtubs",
     "status": "preserve",
     "gscImpressions": 1,
-    "gscPosition": 6.0,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 6.0
    }
   ],
   "pagesToBuild": [
-   "/davidsonville/"
+   "/davidsonville-accessible-bathroom/"
   ],
   "queryEvidence": {
    "totalImpressions": 0,
@@ -193,34 +304,79 @@
   "existingPages": [
    {
     "url": "/frederick-bathroom-remodeling/",
+    "service": null,
     "status": "preserve",
     "gscImpressions": 3,
-    "gscPosition": 15.3,
-    "service": null
+    "gscPosition": 15.3
    },
    {
     "url": "/frederick-shower-remodel/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 5,
-    "gscPosition": 4.4,
-    "service": "shower-remodel"
+    "gscPosition": 4.4
    },
    {
     "url": "/frederick-tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 7,
-    "gscPosition": 5.0,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 5.0
    },
    {
     "url": "/frederick-walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
     "status": "preserve",
     "gscImpressions": 33,
-    "gscPosition": 8.6,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 8.6
    }
   ],
-  "pagesToBuild": []
+  "pagesToBuild": [
+   "/frederick-accessible-bathroom/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 253,
+   "topQueries": [
+    {
+     "query": "accessible bathroom remodels in fredericksburg, va",
+     "impressions": 87,
+     "position": 12.9
+    },
+    {
+     "query": "walk in showers frederick",
+     "impressions": 52,
+     "position": 17.9
+    },
+    {
+     "query": "walk-in showers in fredericksburg, va",
+     "impressions": 46,
+     "position": 11.0
+    },
+    {
+     "query": "groutless showers frederick md",
+     "impressions": 37,
+     "position": 28.2
+    }
+   ],
+   "hubImpressions": 107,
+   "byService": {
+    "accessible-bathroom": {
+     "impressions": 87,
+     "topQuery": "accessible bathroom remodels in fredericksburg, va",
+     "bestPosition": 12.9
+    },
+    "shower-remodel": {
+     "impressions": 104,
+     "topQuery": "walk in showers frederick",
+     "bestPosition": 11.0
+    },
+    "walk-in-bathtubs": {
+     "impressions": 1,
+     "topQuery": "walk in bathtub frederick",
+     "bestPosition": 23.0
+    }
+   }
+  }
  },
  {
   "slug": "hagerstown",
@@ -238,34 +394,69 @@
   "existingPages": [
    {
     "url": "/hagerstown-bathroom-remodeling/",
+    "service": null,
     "status": "preserve",
     "gscImpressions": 12,
-    "gscPosition": 11.5,
-    "service": null
+    "gscPosition": 11.5
    },
    {
     "url": "/hagerstown-shower-remodel/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 14,
-    "gscPosition": 4.6,
-    "service": "shower-remodel"
+    "gscPosition": 4.6
    },
    {
     "url": "/hagerstown-tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 4,
-    "gscPosition": 6.0,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 6.0
    },
    {
     "url": "/hagerstown-walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
     "status": "preserve",
     "gscImpressions": 2,
-    "gscPosition": 21.0,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 21.0
    }
   ],
-  "pagesToBuild": []
+  "pagesToBuild": [
+   "/hagerstown-accessible-bathroom/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 92,
+   "topQueries": [
+    {
+     "query": "groutless showers hagerstown md",
+     "impressions": 54,
+     "position": 26.1
+    },
+    {
+     "query": "one day shower remodeling hagerstown md",
+     "impressions": 26,
+     "position": 18.0
+    },
+    {
+     "query": "glass shower enclosures hagerstown maryland",
+     "impressions": 6,
+     "position": 75.3
+    },
+    {
+     "query": "bathroom remodel contractor hagerstown md",
+     "impressions": 4,
+     "position": 10.5
+    }
+   ],
+   "hubImpressions": 4,
+   "byService": {
+    "shower-remodel": {
+     "impressions": 33,
+     "topQuery": "one day shower remodeling hagerstown md",
+     "bestPosition": 18.0
+    }
+   }
+  }
  },
  {
   "slug": "prince-georges-county",
@@ -283,13 +474,23 @@
   "existingPages": [
    {
     "url": "/accessible-bathroom-prince-georges-county-md/",
+    "service": "accessible-bathroom",
     "status": "preserve",
     "gscImpressions": 0,
-    "gscPosition": null,
-    "service": "accessible-bathroom"
+    "gscPosition": null
    }
   ],
-  "pagesToBuild": []
+  "pagesToBuild": [
+   "/shower-remodel-prince-georges-county-md/",
+   "/tub-to-shower-conversions-prince-georges-county-md/",
+   "/walk-in-bathtubs-prince-georges-county-md/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 0,
+   "topQueries": [],
+   "hubImpressions": 0,
+   "byService": {}
+  }
  },
  {
   "slug": "waldorf",
@@ -307,21 +508,35 @@
   "existingPages": [
    {
     "url": "/shower-remodel-waldorf-md/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 0,
-    "gscPosition": null,
-    "service": "shower-remodel"
+    "gscPosition": null
    },
    {
     "url": "/tub-shower-conversions-waldorf-md/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 4,
-    "gscPosition": 22.2,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 22.2
+   },
+   {
+    "url": "/waldorf-md-bathroom-remodeling/",
+    "service": null,
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
+   },
+   {
+    "url": "/waldorf-walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
+    "status": "restore",
+    "gscImpressions": 0,
+    "gscPosition": null
    }
   ],
   "pagesToBuild": [
-   "/waldorf/"
+   "/waldorf-accessible-bathroom/"
   ],
   "queryEvidence": {
    "totalImpressions": 0,
@@ -347,38 +562,38 @@
   "existingPages": [
    {
     "url": "/alexandria/",
+    "service": null,
     "status": "preserve",
     "gscImpressions": 0,
-    "gscPosition": null,
-    "service": null
+    "gscPosition": null
    },
    {
     "url": "/alexandria/accessible-bathroom/",
+    "service": "accessible-bathroom",
     "status": "preserve",
     "gscImpressions": 4,
-    "gscPosition": 10.5,
-    "service": "accessible-bathroom"
+    "gscPosition": 10.5
    },
    {
     "url": "/alexandria/shower-remodel/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 11,
-    "gscPosition": 9.7,
-    "service": "shower-remodel"
+    "gscPosition": 9.7
    },
    {
     "url": "/alexandria/tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 38,
-    "gscPosition": 25.9,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 25.9
    },
    {
     "url": "/alexandria/walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
     "status": "preserve",
     "gscImpressions": 9,
-    "gscPosition": 3.6,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 3.6
    }
   ],
   "pagesToBuild": []
@@ -399,38 +614,38 @@
   "existingPages": [
    {
     "url": "/fredericksburg/",
+    "service": null,
     "status": "preserve",
     "gscImpressions": 9,
-    "gscPosition": 11.2,
-    "service": null
+    "gscPosition": 11.2
    },
    {
     "url": "/fredericksburg/accessible-bathroom/",
+    "service": "accessible-bathroom",
     "status": "preserve",
     "gscImpressions": 73,
-    "gscPosition": 8.0,
-    "service": "accessible-bathroom"
+    "gscPosition": 8.0
    },
    {
     "url": "/fredericksburg/shower-remodel/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 47,
-    "gscPosition": 43.9,
-    "service": "shower-remodel"
+    "gscPosition": 43.9
    },
    {
     "url": "/fredericksburg/tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 23,
-    "gscPosition": 18.9,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 18.9
    },
    {
     "url": "/fredericksburg/walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
     "status": "preserve",
     "gscImpressions": 75,
-    "gscPosition": 12.9,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 12.9
    }
   ],
   "pagesToBuild": []
@@ -452,38 +667,38 @@
   "existingPages": [
    {
     "url": "/manassas/",
+    "service": null,
     "status": "preserve",
     "gscImpressions": 11,
-    "gscPosition": 7.6,
-    "service": null
+    "gscPosition": 7.6
    },
    {
     "url": "/manassas/accessible-bathroom/",
+    "service": "accessible-bathroom",
     "status": "preserve",
     "gscImpressions": 1,
-    "gscPosition": 1.0,
-    "service": "accessible-bathroom"
+    "gscPosition": 1.0
    },
    {
     "url": "/manassas/shower-remodel/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 7,
-    "gscPosition": 4.4,
-    "service": "shower-remodel"
+    "gscPosition": 4.4
    },
    {
     "url": "/manassas/tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 7,
-    "gscPosition": 8.6,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 8.6
    },
    {
     "url": "/manassas/walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
     "status": "preserve",
     "gscImpressions": 3,
-    "gscPosition": 6.0,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 6.0
    }
   ],
   "pagesToBuild": []
@@ -504,38 +719,38 @@
   "existingPages": [
    {
     "url": "/stafford/",
+    "service": null,
     "status": "preserve",
     "gscImpressions": 141,
-    "gscPosition": 13.9,
-    "service": null
+    "gscPosition": 13.9
    },
    {
     "url": "/stafford/accessible-bathroom/",
+    "service": "accessible-bathroom",
     "status": "preserve",
     "gscImpressions": 97,
-    "gscPosition": 16.0,
-    "service": "accessible-bathroom"
+    "gscPosition": 16.0
    },
    {
     "url": "/stafford/shower-remodel/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 302,
-    "gscPosition": 12.7,
-    "service": "shower-remodel"
+    "gscPosition": 12.7
    },
    {
     "url": "/stafford/tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 154,
-    "gscPosition": 12.0,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 12.0
    },
    {
     "url": "/stafford/walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
     "status": "preserve",
     "gscImpressions": 13,
-    "gscPosition": 13.1,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 13.1
    }
   ],
   "pagesToBuild": []
@@ -556,34 +771,48 @@
   "existingPages": [
    {
     "url": "/warrenton-bathroom-remodeling/",
+    "service": null,
     "status": "preserve",
     "gscImpressions": 2,
-    "gscPosition": 1.0,
-    "service": null
+    "gscPosition": 1.0
    },
    {
     "url": "/warrenton-tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 1,
-    "gscPosition": 4.0,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 4.0
    },
    {
     "url": "/warrenton-va-shower-remodel/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 16,
-    "gscPosition": 32.3,
-    "service": "shower-remodel"
+    "gscPosition": 32.3
    },
    {
     "url": "/warrenton-walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
     "status": "preserve",
     "gscImpressions": 1,
-    "gscPosition": 12.0,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 12.0
    }
   ],
-  "pagesToBuild": []
+  "pagesToBuild": [
+   "/warrenton-accessible-bathroom/"
+  ],
+  "queryEvidence": {
+   "totalImpressions": 5,
+   "topQueries": [
+    {
+     "query": "bathroom remodeling warrenton va",
+     "impressions": 5,
+     "position": 86.0
+    }
+   ],
+   "hubImpressions": 5,
+   "byService": {}
+  }
  },
  {
   "slug": "woodbridge",
@@ -602,38 +831,38 @@
   "existingPages": [
    {
     "url": "/woodbridge/",
+    "service": null,
     "status": "preserve",
     "gscImpressions": 4,
-    "gscPosition": 7.8,
-    "service": null
+    "gscPosition": 7.8
    },
    {
     "url": "/woodbridge/accessible-bathroom/",
+    "service": "accessible-bathroom",
     "status": "preserve",
     "gscImpressions": 0,
-    "gscPosition": null,
-    "service": "accessible-bathroom"
+    "gscPosition": null
    },
    {
     "url": "/woodbridge/shower-remodel/",
+    "service": "shower-remodel",
     "status": "preserve",
     "gscImpressions": 1,
-    "gscPosition": 6.0,
-    "service": "shower-remodel"
+    "gscPosition": 6.0
    },
    {
     "url": "/woodbridge/tub-to-shower-conversions/",
+    "service": "tub-to-shower-conversions",
     "status": "preserve",
     "gscImpressions": 2,
-    "gscPosition": 3.5,
-    "service": "tub-to-shower-conversions"
+    "gscPosition": 3.5
    },
    {
     "url": "/woodbridge/walk-in-bathtubs/",
+    "service": "walk-in-bathtubs",
     "status": "preserve",
     "gscImpressions": 99,
-    "gscPosition": 13.4,
-    "service": "walk-in-bathtubs"
+    "gscPosition": 13.4
    }
   ],
   "pagesToBuild": []
@@ -654,7 +883,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/washington-dc/",
-   "/washington-dc/shower-remodel/"
+   "/washington-dc/accessible-bathroom/",
+   "/washington-dc/shower-remodel/",
+   "/washington-dc/tub-to-shower-conversions/",
+   "/washington-dc/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 276,
@@ -706,6 +938,7 @@
   "existingPages": [],
   "pagesToBuild": [
    "/bethesda/",
+   "/bethesda/accessible-bathroom/",
    "/bethesda/shower-remodel/",
    "/bethesda/tub-to-shower-conversions/",
    "/bethesda/walk-in-bathtubs/"
@@ -770,6 +1003,7 @@
   "existingPages": [],
   "pagesToBuild": [
    "/woodlawn/",
+   "/woodlawn/accessible-bathroom/",
    "/woodlawn/shower-remodel/",
    "/woodlawn/tub-to-shower-conversions/",
    "/woodlawn/walk-in-bathtubs/"
@@ -836,7 +1070,8 @@
    "/ashburn/",
    "/ashburn/accessible-bathroom/",
    "/ashburn/shower-remodel/",
-   "/ashburn/tub-to-shower-conversions/"
+   "/ashburn/tub-to-shower-conversions/",
+   "/ashburn/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 125,
@@ -897,7 +1132,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/dahlgren/",
-   "/dahlgren/shower-remodel/"
+   "/dahlgren/accessible-bathroom/",
+   "/dahlgren/shower-remodel/",
+   "/dahlgren/tub-to-shower-conversions/",
+   "/dahlgren/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 72,
@@ -935,6 +1173,8 @@
   "existingPages": [],
   "pagesToBuild": [
    "/fairfax/",
+   "/fairfax/accessible-bathroom/",
+   "/fairfax/shower-remodel/",
    "/fairfax/tub-to-shower-conversions/",
    "/fairfax/walk-in-bathtubs/"
   ],
@@ -992,7 +1232,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/king-george/",
-   "/king-george/shower-remodel/"
+   "/king-george/accessible-bathroom/",
+   "/king-george/shower-remodel/",
+   "/king-george/tub-to-shower-conversions/",
+   "/king-george/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 102,
@@ -1034,8 +1277,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/ellicott-city/",
+   "/ellicott-city/accessible-bathroom/",
    "/ellicott-city/shower-remodel/",
-   "/ellicott-city/tub-to-shower-conversions/"
+   "/ellicott-city/tub-to-shower-conversions/",
+   "/ellicott-city/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 41,
@@ -1092,8 +1337,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/gaithersburg/",
+   "/gaithersburg/accessible-bathroom/",
    "/gaithersburg/shower-remodel/",
-   "/gaithersburg/tub-to-shower-conversions/"
+   "/gaithersburg/tub-to-shower-conversions/",
+   "/gaithersburg/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 39,
@@ -1150,7 +1397,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/germantown/",
-   "/germantown/tub-to-shower-conversions/"
+   "/germantown/accessible-bathroom/",
+   "/germantown/shower-remodel/",
+   "/germantown/tub-to-shower-conversions/",
+   "/germantown/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 8,
@@ -1197,7 +1447,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/laurel/",
-   "/laurel/tub-to-shower-conversions/"
+   "/laurel/accessible-bathroom/",
+   "/laurel/shower-remodel/",
+   "/laurel/tub-to-shower-conversions/",
+   "/laurel/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 16,
@@ -1249,8 +1502,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/silver-spring/",
+   "/silver-spring/accessible-bathroom/",
    "/silver-spring/shower-remodel/",
-   "/silver-spring/tub-to-shower-conversions/"
+   "/silver-spring/tub-to-shower-conversions/",
+   "/silver-spring/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 29,
@@ -1302,8 +1557,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/towson/",
+   "/towson/accessible-bathroom/",
    "/towson/shower-remodel/",
-   "/towson/tub-to-shower-conversions/"
+   "/towson/tub-to-shower-conversions/",
+   "/towson/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 12,
@@ -1350,8 +1607,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/arlington/",
+   "/arlington/accessible-bathroom/",
    "/arlington/shower-remodel/",
-   "/arlington/tub-to-shower-conversions/"
+   "/arlington/tub-to-shower-conversions/",
+   "/arlington/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 38,
@@ -1408,7 +1667,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/chantilly/",
-   "/chantilly/tub-to-shower-conversions/"
+   "/chantilly/accessible-bathroom/",
+   "/chantilly/shower-remodel/",
+   "/chantilly/tub-to-shower-conversions/",
+   "/chantilly/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 27,
@@ -1449,7 +1711,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/culpeper/",
-   "/culpeper/accessible-bathroom/"
+   "/culpeper/accessible-bathroom/",
+   "/culpeper/shower-remodel/",
+   "/culpeper/tub-to-shower-conversions/",
+   "/culpeper/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 21,
@@ -1486,8 +1751,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/leesburg/",
+   "/leesburg/accessible-bathroom/",
    "/leesburg/shower-remodel/",
-   "/leesburg/tub-to-shower-conversions/"
+   "/leesburg/tub-to-shower-conversions/",
+   "/leesburg/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 36,
@@ -1534,7 +1801,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/mclean/",
-   "/mclean/shower-remodel/"
+   "/mclean/accessible-bathroom/",
+   "/mclean/shower-remodel/",
+   "/mclean/tub-to-shower-conversions/",
+   "/mclean/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 23,
@@ -1581,7 +1851,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/oakton/",
-   "/oakton/tub-to-shower-conversions/"
+   "/oakton/accessible-bathroom/",
+   "/oakton/shower-remodel/",
+   "/oakton/tub-to-shower-conversions/",
+   "/oakton/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 17,
@@ -1618,7 +1891,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/tysons/",
-   "/tysons/tub-to-shower-conversions/"
+   "/tysons/accessible-bathroom/",
+   "/tysons/shower-remodel/",
+   "/tysons/tub-to-shower-conversions/",
+   "/tysons/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 17,
@@ -1655,7 +1931,10 @@
   "existingPages": [],
   "pagesToBuild": [
    "/vienna/",
-   "/vienna/tub-to-shower-conversions/"
+   "/vienna/accessible-bathroom/",
+   "/vienna/shower-remodel/",
+   "/vienna/tub-to-shower-conversions/",
+   "/vienna/walk-in-bathtubs/"
   ],
   "queryEvidence": {
    "totalImpressions": 29,
