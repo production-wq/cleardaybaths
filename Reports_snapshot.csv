@@ -1,0 +1,318 @@
+# ----------------------------------------
+# Reports snapshot
+# Account: Outer Banks CDJR
+# Property: American Bathroom Remodelers
+# ----------------------------------------
+#  
+# Start date: 20260816
+# End date: 20260912
+Nth day,Active users
+0000,10
+0001,17
+0002,10
+0003,9
+0004,8
+0005,11
+0006,5
+0007,10
+0008,8
+0009,15
+0010,11
+0011,11
+0012,6
+0013,6
+0014,9
+0015,10
+0016,9
+0017,14
+0018,11
+0019,14
+0020,6
+0021,12
+0022,9
+0023,14
+0024,11
+0025,10
+0026,11
+0027,0
+
+# Start date: 20260816
+# End date: 20260912
+Nth day,New users
+0000,20
+0001,31
+0002,20
+0003,16
+0004,14
+0005,22
+0006,10
+0007,20
+0008,12
+0009,27
+0010,18
+0011,18
+0012,12
+0013,10
+0014,16
+0015,16
+0016,18
+0017,27
+0018,22
+0019,26
+0020,12
+0021,24
+0022,18
+0023,29
+0024,18
+0025,15
+0026,20
+0027,0
+
+# Start date: 20260816
+# End date: 20260912
+Nth day,Average engagement time per active user
+0000,51.1
+0001,45.294117647058826
+0002,39
+0003,212.33333333333334
+0004,47.75
+0005,5.090909090909091
+0006,39.2
+0007,112.6
+0008,153.5
+0009,42.86666666666667
+0010,42
+0011,84.18181818181819
+0012,23
+0013,212.33333333333334
+0014,64.66666666666667
+0015,56.1
+0016,169.11111111111111
+0017,13.142857142857142
+0018,81.45454545454545
+0019,43.357142857142854
+0020,38.166666666666664
+0021,39.416666666666664
+0022,28.22222222222222
+0023,32
+0024,229.0909090909091
+0025,84.4
+0026,22
+0027,0
+
+# Start date: 20260816
+# End date: 20260912
+Nth day,Total revenue
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,0
+0017,0
+0018,0
+0019,0
+0020,0
+0021,0
+0022,0
+0023,0
+0024,0
+0025,0
+0026,0
+0027,0
+
+# Where do your new users come from?
+# Start date: 20260816
+# End date: 20260912
+First user primary channel group (Default Channel Group),New users
+Paid Search,148
+Direct,107
+Organic Search,98
+Unassigned,79
+Paid Other,32
+Organic Social,18
+Display,12
+AI Assistant,6
+Referral,6
+Cross-network,5
+
+#  
+# Start date: 20260816
+# End date: 20260912
+Session primary channel group (Default Channel Group),Sessions
+Paid Search,126
+Unassigned,82
+Organic Search,76
+Direct,74
+Paid Other,22
+Organic Social,13
+Referral,13
+Display,12
+AI Assistant,6
+Cross-network,3
+
+#  
+# Start date: 20260816
+# End date: 20260912
+Country ID,Active users
+AE,2
+AF,1
+AL,3
+BD,1
+CN,3
+CO,1
+DE,1
+EG,1
+FI,4
+FR,1
+IE,2
+IN,6
+NG,1
+NL,1
+PH,2
+PK,10
+PL,3
+PT,1
+SG,1
+US,221
+
+# Start date: 20260816
+# End date: 20260912
+Country,Active users
+US,221
+PK,10
+IN,6
+FI,4
+AL,3
+CN,3
+PL,3
+
+# How are active users trending?
+# Start date: 20260816
+# End date: 20260912
+Nth day,30 days,7 days,1 day
+0000,393,86,10
+0001,394,88,17
+0002,372,84,10
+0003,354,75,9
+0004,343,71,8
+0005,337,70,11
+0006,330,70,5
+0007,327,70,10
+0008,320,60,8
+0009,327,65,15
+0010,323,65,11
+0011,321,67,11
+0012,315,62,6
+0013,301,62,6
+0014,297,62,9
+0015,301,65,10
+0016,304,61,9
+0017,303,64,14
+0018,307,65,11
+0019,306,73,14
+0020,300,73,6
+0021,300,76,12
+0022,305,75,9
+0023,313,80,14
+0024,309,77,11
+0025,303,74,10
+0026,297,71,11
+0027,285,65,0
+
+# How well do you retain your users?
+# Start date: 20260802
+# End date: 20260912
+Date,Week 0,Week 1,Week 2,Week 3,Week 4,Week 5
+Aug 2 - Aug 8,72,1,1
+Aug 9 - Aug 15,78,0,0
+Aug 16 - Aug 22,67,0,0
+Aug 23 - Aug 29,59,1,0
+Aug 30 - Sep 5,70,0,-1
+Sep 6 - Sep 12,62,-1,-1
+
+#  
+# Start date: 20260816
+# End date: 20260912
+Page title and screen class,Views
+Bathroom Remodel San Diego - American Bathroom Remodelers,421
+Custom Bathroom Remodel San Diego,74
+Connect with Us: Your San Diego County Resource Hub,66
+Gallery: Captivating Moments from San Diego County,58
+Guide to ADA Bathroom Layouts with Showers for Accessibility - American Bathroom Remodelers,44
+Tub to Shower Conversion Solutions for San Diego Residents,36
+Bathroom Remodeling Ideas for Your San Diego County Home,29
+Offers: Unbeatable Discounts Across San Diego County,26
+Our Process: Unveiling San Diego County's Scenic Wonders,20
+Careers - American Bathroom Remodelers,18
+Service Areas - American Bathroom Remodelers,16
+Financing - American Bathroom Remodelers,12
+Home Remodeling for Comfort & Safety - American Bathroom Remodelers,12
+Thank You - American Bathroom Remodelers,10
+Transform your Bathroom with the Quality you Deserve - American Bathroom Remodelers,10
+Acrylic Bath Installer - American Bathroom Remodelers,8
+In-Home Design Consultant - American Bathroom Remodelers,8
+ADA COMPLIANT BATHROOMS: Creating Safe Spaces in San Diego,6
+Tub to Shower Conversions Chula Vista | American Bathroom Remodelers - American Bathroom Remodelers,6
+Case Studies - American Bathroom Remodelers,4
+A Guide to ADA-Compliant & Accessible Bathroom Design,2
+ADA Bathroom Doorway Dimensions for Tight Spaces Explained for Camp Pendleton - American Bathroom Remodelers,2
+ADA Bathroom Service - American Bathroom Remodelers,2
+ADA-Compliant Bathroom Upgrades for Safer Environment,2
+Bathroom Remodel Contractor: 10 Questions to Ask First,2
+Designing a Bathroom in Bonita That Fully Meets ADA Compliance Standards - American Bathroom Remodelers,2
+Innovative ADA Bathroom Designs for San Diego Spaces,2
+Sitemap - American Bathroom Remodelers,2
+Terms of Service - American Bathroom Remodelers,2
+Transform Your San Diego Bathroom in Just One Week - American Bathroom Remodelers,2
+Tub-to-Shower Conversion Lemon Grove | Safe Senior Living,2
+"Upgrade to Showers: A Cost-Effective, Modern Tub Alternative - American Bathroom Remodelers",2
+Upgrading Mountain Living: Energy Efficient Custom Bathroom Remodeling in Campo - American Bathroom Remodelers,2
+Remodelación de baños en San Diego - American Bathroom Remodelers,1
+"Smart Tech for the Modern San Diego Bathroom: Toilets, Taps, and Lighting - American Bathroom Remodelers",1
+
+#  
+# Start date: 20260816
+# End date: 20260912
+Event name,Event count
+page_view,912
+session_start,617
+user_engagement,592
+first_visit,511
+scroll,104
+click,14
+tel,1
+
+# What are your top performing key events?
+# Start date: 20260816
+# End date: 20260912
+Event name,Key events
+
+
+# Where does your average 120d value come from?
+# Start date: 20260816
+# End date: 20260912
+First user primary channel group (Default Channel Group),Average 120d value
+
+
+#  
+# Start date: 20260816
+# End date: 20260912
+Item name,Items purchased
+
+
+# How does activity on your platforms compare?
+# Start date: 20260816
+# End date: 20260912
+Platform,Key events
