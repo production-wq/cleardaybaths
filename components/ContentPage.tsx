@@ -120,13 +120,13 @@ export default function ContentPage({
         <AdvantageGrid />
       </Section>
 
-      <Section tone="dark" image="/img/gallery/bathroom-remodeling11.webp" imageFocus="left">
+      <Section tone="dark" image="/img/gallery/bath-and-shower-remodel1.webp" imageFocus="left">
         <SectionHead align="left" eyebrow="Where we work"
                      title="Serving Northern Virginia" accent="& Maryland" />
         <CityChips limit={14} tone="dark" />
       </Section>
 
-      <Section tone="dark" image="/img/gallery/shower-replacement17.webp" imageFocus="center">
+      <Section tone="dark">
         <div className="relative">
           <Mascot n={3} width={120} className="-top-12 left-0 xl:-left-8" />
           <SectionHead title="What sets us" accent="apart" />
