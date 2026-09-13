@@ -51,6 +51,19 @@
   .prose-cd :where(ul) { @apply my-4 space-y-2 pl-5 list-disc marker:text-sage; }
 }
 
-/* Marquee: duplicated track translated -50%, so the seam is never visible. */
-.marquee-track { display: flex; width: max-content; animation: marquee 38s linear infinite; }
+/* Marquee: duplicated track translated -50%, so the seam is never visible.
+   The keyframes MUST live here, not in tailwind.config.ts — Tailwind only emits
+   a config keyframe when its matching `animate-*` utility appears in the markup,
+   and this animation is applied by hand. Declared there, it silently never ran. */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 38s linear infinite;
+  will-change: transform;
+}
+.marquee-track:hover { animation-play-state: paused; }
 @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }

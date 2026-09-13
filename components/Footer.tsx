@@ -3,29 +3,30 @@ import Image from 'next/image';
 import { business } from '@/lib/business';
 import { footerNav, legalNav } from '@/lib/nav';
 import { cities } from '@/lib/routes';
+import { cityHref } from './CityChips';
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from './Icons';
 
 export default function Footer() {
-  // Cities that actually have a landing page, so the footer never links to a 404.
+  // Only cities with a real landing page, so the footer never links to a 404.
   const areas = cities
     .filter((c) => c.existingPages.length || c.pagesToBuild.length)
-    .slice(0, 14);
+    .sort((a, b) => a.tier - b.tier || a.name.localeCompare(b.name));
 
   return (
-    <footer className="on-dark bg-forest-900 text-white/70">
+    <footer className="on-dark bg-forest-950 text-white/70">
       <div className="container-page py-14">
-        <div className="grid gap-10 lg:grid-cols-[1.4fr_repeat(4,1fr)]">
+        <div className="grid gap-10 lg:grid-cols-[1.5fr_repeat(4,1fr)]">
           <div>
-            <Image src="/img/brand/logo.png" alt={business.name} width={620} height={828} className="h-16 w-auto" />
+            <Image src="/img/brand/logo.png" alt={business.name} width={620} height={828} className="h-14 w-auto" />
             <p className="mt-4 max-w-xs text-sm leading-relaxed">
               {business.tagline}. Bathroom remodeling, tub-to-shower conversions and accessible
-              bathing solutions across Northern Virginia, Maryland and the DC metro.
+              bathing across Northern Virginia, Maryland and the DC metro.
             </p>
             <div className="mt-5 flex gap-3">
               <a href={business.social.facebook} target="_blank" rel="noreferrer noopener" aria-label="Facebook"
-                 className="rounded-full bg-white/10 p-2 text-white hover:bg-teal"><Facebook width={18} height={18} /></a>
+                 className="rounded-full bg-white/10 p-2 text-white transition-colors hover:bg-teal"><Facebook width={18} height={18} /></a>
               <a href={business.social.instagram} target="_blank" rel="noreferrer noopener" aria-label="Instagram"
-                 className="rounded-full bg-white/10 p-2 text-white hover:bg-teal"><Instagram width={18} height={18} /></a>
+                 className="rounded-full bg-white/10 p-2 text-white transition-colors hover:bg-teal"><Instagram width={18} height={18} /></a>
             </div>
           </div>
 
@@ -41,7 +42,7 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="mt-12 grid gap-8 border-t border-white/10 pt-8 lg:grid-cols-[1.4fr_2fr]">
+        <div className="mt-12 grid gap-10 border-t border-white/10 pt-10 lg:grid-cols-[1.5fr_3fr]">
           <address className="not-italic">
             <h2 className="text-eyebrow uppercase text-sage">Contact</h2>
             <ul className="mt-4 space-y-3 text-sm">
@@ -74,20 +75,16 @@ export default function Footer() {
 
           <nav aria-label="Service areas">
             <h2 className="text-eyebrow uppercase text-sage">Service Areas</h2>
-            <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm">
-              {areas.map((c) => {
-                const href = c.existingPages.find((p) => !p.service)?.url
-                  ?? c.pagesToBuild.find((u) => u.split('/').filter(Boolean).length === 1)
-                  ?? c.existingPages[0]?.url
-                  ?? c.pagesToBuild[0];
-                return (
-                  <li key={c.slug}>
-                    <Link href={href} className="hover:text-white">{c.name}, {c.state}</Link>
-                  </li>
-                );
-              })}
-              <li><Link href="/service-areas/" className="font-semibold text-sage hover:text-white">View all →</Link></li>
+            <ul className="mt-4 grid grid-cols-2 gap-x-6 gap-y-2 text-sm sm:grid-cols-3 lg:grid-cols-4">
+              {areas.map((c) => (
+                <li key={c.slug}>
+                  <Link href={cityHref(c)} className="hover:text-white">{c.name}, {c.state}</Link>
+                </li>
+              ))}
             </ul>
+            <Link href="/service-areas/" className="mt-4 inline-block text-sm font-semibold text-sage hover:text-white">
+              All service areas →
+            </Link>
           </nav>
         </div>
       </div>

@@ -40,10 +40,6 @@ export default {
         'stripe-dark':
           'repeating-linear-gradient(135deg, rgba(255,255,255,.035) 0 2px, transparent 2px 14px)',
       },
-      keyframes: {
-        marquee: { from: { transform: 'translateX(0)' }, to: { transform: 'translateX(-50%)' } },
-      },
-      animation: { marquee: 'marquee 38s linear infinite' },
     },
   },
   plugins: [],
