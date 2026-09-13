@@ -8,7 +8,35 @@ export interface BeforeAfterPair {
   width: number; height: number; aspectDrift: number; slider: boolean;
 }
 
-export const gallery = manifest.gallery as GalleryImage[];
+/**
+ * Filenames excluded from every automated selection — pick(), cityImage(),
+ * and the raw gallery export that feeds the /gallery/ grid.
+ *
+ * The WordPress export bundles manufacturer stock photography alongside real
+ * project photos, and a handful of those show identifiable children (in a
+ * tub, in swimwear). There is no consent documentation for any model in this
+ * export, so images featuring a minor are excluded outright rather than
+ * risk-assessed per page. Two "bubble bath" glamour-style adult stock photos
+ * are excluded too — they read as generic spa marketing, not demonstrated
+ * work, and are a tonal mismatch for a contractor site.
+ *
+ * This filters the pool once, at the source, so a fix here can't be
+ * bypassed by a future call site that forgets to check it.
+ */
+const EXCLUDE_FROM_SITE = new Set([
+  '/img/gallery/bathroom-remodeling10.webp',       // child in tub, swimsuit
+  '/img/gallery/bathroom-remodeling11.webp',       // child in tub, shirtless
+  '/img/gallery/bathroom-remodeling17.webp',       // two children, shirtless
+  '/img/gallery/bath-and-shower-remodel16.webp',   // two children in tub
+  '/img/gallery/bath-and-shower-remodel43.webp',   // child in tub, swimsuit
+  '/img/gallery/bath-and-shower-remodel89.webp',   // two children in tub
+  '/img/gallery/bath-and-shower-remodel27.webp',   // adult, bubble-bath glamour shot
+  '/img/gallery/bath-and-shower-remodel44.webp',   // adult, bubble-bath glamour shot
+]);
+
+export const gallery = (manifest.gallery as GalleryImage[]).filter(
+  (g) => !EXCLUDE_FROM_SITE.has(g.src),
+);
 export const beforeAfter = manifest.beforeAfter as BeforeAfterPair[];
 export const mascots = manifest.mascot as string[];
 export const brand = manifest.brand as Record<string, string>;

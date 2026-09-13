@@ -15,7 +15,7 @@ function Field({
   const id = `lead-${name}`;
   return (
     <p className="flex flex-col gap-1.5">
-      <label htmlFor={id} className="text-xs font-semibold text-white/75">
+      <label htmlFor={id} className="text-xs font-semibold text-white/85">
         {label}{required && <span className="text-sage"> *</span>}
       </label>
       <input
@@ -46,12 +46,12 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
 
   if (state.ok) {
     return (
-      <div className="rounded-panel bg-white/5 p-8 text-center ring-1 ring-white/10">
+      <div className="rounded-panel bg-forest-800 p-8 text-center ring-1 ring-white/10">
         <span className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-teal">
           <Check width={28} height={28} />
         </span>
         <h2 className="mt-5 font-display text-2xl font-bold text-white">Thanks — we have your details</h2>
-        <p className="mt-3 text-sm text-white/70">
+        <p className="mt-3 text-sm text-white/80">
           Someone from the team will call you to arrange your free in-home measure. If you would
           rather not wait, call us on{' '}
           <a href={business.phone.href} className="font-semibold text-sage underline underline-offset-2">
@@ -63,7 +63,7 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
   }
 
   return (
-    <form action={action} noValidate className="rounded-panel bg-white/5 p-6 ring-1 ring-white/10 sm:p-8">
+    <form action={action} noValidate className="rounded-panel bg-forest-800 p-6 ring-1 ring-white/10 sm:p-8">
       <h2 className="font-display text-xl font-bold text-white">{heading}</h2>
       <input type="hidden" name="sourcePath" value={pathname} />
       {/* Honeypot — hidden from people, irresistible to bots. */}
@@ -79,7 +79,7 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
         <Field name="phone" label="Phone" type="tel" autoComplete="tel" inputMode="tel" error={err.phone} />
         <Field name="zip" label="ZIP code" autoComplete="postal-code" inputMode="numeric" error={err.zip} />
         <p className="flex flex-col gap-1.5">
-          <label htmlFor="lead-service" className="text-xs font-semibold text-white/75">
+          <label htmlFor="lead-service" className="text-xs font-semibold text-white/85">
             What do you need?<span className="text-sage"> *</span>
           </label>
           <select id="lead-service" name="service" required defaultValue={serviceSelectOptions[0]}
@@ -90,7 +90,7 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
       </div>
 
       <p className="mt-4 flex flex-col gap-1.5">
-        <label htmlFor="lead-message" className="text-xs font-semibold text-white/75">
+        <label htmlFor="lead-message" className="text-xs font-semibold text-white/85">
           Tell us about the bathroom <span className="font-normal text-white/45">(optional)</span>
         </label>
         <textarea id="lead-message" name="message" rows={3}
@@ -103,7 +103,7 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
         <input id="lead-consent" name="consent" type="checkbox" required
                aria-describedby="lead-consent-text"
                className="mt-1 h-4 w-4 shrink-0 accent-teal" />
-        <label id="lead-consent-text" htmlFor="lead-consent" className="text-[0.7rem] leading-relaxed text-white/55">
+        <label id="lead-consent-text" htmlFor="lead-consent" className="text-[0.7rem] leading-relaxed text-white/70">
           {legal.esignConsent}
         </label>
       </p>

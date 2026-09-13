@@ -2,14 +2,21 @@ import Link from 'next/link';
 import { business } from '@/lib/business';
 import { quoteBenefits } from '@/lib/content';
 import LeadForm from './LeadForm';
-import PhotoBackdrop from './PhotoBackdrop';
 import { Phone, Check } from './Icons';
 
+/**
+ * Plain dark ground, no photo backdrop.
+ *
+ * A photo was here originally, with the lead form floating on top at 5%
+ * white opacity so the image would show through. Over an image the panel
+ * read as frosted glass rather than a form, and the low-opacity labels and
+ * consent text lost contrast wherever the photo underneath was light. A form
+ * is the one place on the site where legibility matters more than imagery.
+ */
 export default function CtaBand({ id = 'quote' }: { id?: string }) {
   return (
-    <section id={id} className="on-dark relative isolate overflow-hidden bg-forest-950 text-white">
-      <PhotoBackdrop src="/img/gallery/bath-and-shower-remodel24-rl39re036e8eghc9j4w3b9sjgef2vxtk15b40njo94.webp" focus="left" />
-      <div className="container-page relative z-10 grid items-start gap-12 py-section lg:grid-cols-2">
+    <section id={id} className="on-dark bg-forest-950 bg-stripe-dark text-white">
+      <div className="container-page grid items-start gap-12 py-section lg:grid-cols-2">
         <div>
           <p className="eyebrow">Ready when you are</p>
           <h2 className="mt-3 text-display-lg">
