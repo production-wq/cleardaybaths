@@ -69,7 +69,7 @@ export const footerNav: NavGroup[] = [
       { label: 'Reviews', href: '/reviews/' },
       { label: 'Gallery', href: '/gallery/' },
       { label: 'Financing', href: '/financing/' },
-      { label: 'Service Areas', href: '/service-areas/' },
+      { label: 'Pricing', href: '/pricing/' },
       { label: 'Careers', href: '/careers/' },
       { label: 'Blog', href: '/blog/' },
       { label: 'Contact', href: '/contact-us/' },

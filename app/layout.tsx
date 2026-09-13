@@ -4,6 +4,8 @@ import { business, SITE_URL } from '@/lib/business';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import StickyCallBar from '@/components/StickyCallBar';
+import { graph, businessNode, websiteNode, JsonLdScript } from '@/lib/schema';
+import { cities } from '@/lib/routes';
 import './globals.css';
 
 const display = Poppins({
@@ -36,6 +38,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>
+        {/* One root entity for the whole site. Every page references it by @id
+            rather than repeating a LocalBusiness block 235 times. */}
+        <JsonLdScript data={graph([businessNode(cities), websiteNode()])} />
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:m-3 focus:rounded-full focus:bg-teal focus:px-5 focus:py-2 focus:text-white">
           Skip to content
         </a>

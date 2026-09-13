@@ -45,6 +45,7 @@ export default function HomePage() {
   return (
     <>
       <Hero
+        image="/img/gallery/bath-and-shower-remodel17.webp"
         title={<>Premier Bathroom Remodeling in Northern Virginia &amp; Maryland</>}
         lead="Locally owned and dedicated to quality across the Greater DC Metro area — from tub-to-shower conversions to full custom bathrooms."
       />
@@ -65,7 +66,7 @@ export default function HomePage() {
           </div>
 
           <div className="relative">
-            <Mascot n={2} width={110} className="absolute -top-16 right-0 hidden lg:block" />
+            <Mascot n={2} width={96} className="-bottom-6 -right-4 xl:-right-14" />
             <SectionHead align="left" eyebrow="Who we are" title="Experience a" accent="CLEAR difference" />
             <div className="prose-cd mt-5">
               <p>
@@ -154,7 +155,7 @@ export default function HomePage() {
       {/* Advantage */}
       <Section tone="mint">
         <div className="relative">
-          <Mascot n={4} width={120} className="absolute -top-6 right-0 hidden lg:block" />
+          <Mascot n={4} width={128} className="-top-10 right-0 xl:-right-6" />
           <SectionHead align="left" eyebrow="Why Clear Day" title="The Clear Day" accent="advantage"
                        lead="Four things we hold ourselves to on every job." />
         </div>
@@ -162,7 +163,7 @@ export default function HomePage() {
       </Section>
 
       {/* Service areas */}
-      <Section tone="dark">
+      <Section tone="dark" image="/img/gallery/bathroom-remodeling11.webp" imageFocus="left">
         <div className="grid items-start gap-12 lg:grid-cols-2">
           <div>
             <SectionHead align="left" eyebrow="Where we work"
@@ -174,7 +175,7 @@ export default function HomePage() {
             <CityChips limit={14} tone="dark" />
           </div>
           <div className="relative">
-            <Mascot n={6} width={130} className="absolute -top-10 -left-4 hidden lg:block" />
+            <Mascot n={6} width={120} className="-top-28 right-2" />
             <div className="rounded-panel bg-white/5 p-8 ring-1 ring-white/10">
               <h3 className="font-display text-xl font-bold text-white">Not sure if you are in range?</h3>
               <p className="mt-3 text-sm text-white/70">
@@ -211,7 +212,7 @@ export default function HomePage() {
       {sliderPairs.length > 0 && (
         <Section tone="white">
           <div className="relative">
-            <Mascot n={8} width={110} className="absolute -top-10 left-1/2 hidden -translate-x-1/2 lg:block" />
+            <Mascot n={8} width={112} className="-top-14 right-4 xl:right-16" />
             <SectionHead eyebrow="Before & after" title="From outdated to" accent="outstanding"
                          lead="Real Clear Day projects. Drag the handle to see the same bathroom before and after." />
           </div>
@@ -225,9 +226,9 @@ export default function HomePage() {
       )}
 
       {/* Stats + reviews */}
-      <Section tone="dark">
+      <Section tone="dark" image="/img/gallery/shower-replacement17.webp" imageFocus="center">
         <div className="relative">
-          <Mascot n={3} width={120} className="absolute -top-8 left-0 hidden lg:block" />
+          <Mascot n={3} width={124} className="-top-12 left-0 xl:-left-8" />
           <SectionHead title="What sets us" accent="apart" />
         </div>
         <StatsRow />
