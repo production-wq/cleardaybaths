@@ -36,9 +36,23 @@ export default {
       maxWidth: { content: '75rem', prose: '42rem' },
       spacing: { section: 'clamp(3.5rem, 2rem + 6vw, 6.5rem)' },
       backgroundImage: {
-        // Diagonal stripe texture over dark hero sections, per both designs.
-        'stripe-dark':
-          'repeating-linear-gradient(135deg, rgba(255,255,255,.035) 0 2px, transparent 2px 14px)',
+        /*
+         * Ground for every dark section that has no photo behind it (the CTA
+         * form, the stats/reviews block, any service or city page without a
+         * hero image). Originally just the diagonal stripe on flat forest-950,
+         * which read as under-designed once the stock photography came out —
+         * a single flat color with a faint texture, no depth.
+         *
+         * Two soft brand-color glows (teal top-left, sage bottom-right) sit
+         * behind the stripe, both far enough into the corners and diffuse
+         * enough that they never compete with foreground text or a card —
+         * they read as ambient light, not as shapes.
+         */
+        'stripe-dark': `
+          radial-gradient(60rem 40rem at -10% -20%, rgba(62,140,116,.35), transparent 60%),
+          radial-gradient(50rem 36rem at 110% 120%, rgba(127,185,166,.22), transparent 55%),
+          repeating-linear-gradient(135deg, rgba(255,255,255,.035) 0 2px, transparent 2px 14px)
+        `,
       },
     },
   },
