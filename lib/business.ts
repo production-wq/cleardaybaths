@@ -7,8 +7,46 @@
  * or a fabricated address is worse than an absent one.
  */
 
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '') ?? 'https://cleardaybaths.com';
+const FALLBACK_SITE_URL = 'https://cleardaybaths.com';
+
+/**
+ * Resolve the canonical origin.
+ *
+ * `??` only falls back on undefined, so an env var that EXISTS but is EMPTY —
+ * which is exactly how Vercel stores a variable added with a blank value —
+ * slipped through as '' and made `new URL('')` throw at build time:
+ *
+ *     TypeError: Invalid URL ... input: ''
+ *     Failed to collect page data for /_not-found
+ *
+ * So: trim, treat blank as absent, add a scheme if someone entered a bare
+ * hostname ("cleardaybaths.com"), and verify it actually parses before
+ * returning it. Anything unusable falls back rather than failing the build.
+ */
+function resolveSiteUrl(): string {
+  const candidates = [
+    process.env.NEXT_PUBLIC_SITE_URL,
+    // Vercel sets these without a scheme.
+    process.env.VERCEL_PROJECT_PRODUCTION_URL,
+    process.env.VERCEL_URL,
+  ];
+
+  for (const raw of candidates) {
+    const value = raw?.trim();
+    if (!value) continue;
+    const withScheme = /^https?:\/\//i.test(value) ? value : `https://${value}`;
+    try {
+      const url = new URL(withScheme);
+      if (!url.hostname) continue;
+      return url.origin;
+    } catch {
+      // Malformed value — try the next candidate rather than crashing the build.
+    }
+  }
+  return FALLBACK_SITE_URL;
+}
+
+export const SITE_URL = resolveSiteUrl();
 
 /** Absolute URL for canonicals, OG tags and JSON-LD @id values. */
 export const abs = (path: string) => `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`;
