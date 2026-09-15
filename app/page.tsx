@@ -163,7 +163,7 @@ export default function HomePage() {
       </Section>
 
       {/* Service areas */}
-      <Section tone="dark" image="/img/gallery/bath-and-shower-remodel1.webp" imageFocus="left">
+      <Section tone="dark" image="/img/gallery/shower-replacement17.webp" imageFocus="left">
         <div className="grid items-start gap-12 lg:grid-cols-2">
           <div>
             <SectionHead align="left" eyebrow="Where we work"

@@ -10,7 +10,11 @@ import { Phone, Clock, MapPin } from './Icons';
  */
 export default function SidebarQuoteCard({ currentPath }: { currentPath?: string }) {
   return (
-    <aside className="space-y-6 lg:sticky lg:top-24">
+        // Sticky offset must clear the FULL header (2.5rem utility bar +
+    // 6rem main bar = 8.5rem on lg+), or the header overlaps the top of
+    // this card as the page scrolls. top-24 (6rem) was short even before
+    // the header grew, and more so after.
+    <aside className="space-y-6 lg:sticky lg:top-[8.5rem]">
       {/* Mascot lives OUTSIDE the card so it peeks over the top edge as in the
           design. Inside, the card's overflow-hidden clipped it and it landed
           on the heading. */}

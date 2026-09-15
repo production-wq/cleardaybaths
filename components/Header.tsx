@@ -30,36 +30,37 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-40">
-      {/* Utility bar */}
-      <div className="on-dark hidden bg-forest-900 text-white/85 lg:block">
+      {/* Utility bar — branded teal, matching the live site's mint/teal strip
+          rather than the near-black bar this had before. */}
+      <div className="hidden bg-teal text-white lg:block">
         <div className="container-page flex h-10 items-center justify-between text-xs">
           <nav aria-label="Utility" className="flex items-center gap-5">
             {utilityNav.map((l) => (
-              <Link key={l.href} href={l.href} className="hover:text-white">{l.label}</Link>
+              <Link key={l.href} href={l.href} className="hover:text-mint">{l.label}</Link>
             ))}
           </nav>
           <div className="flex items-center gap-4">
-            <a href={business.phone.href} className="flex items-center gap-1.5 font-semibold text-white hover:text-sage">
+            <a href={business.phone.href} className="flex items-center gap-1.5 font-semibold hover:text-mint">
               <Phone width={14} height={14} /> {business.phone.display}
             </a>
-            <span className="h-3 w-px bg-white/20" />
-            <a href={business.social.facebook} target="_blank" rel="noreferrer noopener" aria-label="Facebook" className="hover:text-sage"><Facebook /></a>
-            <a href={business.social.instagram} target="_blank" rel="noreferrer noopener" aria-label="Instagram" className="hover:text-sage"><Instagram /></a>
+            <span className="h-3 w-px bg-white/30" />
+            <a href={business.social.facebook} target="_blank" rel="noreferrer noopener" aria-label="Facebook" className="hover:text-mint"><Facebook /></a>
+            <a href={business.social.instagram} target="_blank" rel="noreferrer noopener" aria-label="Instagram" className="hover:text-mint"><Instagram /></a>
           </div>
         </div>
       </div>
 
       {/* Main bar */}
       <div className={`transition-colors duration-200 ${scrolled ? 'bg-white shadow-sm' : 'bg-white lg:bg-white/95 lg:backdrop-blur'}`}>
-        <div className="container-page flex h-[4.5rem] items-center justify-between gap-4">
+        <div className="container-page flex h-24 items-center justify-between gap-4">
           <Logo />
 
-          <nav aria-label="Primary" className="hidden items-center gap-1 lg:flex">
+          <nav aria-label="Primary" className="hidden items-center gap-0.5 lg:flex">
             {primaryNav.map((item) => (
               <div key={item.href} className="group relative">
                 <Link
                   href={item.href}
-                  className="flex items-center gap-1 rounded-full px-3 py-2 text-sm font-semibold text-ink/80 hover:bg-mint/60 hover:text-ink"
+                  className="flex items-center gap-1 whitespace-nowrap rounded-full px-3 py-2 text-sm font-bold uppercase text-ink hover:bg-mint/60 hover:text-teal"
                 >
                   {item.label}
                   {item.children && <ChevronDown className="transition-transform group-hover:rotate-180" />}
@@ -82,10 +83,10 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-2">
-            <a href={business.phone.href} className="hidden items-center gap-1.5 text-sm font-bold text-ink xl:flex">
-              <Phone width={16} height={16} className="text-teal" /> {business.phone.display}
+            <a href={business.phone.href} className="hidden items-center gap-2 whitespace-nowrap text-base font-bold text-ink xl:flex">
+              <Phone width={18} height={18} className="text-teal" /> {business.phone.display}
             </a>
-            <Link href="/get-quote/" className="btn-primary hidden text-xs sm:inline-flex">Get Free Quote</Link>
+            <Link href="/get-quote/" className="btn-primary hidden whitespace-nowrap text-xs sm:inline-flex">Get Free Quote</Link>
             <button
               type="button"
               onClick={() => setOpen((v) => !v)}
@@ -104,7 +105,7 @@ export default function Header() {
       <div
         id="mobile-nav"
         hidden={!open}
-        className="max-h-[calc(100dvh-4.5rem)] overflow-y-auto border-t border-forest-900/10 bg-white lg:hidden"
+        className="max-h-[calc(100dvh-6rem)] overflow-y-auto border-t border-forest-900/10 bg-white lg:hidden"
       >
         <nav aria-label="Mobile" className="container-page py-4">
           {primaryNav.map((item) => (

@@ -120,7 +120,7 @@ export default function ContentPage({
         <AdvantageGrid />
       </Section>
 
-      <Section tone="dark" image="/img/gallery/bath-and-shower-remodel1.webp" imageFocus="left">
+      <Section tone="dark" image="/img/gallery/shower-replacement17.webp" imageFocus="left">
         <SectionHead align="left" eyebrow="Where we work"
                      title="Serving Northern Virginia" accent="& Maryland" />
         <CityChips limit={14} tone="dark" />
