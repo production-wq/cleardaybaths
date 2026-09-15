@@ -3,33 +3,31 @@ import Link from 'next/link';
 import { business } from '@/lib/business';
 
 /**
- * Header lockup: the droplet mark as an image plus the wordmark as live text.
- * The source logo is a stacked lockup whose own wordmark is illegible below
- * ~80px, so at header scale the mark carries the brand and the text is real
- * text — crisper, selectable, and readable to screen readers.
+ * Header mark: the full droplet lockup image alone — no separate live-text
+ * wordmark alongside it.
  *
- * Sized to match the live site's header, where the logo is clearly the
- * largest single element in the bar rather than sitting level with the nav.
+ * That used to be two elements (image + a "Clear Day / Bath Solutions" text
+ * span) because the image's own baked-in wordmark goes illegible below
+ * ~80px. But the live text span didn't reserve a fixed width, so at header
+ * widths tight enough to matter — most of them, once the nav is also
+ * competing for space — it wrapped mid-word instead of just shrinking,
+ * which read as broken on desktop and cramped on mobile.
+ *
+ * Sized tall enough (h-20) that the image's own wordmark stays legible now
+ * that it's carrying the brand alone. The accessible name lives on the
+ * Link's aria-label, so the image itself stays decorative (alt="").
  */
-export default function Logo({ onDark = false, className = '' }: { onDark?: boolean; className?: string }) {
+export default function Logo({ className = '' }: { className?: string }) {
   return (
-    <Link href="/" className={`group flex items-center gap-3 ${className}`} aria-label={`${business.name} — home`}>
+    <Link href="/" className={`flex items-center ${className}`} aria-label={`${business.name} — home`}>
       <Image
         src="/img/brand/logo.png"
         alt=""
         width={620}
         height={828}
         priority
-        className="h-16 w-auto shrink-0"
+        className="h-20 w-auto shrink-0"
       />
-      <span className="leading-none">
-        <span className={`block font-display text-2xl font-bold tracking-tight ${onDark ? 'text-white' : 'text-ink'}`}>
-          Clear Day
-        </span>
-        <span className={`mt-1 block text-xs font-semibold uppercase tracking-[0.2em] ${onDark ? 'text-sage' : 'text-greige'}`}>
-          Bath Solutions
-        </span>
-      </span>
     </Link>
   );
 }
