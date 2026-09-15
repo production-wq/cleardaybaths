@@ -2,7 +2,7 @@
   "name": "cleardaybaths",
   "version": "1.0.0",
   "private": true,
-  "description": "Clear Day Bath Solutions \u2014 bathroom remodeling, Northern Virginia & Maryland. Next.js rebuild of cleardaybaths.com.",
+  "description": "Clear Day Bath Solutions — bathroom remodeling, Northern Virginia & Maryland. Next.js rebuild of cleardaybaths.com.",
   "engines": {
     "node": ">=22"
   },
@@ -23,7 +23,7 @@
     "check:site-url": "tsx scripts/check-site-url.ts"
   },
   "dependencies": {
-    "next": "15.5.4",
+    "next": "15.5.25",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "server-only": "0.0.1",

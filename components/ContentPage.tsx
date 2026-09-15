@@ -47,36 +47,53 @@ export default function ContentPage({
 
       <Section tone="cream">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1.9fr)_minmax(0,1fr)]">
-          <div className="prose-cd">
-            {intro.map((p, i) => (
-              <p key={i} className={i === 0 ? 'text-lg leading-relaxed text-ink/85' : ''}>{p}</p>
-            ))}
+          <div>
+            {/*
+             * `.prose-cd :where(a)` (below) styles every link inside this
+             * wrapper as teal-and-underlined for readable body copy — but
+             * `:where()` carries zero specificity, so on a tie it wins
+             * purely by appearing after `.btn-primary` in the stylesheet.
+             * That silently painted this card's Get Free Quote button
+             * teal-on-teal: invisible text, not just low-contrast.
+             * `not-prose` looked like the intended escape hatch but does
+             * nothing here — it's a Tailwind Typography plugin convention
+             * and that plugin was never wired up. The actual fix is
+             * structural: the CTA card is UI chrome, not flowing prose,
+             * so it now renders as a sibling outside `.prose-cd` instead
+             * of nested inside it, and can never inherit prose link
+             * styling again regardless of any future CSS reshuffling.
+             */}
+            <div className="prose-cd">
+              {intro.map((p, i) => (
+                <p key={i} className={i === 0 ? 'text-lg leading-relaxed text-ink/85' : ''}>{p}</p>
+              ))}
 
-            {highlights.length > 0 && (
-              <ul className="not-prose my-8 space-y-3 list-none pl-0">
-                {highlights.map((h) => (
-                  <li key={h.title} className="flex gap-3 rounded-card bg-mint/50 p-4">
-                    <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-teal text-white">
-                      <Check width={14} height={14} />
-                    </span>
-                    <p className="text-sm leading-relaxed text-ink/80">
-                      <strong className="font-display text-ink">{h.title}.</strong> {h.body}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            )}
+              {highlights.length > 0 && (
+                <ul className="not-prose my-8 space-y-3 list-none pl-0">
+                  {highlights.map((h) => (
+                    <li key={h.title} className="flex gap-3 rounded-card bg-mint/50 p-4">
+                      <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-teal text-white">
+                        <Check width={14} height={14} />
+                      </span>
+                      <p className="text-sm leading-relaxed text-ink/80">
+                        <strong className="font-display text-ink">{h.title}.</strong> {h.body}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              )}
 
-            {sections.map((s) => (
-              <section key={s.h}>
-                <h2>{s.h}</h2>
-                {s.p.map((p, i) => <p key={i}>{p}</p>)}
-              </section>
-            ))}
+              {sections.map((s) => (
+                <section key={s.h}>
+                  <h2>{s.h}</h2>
+                  {s.p.map((p, i) => <p key={i}>{p}</p>)}
+                </section>
+              ))}
 
-            {children}
+              {children}
+            </div>
 
-            <div className="not-prose mt-10 rounded-panel bg-mint p-7">
+            <div className="mt-10 rounded-panel bg-mint p-7">
               <h2 className="font-display text-xl font-bold text-ink">Ready to get started?</h2>
               <p className="mt-2 text-sm text-ink/75">
                 Free in-home measure, written price, no obligation to book.

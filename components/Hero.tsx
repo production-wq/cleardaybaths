@@ -35,15 +35,33 @@ export default function Hero({
          * sits in the same top-right corner, clear of the centred text
          * column below it. z-10 keeps it above the photo's gradient scrim
          * so it doesn't wash out against the darkest part of the overlay.
+         *
+         * The source art is 420x700 (3:5), not square — declaring it as
+         * 420x420 forced a 1:1 box onto a taller image, which the browser
+         * resolved by squashing it: proportions read wrong and the resample
+         * softened fine detail, which is what looked "blurry" and "not
+         * blended." Correct intrinsic size fixes both at once.
+         *
+         * A soft blurred ellipse sits beneath its feet as a contact shadow,
+         * and the harsh drop-shadow-2xl (a flat-UI shadow, not a believable
+         * one) is replaced with a gentler, more diffused shadow — together
+         * these ground it in the photo instead of reading as a sticker
+         * pasted flat on top of it.
          */}
-        <Image
-          src="/img/mascot/mascot-4.webp"
-          alt=""
-          aria-hidden
-          width={420}
-          height={420}
-          className="pointer-events-none absolute -top-4 right-6 z-10 hidden w-40 select-none drop-shadow-2xl md:block lg:w-52 xl:right-10"
-        />
+        <div className="pointer-events-none absolute -top-2 right-6 z-10 hidden md:block xl:right-10">
+          <Image
+            src="/img/mascot/mascot-4.webp"
+            alt=""
+            aria-hidden
+            width={420}
+            height={700}
+            className="relative w-36 select-none drop-shadow-[0_12px_20px_rgba(13,27,23,.45)] lg:w-44"
+          />
+          <span
+            aria-hidden
+            className="absolute -bottom-2 left-1/2 h-4 w-24 -translate-x-1/2 rounded-full bg-forest-950/40 blur-md lg:w-28"
+          />
+        </div>
 
         <div className={`container-page relative z-10 py-20 sm:py-24 lg:py-32 ${centred ? 'text-center' : ''}`}>
           <div className={centred ? 'mx-auto max-w-3xl' : 'max-w-2xl'}>
