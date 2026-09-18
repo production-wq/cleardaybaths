@@ -31,8 +31,14 @@ const EXCLUDE_FROM_SITE = new Set([
   '/img/gallery/bath-and-shower-remodel16.webp',   // two children in tub
   '/img/gallery/bath-and-shower-remodel43.webp',   // child in tub, swimsuit
   '/img/gallery/bath-and-shower-remodel89.webp',   // two children in tub
-  // Stock / off-brand photography
+  '/img/gallery/bath-and-shower-remodel81.webp',   // shirtless child in tub, goggles
+  // Stock / off-brand photography — models, or manufacturer ad creative
   '/img/gallery/bath-and-shower-remodel27.webp',   // adult, bubble-bath glamour shot
+  '/img/gallery/bath-and-shower-remodel17.webp',   // stock model blow-drying hair
+  '/img/gallery/bath-and-shower-remodel76.webp',   // shirtless child wrapped in towel
+  '/img/gallery/bath-and-shower-remodel7.webp',    // stock model reading on tub edge
+  '/img/gallery/bath-and-shower-remodel23.webp',   // stock model in robe at tub edge
+  '/img/gallery/bath-and-shower-remodel54.webp',   // manufacturer ad creative — baked-in headline + "BCI ACRYLIC" logo overlay
   '/img/gallery/bath-and-shower-remodel44.webp',   // adult, bubble-bath glamour shot
   '/img/gallery/shower-replacement7.webp',         // stock model, maroon towel (pose 1)
   '/img/gallery/shower-replacement22.webp',        // stock model, maroon towel (pose 2)

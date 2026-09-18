@@ -55,8 +55,8 @@ export default function ContentPage({
             {highlights.length > 0 && (
               <ul className="not-prose my-8 space-y-3 list-none pl-0">
                 {highlights.map((h) => (
-                  <li key={h.title} className="flex gap-3 rounded-card bg-mint/50 p-4">
-                    <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-teal text-white">
+                  <li key={h.title} className="flex items-start gap-3 rounded-card bg-mint/50 p-4">
+                    <span className="mt-0.5 grid h-6 w-6 shrink-0 basis-6 place-items-center rounded-full bg-teal text-white">
                       <Check width={14} height={14} />
                     </span>
                     <p className="min-w-0 text-sm leading-relaxed text-ink/80">
