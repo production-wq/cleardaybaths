@@ -32,19 +32,19 @@ export default function SimplePage({ page, path }: { page: CompanyPage; path: st
                 {s.p.map((p, i) => <p key={i}>{p}</p>)}
               </section>
             ))}
-            {page.ctaButton && (
-              <div className="mt-8">
-                <a
-                  href={page.ctaButton.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block rounded-full bg-teal px-8 py-4 text-base font-semibold text-white shadow-md transition hover:bg-teal-hover"
-                >
-                  {page.ctaButton.label}
-                </a>
-              </div>
-            )}
           </div>
+          {page.ctaButton && (
+            <div className="mt-8">
+              <a
+                href={page.ctaButton.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                {page.ctaButton.label}
+              </a>
+            </div>
+          )}
           <SidebarQuoteCard />
         </div>
       </Section>

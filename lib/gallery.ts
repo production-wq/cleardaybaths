@@ -34,6 +34,11 @@ const EXCLUDE_FROM_SITE = new Set([
   // Stock / off-brand photography
   '/img/gallery/bath-and-shower-remodel27.webp',   // adult, bubble-bath glamour shot
   '/img/gallery/bath-and-shower-remodel44.webp',   // adult, bubble-bath glamour shot
+  '/img/gallery/shower-replacement7.webp',         // stock model, maroon towel (pose 1)
+  '/img/gallery/shower-replacement22.webp',        // stock model, maroon towel (pose 2)
+  '/img/gallery/shower-replacement23.webp',        // stock model, maroon towel (pose 3)
+  '/img/gallery/shower-replacement19.webp',        // stock: woman + child, no consent docs
+  '/img/gallery/shower-replacement6.webp',         // near-duplicate of shower-replacement5
   // About/team photos — not project work
   '/img/gallery/about-us1.webp',
   '/img/gallery/about-us2.webp',
