@@ -45,7 +45,7 @@ export default function HomePage() {
   return (
     <>
       <Hero
-        image="/img/gallery/bath-and-shower-remodel17.webp"
+        image="/img/gallery/shower-replacement15.webp"
         title={<>Premier Bathroom Remodeling in Northern Virginia &amp; Maryland</>}
         lead="Locally owned and dedicated to quality across the Greater DC Metro area — from tub-to-shower conversions to full custom bathrooms."
       />
@@ -120,7 +120,7 @@ export default function HomePage() {
                 <Link href="/bath-conversions/tub-to-shower-conversions/">tub-to-shower conversions</Link>,{' '}
                 <Link href="/bath-conversions/walk-in-bathtubs/">walk-in bathtubs</Link>,{' '}
                 <Link href="/bathrooms/accessible-bathroom/">accessible bathrooms</Link> and{' '}
-                <Link href="/showers/acrylic-showers/">acrylic showers</Link> across Prince William,
+                <Link href="/showers/acrylic-showers/">High Tech Polymer showers</Link> across Prince William,
                 Fairfax, Stafford, Loudoun, Frederick, Howard, Anne Arundel and Montgomery counties.
               </p>
               <p>

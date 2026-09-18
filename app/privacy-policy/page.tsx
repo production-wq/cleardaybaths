@@ -22,7 +22,7 @@ export default function Page() {
     <>
       <JsonLdScript data={graph([breadcrumbNode([{ label: 'Privacy Policy', href: path }])])} />
       <Hero eyebrow="Legal" title="Privacy Policy" align="center"
-            image="/img/gallery/bath-and-shower-remodel82.webp"
+            image="/img/gallery/shower-replacement9.webp"
             breadcrumb={<Breadcrumbs trail={[{ label: 'Privacy Policy', href: path }]} />} />
       <Section tone="cream">
         <div className="prose-cd mx-auto max-w-prose">

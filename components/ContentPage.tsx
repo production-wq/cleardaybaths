@@ -59,7 +59,7 @@ export default function ContentPage({
                     <span className="mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full bg-teal text-white">
                       <Check width={14} height={14} />
                     </span>
-                    <p className="text-sm leading-relaxed text-ink/80">
+                    <p className="min-w-0 text-sm leading-relaxed text-ink/80">
                       <strong className="font-display text-ink">{h.title}.</strong> {h.body}
                     </p>
                   </li>

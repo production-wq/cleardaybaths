@@ -21,12 +21,12 @@ export default function PhotoBackdrop({
   const scrim = {
     left:
       intensity === 'strong'
-        ? 'bg-[linear-gradient(100deg,rgba(13,27,23,.96)_0%,rgba(13,27,23,.9)_38%,rgba(21,42,37,.6)_62%,rgba(21,42,37,.28)_100%)]'
-        : 'bg-[linear-gradient(100deg,rgba(13,27,23,.93)_0%,rgba(13,27,23,.78)_40%,rgba(21,42,37,.45)_68%,rgba(21,42,37,.18)_100%)]',
+        ? 'bg-[linear-gradient(100deg,rgba(0,0,0,.9)_0%,rgba(0,0,0,.82)_38%,rgba(13,13,13,.5)_62%,rgba(13,13,13,.2)_100%)]'
+        : 'bg-[linear-gradient(100deg,rgba(0,0,0,.85)_0%,rgba(0,0,0,.65)_40%,rgba(13,13,13,.35)_68%,rgba(13,13,13,.12)_100%)]',
     center:
-      'bg-[radial-gradient(120%_100%_at_50%_45%,rgba(13,27,23,.55)_0%,rgba(13,27,23,.86)_55%,rgba(13,27,23,.96)_100%)]',
+      'bg-[radial-gradient(120%_100%_at_50%_45%,rgba(0,0,0,.45)_0%,rgba(0,0,0,.78)_55%,rgba(0,0,0,.9)_100%)]',
     bottom:
-      'bg-[linear-gradient(to_top,rgba(13,27,23,.96)_0%,rgba(13,27,23,.8)_35%,rgba(21,42,37,.4)_70%,rgba(21,42,37,.15)_100%)]',
+      'bg-[linear-gradient(to_top,rgba(0,0,0,.9)_0%,rgba(0,0,0,.7)_35%,rgba(13,13,13,.3)_70%,rgba(13,13,13,.1)_100%)]',
   }[focus];
 
   return (
@@ -40,7 +40,6 @@ export default function PhotoBackdrop({
         className="object-cover"
       />
       <div className={`absolute inset-0 ${scrim}`} />
-      <div className="absolute inset-0 bg-stripe-dark opacity-60" />
     </div>
   );
 }

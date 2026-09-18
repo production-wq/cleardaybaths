@@ -57,14 +57,14 @@ export const serviceCopy: Record<string, ServiceCopy> = {
 
   showers: S({
     h1: 'Shower Remodeling & Installation',
-    summary: 'Acrylic and tiled showers, enclosures, surrounds and replacements, sized to your opening rather than forced from a stock kit.',
+    summary: 'High Tech Polymer and tiled showers, enclosures, surrounds and replacements, sized to your opening rather than forced from a stock kit.',
     intro: [
       'Most shower problems are not cosmetic. Grout that will not come clean, a pan that holds water, a door that leaks at the jamb — these are symptoms of how the shower was built, not how it has been maintained.',
       'We replace showers across Northern Virginia and Maryland, and we size the base and surround to your actual opening. A unit that almost fits is the reason the last one failed.',
     ],
     sections: [
-      { h: 'Acrylic or tile?', p: [
-        'Acrylic is a single moulded surface with no grout lines, which is why it cleans in minutes and stays looking new. It is the right answer for most hall baths and for anyone who does not want a weekend job keeping grout white.',
+      { h: 'High Tech Polymer or tile?', p: [
+        'High Tech Polymer is a single moulded surface with no grout lines, which is why it cleans in minutes and stays looking new. It is the right answer for most hall baths and for anyone who does not want a weekend job keeping grout white.',
         'Tile earns its place when the space is irregular, when you want a curbless entry, or when the look matters more than the maintenance. We are happy to do either and we will tell you honestly which one suits your room and your patience.',
       ] },
       { h: 'The part nobody sees', p: [
@@ -73,7 +73,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
       ] },
     ],
     highlights: [
-      { title: 'Custom acrylic showers', body: 'Moulded surfaces with no grout lines, cut to your opening. Easy to clean and hard to damage.' },
+      { title: 'Custom High Tech Polymer showers', body: 'Moulded surfaces with no grout lines, cut to your opening. Easy to clean and hard to damage.' },
       { title: 'Frameless and framed enclosures', body: 'Glass specified for the opening, with hardware that stays aligned instead of drifting out of square.' },
       { title: 'Low and zero threshold entries', body: 'Remove the step without rebuilding the room, where the floor structure allows it.' },
     ],
@@ -148,7 +148,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
 
   'bath-surrounds': S({
     h1: 'Bath Surrounds',
-    summary: 'Seamless acrylic and tiled bath surrounds that replace failing tile and stop water getting behind the wall.',
+    summary: 'Seamless High Tech Polymer and tiled bath surrounds that replace failing tile and stop water getting behind the wall.',
     intro: [
       'The surround is the wall the water hits. When it fails, it fails behind the surface, and by the time you can see the problem the substrate has usually been wet for a long time.',
       'We replace surrounds as a standalone job across Northern Virginia and Maryland, often in a day, without disturbing the rest of the bathroom.',
@@ -159,7 +159,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
         'Once water reaches the substrate the tile starts sounding hollow, the grout stays dark, and the studs behind begin to go. Regrouting at that stage seals the damage in rather than fixing it.',
       ] },
       { h: 'Seamless panels', p: [
-        'Acrylic surround panels have no joints for water to travel through and nothing to scrub. They go over a properly prepared substrate and are cut to the opening rather than pieced together.',
+        'High Tech Polymer surround panels have no joints for water to travel through and nothing to scrub. They go over a properly prepared substrate and are cut to the opening rather than pieced together.',
       ] },
     ],
     highlights: [
@@ -257,7 +257,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
 
   'replacement-bathtubs': S({
     h1: 'Replacement Bathtubs',
-    summary: 'New bathtubs fitted to the existing alcove — acrylic, soaking and standard sizes — usually without disturbing the surrounding room.',
+    summary: 'New bathtubs fitted to the existing alcove — High Tech Polymer, soaking and standard sizes — usually without disturbing the surrounding room.',
     intro: [
       'Most tub replacements are alcove swaps: the old tub out, a new one in the same opening, new surround, done. Because the drain does not move, the job stays short and the rest of the bathroom stays intact.',
       'Old cast iron is the main complication, and it is a solvable one.',
@@ -283,16 +283,16 @@ export const serviceCopy: Record<string, ServiceCopy> = {
 
   /* -------------------------------------------------------- showers ---- */
   'acrylic-showers': S({
-    h1: 'Acrylic Showers',
-    summary: 'Seamless acrylic showers with no grout lines — cut to your opening, easy to clean and hard to stain.',
+    h1: 'High Tech Polymer Showers',
+    summary: 'Seamless High Tech Polymer showers with no grout lines — cut to your opening, easy to clean and hard to stain.',
     intro: [
-      'Acrylic is the practical answer for most bathrooms. It is a single moulded surface, so there is no grout to seal, scrub or watch go black.',
-      'We cut acrylic surrounds to the actual opening rather than piecing stock panels together, which is what keeps the joints out of the wet zone.',
+      'High Tech Polymer is the practical answer for most bathrooms. It is a single moulded surface, so there is no grout to seal, scrub or watch go black.',
+      'We cut High Tech Polymer surrounds to the actual opening rather than piecing stock panels together, which is what keeps the joints out of the wet zone.',
     ],
     sections: [
-      { h: 'Why acrylic outlasts tile in a family bathroom', p: [
+      { h: 'Why High Tech Polymer outlasts tile in a family bathroom', p: [
         'Tile fails at the grout, and grout fails wherever water sits. In a bathroom used several times a day the surfaces never fully dry, which is precisely the condition grout handles worst.',
-        'Acrylic has no such weak point. It wipes down, it does not absorb, and it looks the same in year ten as in year one.',
+        'High Tech Polymer has no such weak point. It wipes down, it does not absorb, and it looks the same in year ten as in year one.',
       ] },
       { h: 'Niches, seats and bars', p: [
         'Built-in niches and seats are moulded rather than framed and tiled, so there are no horizontal grout joints to hold water. Grab bars are specified at the same time, with blocking behind.',
@@ -304,8 +304,8 @@ export const serviceCopy: Record<string, ServiceCopy> = {
       { title: 'Moulded niches and seats', body: 'Built into the surface, so there are no horizontal joints sitting in the spray.' },
     ],
     faqs: [
-      { q: 'Does acrylic look cheap compared with tile?', a: 'Modern acrylic is a long way from the yellowing plastic units people remember from the 1980s. Current finishes include convincing stone and subway-tile textures. That said, if the look is your priority rather than the maintenance, tile is still the more expressive material and we will build it.' },
-      { q: 'How do I clean an acrylic shower?', a: 'Warm water and a non-abrasive cleaner on a soft cloth. Avoid abrasive pads and anything containing acetone — those are what damage the surface. That is genuinely the whole routine.' },
+      { q: 'Does High Tech Polymer look cheap compared with tile?', a: 'Modern High Tech Polymer is a long way from the yellowing plastic units people remember from the 1980s. Current finishes include convincing stone and subway-tile textures. That said, if the look is your priority rather than the maintenance, tile is still the more expressive material and we will build it.' },
+      { q: 'How do I clean a High Tech Polymer shower?', a: 'Warm water and a non-abrasive cleaner on a soft cloth. Avoid abrasive pads and anything containing acetone — those are what damage the surface. That is genuinely the whole routine.' },
     ],
     imageCategory: 'showers',
   }),
@@ -493,7 +493,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
       ] },
     ],
     highlights: [
-      { title: 'Custom acrylic bases', body: 'Sized to your alcove and set fully bedded, so the pan cannot flex.' },
+      { title: 'Custom High Tech Polymer bases', body: 'Sized to your alcove and set fully bedded, so the pan cannot flex.' },
       { title: 'Grab bars into blocking', body: 'Anchored into framing, not tile — a bar that pulls out of the wall is worse than no bar.' },
       { title: 'One or two days, typically', body: 'Reusing the existing drain is what keeps the timeline short and the room intact.' },
     ],

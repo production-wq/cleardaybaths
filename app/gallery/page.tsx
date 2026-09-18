@@ -27,7 +27,7 @@ export default function Page() {
         title="Project gallery"
         lead="Real Clear Day installations across Northern Virginia, Maryland and the DC metro."
         align="center"
-        image="/img/gallery/bath-and-shower-remodel76.webp"
+        image="/img/gallery/shower-replacement13.webp"
         breadcrumb={<Breadcrumbs trail={[{ label: 'Gallery', href: path }]} />}
       />
 

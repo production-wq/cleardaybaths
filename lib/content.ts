@@ -16,7 +16,7 @@ export const advantages = [
 export const marqueeItems = [
   'Bathroom Renovations', 'Tub-to-Shower Conversions', 'Walk-In Showers',
   'Walk-In Bathtubs', 'Accessible Bathrooms', 'One-Day Bath', 'Shower Enclosures',
-  'Acrylic Showers', 'Bath Surrounds', 'Replacement Bathtubs',
+  'High Tech Polymer Showers', 'Bath Surrounds', 'Replacement Bathtubs',
 ] as const;
 
 export const quoteBenefits = [

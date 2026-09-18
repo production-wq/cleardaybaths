@@ -10,13 +10,13 @@ export default {
     extend: {
       colors: {
         ink: { DEFAULT: '#14211D', soft: '#1E3A33' },   // body copy · dark sections
-        forest: {                                        // hero / footer ground
+        forest: {                                        // hero / footer ground — matched to the live site's black header/footer
           50: '#EFF5F2', 100: '#D9E9E2', 200: '#B4D3C7', 300: '#8FBCAB',
           400: '#63A18C', 500: '#3E8C74', 600: '#317059', 700: '#265646',
-          800: '#1E3A33', 900: '#152A25', 950: '#0D1B17',
+          800: '#181818', 900: '#0D0D0D', 950: '#000000',
         },
-        teal: { DEFAULT: '#61A591', hover: '#4E8F7C' },  // primary CTA + links
-        sage: '#7FB9A6',
+        teal: { DEFAULT: '#61A591', hover: '#4E8F7C' },  // primary CTA + links — sampled from the live site
+        sage: '#79BAB4',                                 // secondary accent band, sampled from the live site
         mint: '#D9E9E2',                                 // alt section ground
         cream: '#F4F7F5',
         greige: '#8A8F94',                               // logo wordmark sub-label

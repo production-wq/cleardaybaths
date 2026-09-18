@@ -5,7 +5,7 @@ import { ArrowRight } from './Icons';
 
 const BLURB: Record<string, string> = {
   bathrooms: 'Full renovations, accessible layouts, replacement tubs and one-day baths — designed around how your household actually uses the room.',
-  showers: 'Acrylic and tiled showers, enclosures, surrounds and replacements, sized to your opening instead of forced from a stock kit.',
+  showers: 'High Tech Polymer and tiled showers, enclosures, surrounds and replacements, sized to your opening instead of forced from a stock kit.',
   'bath-conversions': 'Swap a tub you step over for a shower you walk into, or add a walk-in or therapeutic tub without moving plumbing.',
 };
 
