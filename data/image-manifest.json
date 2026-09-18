@@ -22,7 +22,7 @@
    "height": 2048,
    "before": "/img/before-after/1-before.webp",
    "after": "/img/before-after/1-after.webp",
-   "aspectDrift": 0,
+   "aspectDrift": 0.0,
    "slider": true
   },
   {
@@ -31,7 +31,7 @@
    "height": 2048,
    "before": "/img/before-after/2-before.webp",
    "after": "/img/before-after/2-after.webp",
-   "aspectDrift": 0,
+   "aspectDrift": 0.0,
    "slider": true
   },
   {
@@ -49,7 +49,7 @@
    "height": 1440,
    "before": "/img/before-after/4-before.webp",
    "after": "/img/before-after/4-after.webp",
-   "aspectDrift": 0,
+   "aspectDrift": 0.0,
    "slider": true
   },
   {
@@ -63,21 +63,21 @@
   },
   {
    "id": "6",
-   "width": 1200,
-   "height": 1600,
+   "width": 1536,
+   "height": 2048,
    "before": "/img/before-after/6-before.webp",
    "after": "/img/before-after/6-after.webp",
-   "aspectDrift": 0,
+   "aspectDrift": 0.0,
    "slider": true
   },
   {
    "id": "mamu",
-   "width": 1280,
-   "height": 960,
+   "width": 1200,
+   "height": 1600,
    "before": "/img/before-after/mamu-before.webp",
    "after": "/img/before-after/mamu-after.webp",
-   "aspectDrift": 1.07,
-   "slider": false
+   "aspectDrift": 0.0,
+   "slider": true
   }
  ],
  "gallery": [

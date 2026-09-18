@@ -53,6 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script
           src="https://cdn.userway.org/widget.js"
           data-account="YOUR_USERWAY_ACCOUNT_ID"
+          data-position="bottom_right"
           strategy="lazyOnload"
         />
       </body>
