@@ -35,15 +35,6 @@
    "slider": true
   },
   {
-   "id": "3",
-   "width": 1536,
-   "height": 2048,
-   "before": "/img/before-after/3-before.webp",
-   "after": "/img/before-after/3-after.webp",
-   "aspectDrift": 0,
-   "slider": true
-  },
-  {
    "id": "4",
    "width": 1079,
    "height": 1440,

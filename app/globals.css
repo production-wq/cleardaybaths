@@ -47,7 +47,7 @@
   .prose-cd :where(h2) { @apply text-display-md text-ink mt-10 mb-4; }
   .prose-cd :where(h3) { @apply font-display text-xl text-ink mt-8 mb-3; }
   .prose-cd :where(p) { @apply my-4; }
-  .prose-cd :where(a) { @apply text-teal underline underline-offset-2 hover:text-teal-hover; }
+  .prose-cd a:not([class*="btn"]) { @apply text-teal underline underline-offset-2 hover:text-teal-hover; }
   .prose-cd :where(ul) { @apply my-4 space-y-2 pl-5 list-disc marker:text-sage; }
 }
 
