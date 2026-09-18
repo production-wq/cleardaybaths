@@ -15,7 +15,7 @@ export default {
           400: '#63A18C', 500: '#3E8C74', 600: '#317059', 700: '#265646',
           800: '#1E3A33', 900: '#152A25', 950: '#0D1B17',
         },
-        teal: { DEFAULT: '#3E8C74', hover: '#317059' },  // primary CTA + links
+        teal: { DEFAULT: '#61A591', hover: '#4E8F7C' },  // primary CTA + links
         sage: '#7FB9A6',
         mint: '#D9E9E2',                                 // alt section ground
         cream: '#F4F7F5',
@@ -49,7 +49,7 @@ export default {
          * they read as ambient light, not as shapes.
          */
         'stripe-dark': `
-          radial-gradient(60rem 40rem at -10% -20%, rgba(62,140,116,.35), transparent 60%),
+          radial-gradient(60rem 40rem at -10% -20%, rgba(97,165,145,.35), transparent 60%),
           radial-gradient(50rem 36rem at 110% 120%, rgba(127,185,166,.22), transparent 55%),
           repeating-linear-gradient(135deg, rgba(255,255,255,.035) 0 2px, transparent 2px 14px)
         `,
