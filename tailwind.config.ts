@@ -15,7 +15,7 @@ export default {
           400: '#63A18C', 500: '#3E8C74', 600: '#317059', 700: '#265646',
           800: '#1E3A33', 900: '#152A25', 950: '#0D1B17',
         },
-        teal: { DEFAULT: '#3E8C74', hover: '#317059' },  // primary CTA + links
+        teal: { DEFAULT: '#61A591', hover: '#4E8F7C' },  // primary CTA + links
         sage: '#7FB9A6',
         mint: '#D9E9E2',                                 // alt section ground
         cream: '#F4F7F5',

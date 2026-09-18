@@ -11,6 +11,7 @@ export interface CompanyPage {
   sections: { h: string; p: string[] }[];
   faqs?: { q: string; a: string }[];
   heroImage?: string;
+  ctaButton?: { label: string; href: string };
 }
 
 export const companyPages: Record<string, CompanyPage> = {
@@ -84,6 +85,7 @@ export const companyPages: Record<string, CompanyPage> = {
     faqs: [
       { q: 'What financing terms do you offer?', a: 'Terms depend on the provider, the amount and your circumstances, so we do not publish a rate that would be wrong for most people who read it. Your estimator will go through the current options and the actual numbers for your project at the in-home visit.' },
     ],
+    ctaButton: { label: 'Apply for Financing', href: 'https://offers.purefinancegroup.com/cleardayas' },
   },
 
   pricing: {

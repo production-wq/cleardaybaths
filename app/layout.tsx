@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Poppins, Inter } from 'next/font/google';
+import Script from 'next/script';
 import { business, SITE_URL } from '@/lib/business';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -48,6 +49,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Footer />
         <StickyCallBar />
+        {/* Accessibility widget — matches the one on the existing cleardaybaths.com site */}
+        <Script
+          src="https://cdn.userway.org/widget.js"
+          data-account="YOUR_USERWAY_ACCOUNT_ID"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );

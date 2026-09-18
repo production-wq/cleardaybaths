@@ -35,7 +35,7 @@ const EXCLUDE_FROM_SITE = new Set([
 ]);
 
 export const gallery = (manifest.gallery as GalleryImage[]).filter(
-  (g) => !EXCLUDE_FROM_SITE.has(g.src),
+  (g) => !EXCLUDE_FROM_SITE.has(g.src) && !g.source.includes('elementor/thumbs'),
 );
 export const beforeAfter = manifest.beforeAfter as BeforeAfterPair[];
 export const mascots = manifest.mascot as string[];
