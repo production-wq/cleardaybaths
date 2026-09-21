@@ -7,7 +7,7 @@
  * result can never claim a rating the reviews do not support.
  */
 import { business, abs, SITE_URL } from './business';
-import { reviews, aggregate } from './reviews';
+import type { ReviewsData } from './googleReviews';
 import type { City } from './routes';
 
 export interface JsonLd { [k: string]: unknown }
@@ -24,7 +24,7 @@ export const graph = (nodes: (JsonLd | false | null | undefined)[]): JsonLd => (
 });
 
 /** Root entity. Injected once, in the root layout. */
-export function businessNode(areaServed: City[]): JsonLd {
+export function businessNode(areaServed: City[], { reviews, aggregate }: ReviewsData): JsonLd {
   const a = business.address;
   return {
     '@type': ['HomeAndConstructionBusiness', 'GeneralContractor'],

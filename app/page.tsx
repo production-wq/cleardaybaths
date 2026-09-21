@@ -11,6 +11,7 @@ import CityChips from '@/components/CityChips';
 import BeforeAfterSlider from '@/components/BeforeAfterSlider';
 import StatsRow from '@/components/StatsRow';
 import Testimonials from '@/components/Testimonials';
+import { getReviewsData } from '@/lib/googleReviews';
 import CtaBand from '@/components/CtaBand';
 import FaqAccordion from '@/components/FaqAccordion';
 import { business } from '@/lib/business';
@@ -41,7 +42,8 @@ const EXPERTISE = [
     body: 'Most conversions finish in a day or two. We give you a real window rather than a vague morning-or-afternoon.' },
 ];
 
-export default function HomePage() {
+export default async function HomePage() {
+  const reviewsData = await getReviewsData();
   return (
     <>
       <Hero
@@ -176,7 +178,7 @@ export default function HomePage() {
           </div>
           <div className="relative">
             <Mascot n={6} width={120} className="-top-28 right-2" />
-            <div className="rounded-panel bg-white/5 p-8 ring-1 ring-white/10">
+            <div className="rounded-panel bg-white/15 p-8 shadow-lg ring-1 ring-white/25 backdrop-blur-md">
               <h3 className="font-display text-xl font-bold text-white">Not sure if you are in range?</h3>
               <p className="mt-3 text-sm text-white/70">
                 Call us and we will tell you straight away rather than sending someone on a wasted trip.
@@ -225,17 +227,19 @@ export default function HomePage() {
         </Section>
       )}
 
-      {/* Stats + reviews */}
-      <Section tone="dark">
+      {/* Stats */}
+      <Section tone="dark" image="/img/gallery/shower-replacement15.webp" imageFocus="center">
         <div className="relative">
           <Mascot n={3} width={124} className="-top-12 left-0 xl:-left-8" />
           <SectionHead title="What sets us" accent="apart" />
         </div>
-        <StatsRow />
-        <div className="mt-20">
-          <SectionHead align="left" eyebrow="What our clients say" title="Reviews &" accent="testimonials" />
-          <Testimonials />
-        </div>
+        <StatsRow aggregate={reviewsData.aggregate} />
+      </Section>
+
+      {/* Reviews */}
+      <Section tone="mint">
+        <SectionHead align="left" eyebrow="What our clients say" title="Reviews &" accent="testimonials" />
+        <Testimonials {...reviewsData} />
       </Section>
 
       {/* FAQ */}

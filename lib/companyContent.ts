@@ -11,6 +11,7 @@ export interface CompanyPage {
   sections: { h: string; p: string[] }[];
   faqs?: { q: string; a: string }[];
   heroImage?: string;
+  bannerImage?: { src: string; width: number; height: number; alt: string };
   ctaButton?: { label: string; href: string };
 }
 
@@ -85,7 +86,8 @@ export const companyPages: Record<string, CompanyPage> = {
     faqs: [
       { q: 'What financing terms do you offer?', a: 'Terms depend on the provider, the amount and your circumstances, so we do not publish a rate that would be wrong for most people who read it. Your estimator will go through the current options and the actual numbers for your project at the in-home visit.' },
     ],
-    ctaButton: { label: 'Apply for Financing', href: 'https://offers.purefinancegroup.com/cleardayas' },
+    bannerImage: { src: '/img/financing/financing-banner.webp', width: 2048, height: 338, alt: 'Financing options available — flexible payment plans, financing provided by Pure Finance Group' },
+    ctaButton: { label: 'Apply for Financing', href: 'https://offers.purefinancegroup.com/clearday' },
   },
 
   pricing: {

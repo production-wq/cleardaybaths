@@ -23,16 +23,50 @@ export default function Footer() {
     .sort((a, b) => a.name.localeCompare(b.name))
     .slice(0, 8);
 
+  const mapQuery = encodeURIComponent(`${business.name} ${business.address.addressLocality}, ${business.address.addressRegion}`);
+
   return (
-    <footer className="on-dark bg-forest-950 text-white/70">
+    <footer className="on-dark bg-forest-950 text-white/80">
       <div className="container-page py-14">
         <div className="grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-6">
           <div className="sm:col-span-2 lg:col-span-2">
             <Image src="/img/brand/logo.png" alt={business.name} width={620} height={828} className="h-14 w-auto" />
-            <p className="mt-4 max-w-xs text-sm leading-relaxed">
-              {business.tagline}. Bathroom remodeling, tub-to-shower conversions and accessible
-              bathing across Northern Virginia, Maryland and the DC metro.
-            </p>
+
+            <ul className="mt-5 space-y-2.5 text-sm">
+              <li>
+                <a href={business.phone.href} data-analytics="call-click" data-location="footer"
+                   className="flex items-center gap-2 font-display text-base font-bold text-white hover:text-sage">
+                  <Phone width={16} height={16} className="shrink-0 text-sage" /> {business.phone.display}
+                </a>
+              </li>
+              <li>
+                <a href={business.phoneAlt.href} data-analytics="call-click" data-location="footer-alt"
+                   className="flex items-center gap-2 font-display text-base font-bold text-white hover:text-sage">
+                  <Phone width={16} height={16} className="shrink-0 text-sage" /> {business.phoneAlt.display}
+                </a>
+              </li>
+              <li className="flex items-center gap-2 font-semibold text-white">
+                <MapPin width={16} height={16} className="shrink-0 text-sage" />
+                {business.address.addressLocality}, {business.address.addressRegion} {business.address.addressCountry === 'US' ? 'United States' : business.address.addressCountry}
+              </li>
+            </ul>
+
+            <a
+              href={`https://maps.google.com/?q=${mapQuery}`}
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label={`${business.name} on Google Maps`}
+              className="mt-4 block w-full max-w-[260px] overflow-hidden rounded-card ring-1 ring-white/15 transition hover:ring-teal"
+            >
+              <iframe
+                src={`https://maps.google.com/maps?q=${mapQuery}&t=m&z=11&output=embed&iwloc=near`}
+                title={`Map showing ${business.name} service area`}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="h-[150px] w-full pointer-events-none"
+              />
+            </a>
+
             <div className="mt-5 flex gap-3">
               <a href={business.social.facebook} target="_blank" rel="noreferrer noopener" aria-label="Facebook"
                  className="rounded-full bg-white/10 p-2 text-white transition-colors hover:bg-teal"><Facebook width={18} height={18} /></a>
@@ -43,8 +77,8 @@ export default function Footer() {
 
           {footerNav.map((group) => (
             <nav key={group.label} aria-label={group.label}>
-              <h2 className="text-eyebrow uppercase text-sage">{group.label}</h2>
-              <ul className="mt-4 space-y-2.5 text-sm">
+              <h2 className="text-eyebrow font-bold uppercase text-sage">{group.label}</h2>
+              <ul className="mt-4 space-y-2.5 text-sm font-medium">
                 {group.children?.map((c) => (
                   <li key={c.href}><Link href={c.href} className="hover:text-white">{c.label}</Link></li>
                 ))}
@@ -53,28 +87,12 @@ export default function Footer() {
           ))}
 
           <address className="not-italic">
-            <h2 className="text-eyebrow uppercase text-sage">Contact</h2>
-            <ul className="mt-4 space-y-3 text-sm">
-              <li>
-                <a href={business.phone.href} data-analytics="call-click" data-location="footer"
-                   className="flex items-center gap-2 font-display text-base font-bold text-white hover:text-sage">
-                  <Phone width={16} height={16} className="shrink-0 text-sage" /> {business.phone.display}
-                </a>
-              </li>
-              <li>
-                <a href={business.phoneAlt.href} data-analytics="call-click" data-location="footer-alt"
-                   className="flex items-center gap-2 hover:text-white">
-                  <Phone width={16} height={16} className="shrink-0 text-sage" /> {business.phoneAlt.display}
-                </a>
-              </li>
+            <h2 className="text-eyebrow font-bold uppercase text-sage">Contact</h2>
+            <ul className="mt-4 space-y-3 text-sm font-medium">
               <li>
                 <a href={`mailto:${business.email.public}`} className="flex items-center gap-2 hover:text-white">
                   <Mail width={16} height={16} className="shrink-0 text-sage" /> {business.email.public}
                 </a>
-              </li>
-              <li className="flex items-center gap-2">
-                <MapPin width={16} height={16} className="shrink-0 text-sage" />
-                {business.address.addressLocality}, {business.address.addressRegion}
               </li>
               <li className="flex items-start gap-2">
                 <Clock width={16} height={16} className="mt-0.5 shrink-0 text-sage" /> {business.hoursDisplay}
@@ -84,8 +102,8 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-8">
-          <h2 className="text-eyebrow uppercase text-sage">Service areas</h2>
-          <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
+          <h2 className="text-eyebrow font-bold uppercase text-sage">Service areas</h2>
+          <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium">
             {featured.map((c) => (
               <Link key={c.slug} href={cityHref(c)} className="hover:text-white">
                 {c.name}, {c.state}
@@ -99,7 +117,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="container-page flex flex-col items-center justify-between gap-3 py-5 text-xs sm:flex-row">
+        <div className="container-page flex flex-col items-center justify-between gap-3 py-5 text-xs font-medium sm:flex-row">
           <p>© {new Date().getFullYear()} {business.legalName}. All rights reserved.</p>
           <nav aria-label="Legal" className="flex gap-4">
             {legalNav.map((l) => <Link key={l.href} href={l.href} className="hover:text-white">{l.label}</Link>)}

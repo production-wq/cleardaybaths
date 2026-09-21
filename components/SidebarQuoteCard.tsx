@@ -16,7 +16,7 @@ export default function SidebarQuoteCard({ currentPath }: { currentPath?: string
           on the heading. */}
       <div className="relative pt-[4.5rem]">
         <Mascot n={5} width={88} className="top-0 right-3 opacity-90" />
-        <div className="on-dark relative isolate overflow-hidden rounded-panel bg-forest-900 bg-stripe-dark p-6 text-white">
+        <div className="on-dark relative isolate overflow-hidden rounded-panel bg-forest-900 p-6 text-white">
         <h2 className="relative z-10 font-display text-xl font-bold">Get a free estimate</h2>
         <p className="relative z-10 mt-2 text-sm text-white/70">
           No obligation, no pressure — just a written price after an in-home measure.

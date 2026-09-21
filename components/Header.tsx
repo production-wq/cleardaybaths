@@ -31,20 +31,20 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40">
       {/* Utility bar */}
-      <div className="on-dark hidden bg-forest-900 text-white/85 lg:block">
+      <div className="on-dark hidden bg-sage text-white lg:block">
         <div className="container-page flex h-10 items-center justify-between text-xs">
           <nav aria-label="Utility" className="flex items-center gap-5">
             {utilityNav.map((l) => (
-              <Link key={l.href} href={l.href} className="hover:text-white">{l.label}</Link>
+              <Link key={l.href} href={l.href} className="hover:text-white/75">{l.label}</Link>
             ))}
           </nav>
           <div className="flex items-center gap-4">
-            <a href={business.phone.href} className="flex items-center gap-1.5 font-semibold text-white hover:text-sage">
+            <a href={business.phone.href} className="flex items-center gap-1.5 font-semibold text-white hover:text-white/75">
               <Phone width={14} height={14} /> {business.phone.display}
             </a>
-            <span className="h-3 w-px bg-white/20" />
-            <a href={business.social.facebook} target="_blank" rel="noreferrer noopener" aria-label="Facebook" className="hover:text-sage"><Facebook /></a>
-            <a href={business.social.instagram} target="_blank" rel="noreferrer noopener" aria-label="Instagram" className="hover:text-sage"><Instagram /></a>
+            <span className="h-3 w-px bg-white/30" />
+            <a href={business.social.facebook} target="_blank" rel="noreferrer noopener" aria-label="Facebook" className="hover:text-white/75"><Facebook /></a>
+            <a href={business.social.instagram} target="_blank" rel="noreferrer noopener" aria-label="Instagram" className="hover:text-white/75"><Instagram /></a>
           </div>
         </div>
       </div>

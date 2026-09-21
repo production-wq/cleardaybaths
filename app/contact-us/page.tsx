@@ -69,7 +69,7 @@ export default function Page() {
             </ul>
           </div>
 
-          <div className="on-dark rounded-panel bg-forest-900 bg-stripe-dark p-6 sm:p-8">
+          <div className="on-dark rounded-panel bg-forest-900 p-6 sm:p-8">
             <LeadForm heading="Send us a message" />
           </div>
         </div>

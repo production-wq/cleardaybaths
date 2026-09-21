@@ -23,7 +23,7 @@ export default function Section({
   return (
     <section
       id={id}
-      className={`section relative isolate ${TONE[tone]} ${tone === 'dark' && !photo ? 'bg-stripe-dark' : ''} ${className}`}
+      className={`section relative isolate ${TONE[tone]} ${className}`}
     >
       {photo && <PhotoBackdrop src={image} focus={imageFocus} />}
       <div className="container-page relative z-10">{children}</div>

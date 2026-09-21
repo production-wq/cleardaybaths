@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Hero from './Hero';
 import Section from './Section';
 import Breadcrumbs from './Breadcrumbs';
@@ -26,6 +27,15 @@ export default function SimplePage({ page, path }: { page: CompanyPage; path: st
             {page.intro.map((p, i) => (
               <p key={i} className={i === 0 ? 'text-lg leading-relaxed text-ink/85' : ''}>{p}</p>
             ))}
+            {page.bannerImage && (
+              <Image
+                src={page.bannerImage.src}
+                width={page.bannerImage.width}
+                height={page.bannerImage.height}
+                alt={page.bannerImage.alt}
+                className="not-prose my-8 h-auto w-full rounded-card"
+              />
+            )}
             {page.sections.map((s) => (
               <section key={s.h}>
                 <h2>{s.h}</h2>

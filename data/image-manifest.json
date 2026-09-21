@@ -49,8 +49,8 @@
    "height": 2048,
    "before": "/img/before-after/5-before.webp",
    "after": "/img/before-after/5-after.webp",
-   "aspectDrift": 1.07,
-   "slider": false
+   "aspectDrift": 0.0,
+   "slider": true
   },
   {
    "id": "6",

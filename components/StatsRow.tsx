@@ -1,25 +1,31 @@
-import { aggregate } from '@/lib/reviews';
+import Link from 'next/link';
 import statsData from '@/data/stats.json';
+import type { ReviewsData } from '@/lib/googleReviews';
 
 /**
- * Only renders figures we can stand behind.
- *
- * The live site's counters read 0%/0+/0/5 and the two design artifacts disagree
- * with each other (96%/10+/5 vs 64%/7+/3), so those numbers are invented. Any
- * stat whose value is null is dropped rather than filled with a guess; the
- * rating and review count are computed from data/reviews.json.
+ * Matches the live site's "What Sets Us Apart" bar — each stat carries its
+ * own CTA rather than sitting as an inert number. Only renders figures we can
+ * stand behind: satisfaction/experience are dropped if ever unset again
+ * (data/stats.json), and the rating comes from the live Google feed so it can
+ * never claim a score the reviews don't support.
  */
-export default function StatsRow() {
-  const configured = (statsData.stats as { key: string; label: string; value: unknown; suffix: string }[])
-    .filter((s) => s.value !== null)
-    .map((s) => ({ label: s.label, value: String(s.value), suffix: s.suffix }));
+export default function StatsRow({ aggregate }: { aggregate: ReviewsData['aggregate'] }) {
+  const configured = (statsData.stats as { key: string; label: string; value: number | null; suffix: string }[])
+    .filter((s): s is { key: string; label: string; value: number; suffix: string } => s.value !== null);
+
+  const ctaByKey: Record<string, { label: string; href: string }> = {
+    satisfaction: { label: 'About Us', href: '/about-us/' },
+    experience: { label: 'Contact Us', href: '/contact-us/' },
+  };
 
   const stats = [
-    ...configured,
+    ...configured.map((s) => ({ label: s.label, value: String(s.value), suffix: s.suffix, cta: ctaByKey[s.key] })),
     ...(aggregate.value !== null
-      ? [{ label: 'Rated services', value: aggregate.value.toFixed(1), suffix: '/5' }] : []),
-    ...(aggregate.count
-      ? [{ label: aggregate.count === 1 ? 'Verified review' : 'Verified reviews', value: String(aggregate.count), suffix: '' }] : []),
+      ? [{
+          label: 'Rated services', value: aggregate.value % 1 === 0 ? String(aggregate.value) : aggregate.value.toFixed(1),
+          suffix: '/5', cta: { label: 'Reviews', href: '/reviews/' },
+        }]
+      : []),
   ];
 
   if (!stats.length) return null;
@@ -34,6 +40,11 @@ export default function StatsRow() {
               {s.value}<span className="text-sage">{s.suffix}</span>
             </span>
             <span className="mt-2 block text-eyebrow uppercase text-white/60">{s.label}</span>
+            {s.cta && (
+              <Link href={s.cta.href} className="btn-outline mt-4 border-white/40 bg-white/15 backdrop-blur-md">
+                {s.cta.label}
+              </Link>
+            )}
           </dd>
         </div>
       ))}

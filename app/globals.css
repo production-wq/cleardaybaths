@@ -68,6 +68,11 @@
 .marquee-track:hover { animation-play-state: paused; }
 @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
 
+/* Hides the scrollbar on the review carousel track — it's swipe/arrow-driven,
+   a visible scrollbar there reads as a layout glitch, not a control. */
+.scrollbar-none { scrollbar-width: none; -ms-overflow-style: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+
 /* UserWay accessibility widget — force bottom-right position */
 .uwy,
 .userway_buttons_wrapper {

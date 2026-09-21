@@ -15,6 +15,7 @@ import Mascot from './Mascot';
 import { business } from '@/lib/business';
 import { Phone, ArrowRight, Check } from './Icons';
 import type { GalleryImage } from '@/lib/gallery';
+import { getReviewsData } from '@/lib/googleReviews';
 
 export interface ContentBlock { h: string; p: string[] }
 export interface Highlight { title: string; body: string }
@@ -23,7 +24,7 @@ export interface Highlight { title: string; body: string }
  * The service-page layout from the second design artifact, shared by service,
  * city and city+service pages so all 235 pages stay visually consistent.
  */
-export default function ContentPage({
+export default async function ContentPage({
   eyebrow, h1, lead, heroImage, crumbs, currentPath,
   intro, sections, highlights = [], faqs, faqTitle = 'Frequently asked', gallery = [],
   children,
@@ -34,6 +35,7 @@ export default function ContentPage({
   faqs: Faq[]; faqTitle?: string; gallery?: GalleryImage[];
   children?: React.ReactNode;
 }) {
+  const reviewsData = await getReviewsData();
   return (
     <>
       <Hero
@@ -55,8 +57,8 @@ export default function ContentPage({
             {highlights.length > 0 && (
               <ul className="not-prose my-8 space-y-3 list-none pl-0">
                 {highlights.map((h) => (
-                  <li key={h.title} className="flex items-start gap-3 rounded-card bg-mint/50 p-4">
-                    <span className="mt-0.5 grid h-6 w-6 shrink-0 basis-6 place-items-center rounded-full bg-teal text-white">
+                  <li key={h.title} className="flex items-center gap-3 rounded-card bg-mint/50 p-4">
+                    <span className="grid h-6 w-6 shrink-0 basis-6 place-items-center rounded-full bg-teal text-white">
                       <Check width={14} height={14} />
                     </span>
                     <p className="min-w-0 text-sm leading-relaxed text-ink/80">
@@ -120,22 +122,23 @@ export default function ContentPage({
         <AdvantageGrid />
       </Section>
 
-      <Section tone="dark" image="/img/gallery/bath-and-shower-remodel1.webp" imageFocus="left">
+      <Section tone="dark">
         <SectionHead align="left" eyebrow="Where we work"
                      title="Serving Northern Virginia" accent="& Maryland" />
         <CityChips limit={14} tone="dark" />
       </Section>
 
-      <Section tone="dark">
+      <Section tone="dark" image="/img/gallery/shower-replacement15.webp" imageFocus="center">
         <div className="relative">
           <Mascot n={3} width={120} className="-top-12 left-0 xl:-left-8" />
           <SectionHead title="What sets us" accent="apart" />
         </div>
-        <StatsRow />
-        <div className="mt-20">
-          <SectionHead align="left" eyebrow="What our clients say" title="Reviews &" accent="testimonials" />
-          <Testimonials />
-        </div>
+        <StatsRow aggregate={reviewsData.aggregate} />
+      </Section>
+
+      <Section tone="mint">
+        <SectionHead align="left" eyebrow="What our clients say" title="Reviews &" accent="testimonials" />
+        <Testimonials {...reviewsData} />
       </Section>
 
       {faqs.length > 0 && (
