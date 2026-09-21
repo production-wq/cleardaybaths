@@ -18,7 +18,7 @@ export const metadata: Metadata = meta({
 });
 
 export default async function Page() {
-  const { reviews, aggregate } = await getReviewsData();
+  const { reviews, aggregate, reviewUrl } = await getReviewsData();
   return (
     <>
       {/* No Review schema here — the root entity in the layout already carries
@@ -34,13 +34,10 @@ export default async function Page() {
       />
 
       <Section tone="cream">
-        {aggregate.count > 0 && (
-          <p className="text-center text-sm font-semibold text-ink/60">
-            {aggregate.count} Google {aggregate.count === 1 ? 'review' : 'reviews'} from real customers
-          </p>
-        )}
+        <SectionHead eyebrow="What our clients say" title="Reviews &" accent="testimonials"
+                     lead={aggregate.count > 0 ? `${aggregate.count} Google ${aggregate.count === 1 ? 'review' : 'reviews'}` : undefined} />
 
-        <ul className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {reviews.map((r) => (
             <li key={r.id}>
               <ReviewCard review={r} />
@@ -52,6 +49,13 @@ export default async function Page() {
       <Section tone="mint">
         <SectionHead title="Worked with us?" accent="Tell us how it went"
                      lead="Reviews are collected and verified directly from customers." />
+        {reviewUrl && (
+          <div className="mt-8 text-center">
+            <a href={reviewUrl} target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Leave a review
+            </a>
+          </div>
+        )}
       </Section>
 
       <CtaBand />

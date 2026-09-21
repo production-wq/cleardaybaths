@@ -45,11 +45,11 @@ export default function Hero({
       {breadcrumb}
 
       {/* Trust strip */}
-      <div className="on-dark border-t border-white/10 bg-forest-800 text-white">
+      <div className="bg-teal text-white">
         <ul className="container-page grid gap-x-8 gap-y-3 py-5 sm:grid-cols-2 lg:grid-cols-4">
           {advantages.map((a) => (
             <li key={a.key} className="flex items-center gap-2.5 text-sm font-semibold">
-              <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-teal">
+              <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-ink">
                 <Check width={14} height={14} />
               </span>
               {a.title}

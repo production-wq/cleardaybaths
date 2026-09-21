@@ -89,7 +89,7 @@ export function ReviewCard({ review }: { review: Review }) {
   );
 }
 
-export default function Testimonials({ reviews, aggregate }: ReviewsData) {
+export default function Testimonials({ reviews, aggregate, reviewUrl }: ReviewsData) {
   const track = useRef<HTMLDivElement>(null);
   const scroll = (dir: 1 | -1) => {
     const el = track.current;
@@ -103,7 +103,7 @@ export default function Testimonials({ reviews, aggregate }: ReviewsData) {
     <div className="mt-12">
       {aggregate.count > 0 && (
         <p className="text-sm font-semibold text-ink/60">
-          {aggregate.count} Google {aggregate.count === 1 ? 'review' : 'reviews'} from real customers
+          {aggregate.count} Google {aggregate.count === 1 ? 'review' : 'reviews'}
         </p>
       )}
 
@@ -115,23 +115,35 @@ export default function Testimonials({ reviews, aggregate }: ReviewsData) {
           {reviews.map((r) => <ReviewCard key={r.id} review={r} />)}
         </div>
 
-        <div className="mt-6 flex justify-end gap-2">
-          <button
-            type="button"
-            onClick={() => scroll(-1)}
-            aria-label="Previous reviews"
-            className="grid h-11 w-11 place-items-center rounded-full bg-teal/15 text-ink transition hover:bg-teal/25"
-          >
-            <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="m15 6-6 6 6 6" /></svg>
-          </button>
-          <button
-            type="button"
-            onClick={() => scroll(1)}
-            aria-label="Next reviews"
-            className="grid h-11 w-11 place-items-center rounded-full bg-teal/15 text-ink transition hover:bg-teal/25"
-          >
-            <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="m9 6 6 6-6 6" /></svg>
-          </button>
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-3">
+          {reviewUrl && (
+            <a
+              href={reviewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline border-teal/30 text-teal hover:bg-teal/10"
+            >
+              Leave a review
+            </a>
+          )}
+          <div className="ml-auto flex gap-2">
+            <button
+              type="button"
+              onClick={() => scroll(-1)}
+              aria-label="Previous reviews"
+              className="grid h-11 w-11 place-items-center rounded-full bg-teal/15 text-ink transition hover:bg-teal/25"
+            >
+              <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="m15 6-6 6 6 6" /></svg>
+            </button>
+            <button
+              type="button"
+              onClick={() => scroll(1)}
+              aria-label="Next reviews"
+              className="grid h-11 w-11 place-items-center rounded-full bg-teal/15 text-ink transition hover:bg-teal/25"
+            >
+              <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="m9 6 6 6-6 6" /></svg>
+            </button>
+          </div>
         </div>
       </div>
     </div>

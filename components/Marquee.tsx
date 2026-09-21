@@ -10,13 +10,13 @@ export default function Marquee({ tone = 'dark' }: { tone?: 'dark' | 'mint' }) {
   return (
     <div
       aria-hidden
-      className={`overflow-hidden py-4 ${tone === 'dark' ? 'bg-forest-800 text-white' : 'bg-mint text-forest-800'}`}
+      className={`overflow-hidden py-4 ${tone === 'dark' ? 'bg-teal text-white' : 'bg-mint text-forest-800'}`}
     >
       <div className="marquee-track">
         {items.map((item, i) => (
           <span key={i} className="flex shrink-0 items-center gap-6 px-6 font-display text-sm font-semibold uppercase tracking-wide sm:text-base">
             {item}
-            <span className={tone === 'dark' ? 'text-sage' : 'text-teal'}>✦</span>
+            <span className={tone === 'dark' ? 'text-ink' : 'text-teal'}>✦</span>
           </span>
         ))}
       </div>

@@ -10,6 +10,8 @@ export interface ReviewsData {
   aggregate: { count: number; value: number | null; best: number; worst: number };
   /** True when this came from the live Google Places API rather than the static fallback. */
   live: boolean;
+  /** Direct link to Google's "write a review" form for this business, when GOOGLE_PLACE_ID is set. */
+  reviewUrl?: string;
 }
 
 const staticReviews = data.reviews as Review[];
@@ -25,7 +27,10 @@ function computeAggregate(reviews: Review[]) {
   };
 }
 
-const staticFallback: ReviewsData = { reviews: staticReviews, aggregate: computeAggregate(staticReviews), live: false };
+/** Google's stable direct-to-review-form URL — skips the search step entirely. */
+function reviewUrlFor(placeId: string | undefined) {
+  return placeId ? `https://search.google.com/local/writereview?placeid=${placeId}` : undefined;
+}
 
 interface PlacesApiReview {
   rating?: number;
@@ -55,6 +60,10 @@ interface PlacesApiResponse {
 export async function getReviewsData(): Promise<ReviewsData> {
   const apiKey = process.env.GOOGLE_PLACES_API_KEY;
   const placeId = process.env.GOOGLE_PLACE_ID;
+  const reviewUrl = reviewUrlFor(placeId);
+  const staticFallback: ReviewsData = {
+    reviews: staticReviews, aggregate: computeAggregate(staticReviews), live: false, reviewUrl,
+  };
   if (!apiKey || !placeId) return staticFallback;
 
   try {
@@ -96,6 +105,7 @@ export async function getReviewsData(): Promise<ReviewsData> {
         worst: 1,
       },
       live: true,
+      reviewUrl,
     };
   } catch {
     return staticFallback;
