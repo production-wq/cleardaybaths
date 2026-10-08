@@ -55,7 +55,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       ? 'showers'
       : 'bath-and-shower';
   const images = pick(byCategory(category), 8, slug);
-  const hero = cityImage(city.slug)?.src ?? images[0]?.src ?? '/img/gallery/bath-and-shower-remodel1.webp';
+  const hero = cityImage(city.slug)?.src ?? images[0]?.src ?? '/img/gallery/shower-replacement13.webp';
   const faqs = [...copy.faqs, ...(faqData.general as { q: string; a: string }[])].slice(0, 6);
 
   const crumbs = [{ label: 'Service Areas', href: '/service-areas/' }, { label: copy.h1, href: path }];

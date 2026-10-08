@@ -9,7 +9,7 @@ export default function Hero({
   title,
   lead,
   align = 'left',
-  image = '/img/gallery/bath-and-shower-remodel1.webp',
+  image = '/img/gallery/shower-replacement13.webp',
   breadcrumb,
 }: {
   eyebrow?: string;

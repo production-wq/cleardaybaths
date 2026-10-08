@@ -22,7 +22,7 @@ export default function Page() {
       <Hero
         eyebrow="Free estimate"
         title="Get your free quote"
-        lead="An in-home measure, a written itemised price, and no obligation to book."
+        lead="An in-home measure, a written itemized price, and no obligation to buy."
         align="center"
         image="/img/gallery/bath-and-shower-remodel60.webp"
         breadcrumb={<Breadcrumbs trail={[{ label: 'Get a Quote', href: path }]} />}

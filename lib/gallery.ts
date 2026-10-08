@@ -45,6 +45,14 @@ const EXCLUDE_FROM_SITE = new Set([
   '/img/gallery/shower-replacement23.webp',        // stock model, maroon towel (pose 3)
   '/img/gallery/shower-replacement19.webp',        // stock: woman + child, no consent docs
   '/img/gallery/shower-replacement6.webp',         // near-duplicate of shower-replacement5
+  // Removed per client review of the AI-built site
+  '/img/gallery/bathroom-remodeling21.webp',
+  '/img/gallery/shower-replacement27.webp',
+  '/img/gallery/bath-and-shower-remodel45.webp',
+  '/img/gallery/bath-and-shower-remodel47.webp',
+  '/img/gallery/bathroom-remodeling-in-college-park-md-clear-day-bath-solutions.webp',
+  '/img/gallery/bathroom-remodeling-in-frederick-md-clear-day-bath-solutions.webp',
+  '/img/gallery/bathroom-remodeling-in-hagerstown-md-clear-day-bath-solutions.webp',
   // About/team photos — not project work
   '/img/gallery/about-us1.webp',
   '/img/gallery/about-us2.webp',

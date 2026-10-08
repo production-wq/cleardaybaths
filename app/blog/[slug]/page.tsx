@@ -59,7 +59,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         title={post.title}
         lead={formatDate(post.date)}
         align="center"
-        image={hero?.src ?? '/img/gallery/bath-and-shower-remodel1.webp'}
+        image={hero?.src ?? '/img/gallery/shower-replacement13.webp'}
         breadcrumb={<Breadcrumbs trail={crumbs} />}
       />
 

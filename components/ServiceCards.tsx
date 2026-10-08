@@ -12,7 +12,7 @@ const BLURB: Record<string, string> = {
 const HERO_IMG: Record<string, string> = {
   bathrooms: '/img/gallery/bathroom-remodeling1.webp',
   showers: '/img/gallery/shower-replacement1.webp',
-  'bath-conversions': '/img/gallery/bath-and-shower-remodel1.webp',
+  'bath-conversions': '/img/gallery/bathroom-remodeling4.webp',
 };
 
 export default function ServiceCards() {

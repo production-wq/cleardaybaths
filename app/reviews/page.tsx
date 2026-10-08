@@ -26,7 +26,7 @@ export default async function Page() {
       <JsonLdScript data={graph([breadcrumbNode([{ label: 'Reviews', href: path }])])} />
       <Hero
         eyebrow="Reviews & testimonials"
-        title="What your neighbours say"
+        title="What your neighbors say"
         lead="Feedback from homeowners across Northern Virginia and Maryland."
         align="center"
         image="/img/gallery/bathroom-remodeling16.webp"

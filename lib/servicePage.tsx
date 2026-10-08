@@ -50,7 +50,7 @@ export function ServicePage({ slug, path, hub }: { slug: string; path: string; h
         eyebrow={isHub ? 'Our services' : (parent?.title ?? 'Our services')}
         h1={copy.h1}
         lead={copy.summary}
-        heroImage={images[0]?.src ?? '/img/gallery/bath-and-shower-remodel1.webp'}
+        heroImage={images[0]?.src ?? '/img/gallery/shower-replacement13.webp'}
         crumbs={crumbs}
         currentPath={path}
         intro={copy.intro}

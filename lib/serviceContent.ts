@@ -30,7 +30,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
     h1: 'Bathroom Remodeling',
     summary: 'Full bathroom renovations across Northern Virginia and Maryland — accessible layouts, replacement tubs, surrounds and one-day baths.',
     intro: [
-      'A bathroom is the smallest room in the house and the one that punishes bad decisions hardest. Every surface is wet, every fixture is plumbed, and the space you have is the space you have. That is why we measure before we quote rather than pricing from a catalogue.',
+      'A bathroom is the smallest room in the house and the one that punishes bad decisions hardest. Every surface is wet, every fixture is plumbed, and the space you have is the space you have. That is why we measure before we quote rather than pricing from a catalog.',
       'We work across Northern Virginia and Maryland on everything from a single tub swap to a room taken back to the studs, and we will tell you when the smaller scope gets you what you actually want.',
     ],
     sections: [
@@ -64,7 +64,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
     ],
     sections: [
       { h: 'High Tech Polymer or tile?', p: [
-        'High Tech Polymer is a single moulded surface with no grout lines, which is why it cleans in minutes and stays looking new. It is the right answer for most hall baths and for anyone who does not want a weekend job keeping grout white.',
+        'High Tech Polymer is a single molded surface with no grout lines, which is why it cleans in minutes and stays looking new. It is the right answer for most hall baths and for anyone who does not want a weekend job keeping grout white.',
         'Tile earns its place when the space is irregular, when you want a curbless entry, or when the look matters more than the maintenance. We are happy to do either and we will tell you honestly which one suits your room and your patience.',
       ] },
       { h: 'The part nobody sees', p: [
@@ -73,13 +73,13 @@ export const serviceCopy: Record<string, ServiceCopy> = {
       ] },
     ],
     highlights: [
-      { title: 'Custom High Tech Polymer showers', body: 'Moulded surfaces with no grout lines, cut to your opening. Easy to clean and hard to damage.' },
+      { title: 'Custom High Tech Polymer showers', body: 'Molded surfaces with no grout lines, cut to your opening. Easy to clean and hard to damage.' },
       { title: 'Frameless and framed enclosures', body: 'Glass specified for the opening, with hardware that stays aligned instead of drifting out of square.' },
       { title: 'Low and zero threshold entries', body: 'Remove the step without rebuilding the room, where the floor structure allows it.' },
     ],
     faqs: [
       { q: 'Can you replace a shower without retiling the whole bathroom?', a: 'Yes, and most of our shower work is exactly that. The wet area is self-contained, so a surround and base can be replaced while the floor tile and vanity stay put. We protect the surfaces that are staying and match the transition at the threshold.' },
-      { q: 'Why does my grout keep going black no matter what I clean it with?', a: 'Usually because water is getting behind it. Grout is not waterproof — the membrane behind the tile is, and when that fails the grout stays permanently damp and grows mould from the back. Cleaning treats the symptom. Replacing the surround treats the cause.' },
+      { q: 'Why does my grout keep going black no matter what I clean it with?', a: 'Usually because water is getting behind it. Grout is not waterproof — the membrane behind the tile is, and when that fails the grout stays permanently damp and grows mold from the back. Cleaning treats the symptom. Replacing the surround treats the cause.' },
     ],
     imageCategory: 'showers',
   }),
@@ -123,7 +123,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
     ],
     sections: [
       { h: 'Getting in and out', p: [
-        'The threshold is the whole problem. A zero or low-threshold shower removes the step, and where the floor structure allows it we can recess the pan so there is no lip at all. Where it does not, a half-inch bevelled threshold is still a dramatic improvement on a tub wall.',
+        'The threshold is the whole problem. A zero or low-threshold shower removes the step, and where the floor structure allows it we can recess the pan so there is no lip at all. Where it does not, a half-inch beveled threshold is still a dramatic improvement on a tub wall.',
         'Door width and swing matter just as much. A 24-inch door that opens inward makes a compliant shower unusable with a walker.',
       ] },
       { h: 'Grab bars that actually hold', p: [
@@ -151,7 +151,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
     summary: 'Seamless High Tech Polymer and tiled bath surrounds that replace failing tile and stop water getting behind the wall.',
     intro: [
       'The surround is the wall the water hits. When it fails, it fails behind the surface, and by the time you can see the problem the substrate has usually been wet for a long time.',
-      'We replace surrounds as a standalone job across Northern Virginia and Maryland, often in a day, without disturbing the rest of the bathroom.',
+      'We replace surrounds as a stand-alone job across Northern Virginia and Maryland, often in a day, without disturbing the rest of the bathroom.',
     ],
     sections: [
       { h: 'Why tile surrounds fail', p: [
@@ -165,7 +165,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
     highlights: [
       { title: 'No grout lines', body: 'Seamless panels remove the maintenance problem entirely rather than postponing it.' },
       { title: 'Substrate inspected first', body: 'We look at what is behind the old surround before installing over it, and show you what we find.' },
-      { title: 'Often a single day', body: 'A standalone surround replacement rarely disturbs the flooring, vanity or fixtures.' },
+      { title: 'Often a single day', body: 'A stand-alone surround replacement rarely disturbs the flooring, vanity or fixtures.' },
     ],
     faqs: [
       { q: 'Can you install a new surround over my existing tile?', a: 'Sometimes, but we will not do it blind. If the tile is sound and flat, an overlay can be appropriate. If there is any sign that water has been getting behind it, covering the problem is the worst option available — we take it out and deal with the substrate.' },
@@ -193,7 +193,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
     highlights: [
       { title: 'Layout before finishes', body: 'We settle how the room works before choosing what it looks like — the reverse order is how bathrooms end up awkward.' },
       { title: 'Honest scope', body: 'If a conversion and new surfaces get you what you want, we will tell you that instead of selling a full renovation.' },
-      { title: 'One accountable contact', body: 'No call centre and no commissioned closer working from a price book.' },
+      { title: 'One accountable contact', body: 'No call center and no commissioned closer working from a price book.' },
     ],
     faqs: [
       { q: 'Should I move the toilet or the shower to improve the layout?', a: 'Only if the current layout genuinely does not work, because moving a drain is the single most expensive change you can make in a bathroom. Often the same problem can be solved by changing the door swing, the vanity size or the shower entry. We will price both so you can see what the move actually costs.' },
@@ -286,7 +286,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
     h1: 'High Tech Polymer Showers',
     summary: 'Seamless High Tech Polymer showers with no grout lines — cut to your opening, easy to clean and hard to stain.',
     intro: [
-      'High Tech Polymer is the practical answer for most bathrooms. It is a single moulded surface, so there is no grout to seal, scrub or watch go black.',
+      'High Tech Polymer is the practical answer for most bathrooms. It is a single molded surface, so there is no grout to seal, scrub or watch go black.',
       'We cut High Tech Polymer surrounds to the actual opening rather than piecing stock panels together, which is what keeps the joints out of the wet zone.',
     ],
     sections: [
@@ -295,13 +295,13 @@ export const serviceCopy: Record<string, ServiceCopy> = {
         'High Tech Polymer has no such weak point. It wipes down, it does not absorb, and it looks the same in year ten as in year one.',
       ] },
       { h: 'Niches, seats and bars', p: [
-        'Built-in niches and seats are moulded rather than framed and tiled, so there are no horizontal grout joints to hold water. Grab bars are specified at the same time, with blocking behind.',
+        'Built-in niches and seats are molded rather than framed and tiled, so there are no horizontal grout joints to hold water. Grab bars are specified at the same time, with blocking behind.',
       ] },
     ],
     highlights: [
-      { title: 'No grout, anywhere', body: 'A single moulded surface means nothing to seal and nothing to scrub.' },
+      { title: 'No grout, anywhere', body: 'A single molded surface means nothing to seal and nothing to scrub.' },
       { title: 'Cut to your opening', body: 'Sized to the real dimensions rather than shimmed in from a stock kit.' },
-      { title: 'Moulded niches and seats', body: 'Built into the surface, so there are no horizontal joints sitting in the spray.' },
+      { title: 'Molded niches and seats', body: 'Built into the surface, so there are no horizontal joints sitting in the spray.' },
     ],
     faqs: [
       { q: 'Does High Tech Polymer look cheap compared with tile?', a: 'Modern High Tech Polymer is a long way from the yellowing plastic units people remember from the 1980s. Current finishes include convincing stone and subway-tile textures. That said, if the look is your priority rather than the maintenance, tile is still the more expressive material and we will build it.' },
@@ -394,7 +394,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
     summary: 'Seamless shower surrounds that replace failing tile and stop water reaching the substrate behind it.',
     intro: [
       'The surround takes the direct spray, so it is the first thing to fail and the thing that does the most damage when it does.',
-      'We replace shower surrounds as a standalone job, often without touching the floor, vanity or fixtures.',
+      'We replace shower surrounds as a stand-alone job, often without touching the floor, vanity or fixtures.',
     ],
     sections: [
       { h: 'Panels versus tile', p: [
@@ -431,7 +431,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
       ] },
       { h: 'What the work involves', p: [
         'The shower base comes out, the alcove is prepared, and a tub is set and bedded on the existing drain where the rough-in allows. Surround and valve are replaced at the same time.',
-        'The main variable is the drain position — shower drains are centred, tub drains are at one end. We check that before quoting rather than discovering it mid-job.',
+        'The main variable is the drain position — shower drains are centered, tub drains are at one end. We check that before quoting rather than discovering it mid-job.',
       ] },
     ],
     highlights: [
@@ -440,7 +440,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
       { title: 'Family-practical fittings', body: 'Hand-held shower on a slide bar, and a valve that is reachable from outside the tub.' },
     ],
     faqs: [
-      { q: 'Is it harder to put a tub back than to take one out?', a: 'Slightly, because the drain usually has to move — shower drains are centred and tub drains sit at one end. It is routine work, but it is the reason a shower-to-tub conversion generally takes a little longer than the reverse.' },
+      { q: 'Is it harder to put a tub back than to take one out?', a: 'Slightly, because the drain usually has to move — shower drains are centered and tub drains sit at one end. It is routine work, but it is the reason a shower-to-tub conversion generally takes a little longer than the reverse.' },
     ],
     imageCategory: 'tubs',
   }),
@@ -489,7 +489,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
         'A low-threshold base keeps a small lip to contain water and suits most bathrooms. A barrier-free entry removes it entirely and needs the floor structure to allow the pan to be recessed — we check that before promising it.',
       ] },
       { h: 'Safety specified at the same time', p: [
-        'Grab bars into real blocking, a slip-resistant base, a fold-down or moulded seat and a hand-held shower on a slide bar. Specifying these with the base costs far less than retrofitting them later.',
+        'Grab bars into real blocking, a slip-resistant base, a fold-down or molded seat and a hand-held shower on a slide bar. Specifying these with the base costs far less than retrofitting them later.',
       ] },
     ],
     highlights: [
@@ -499,7 +499,7 @@ export const serviceCopy: Record<string, ServiceCopy> = {
     ],
     faqs: [
       { q: 'Do I lose value by removing my bathtub?', a: 'Only if it leaves the house without a tub anywhere. If there is a tub in another bathroom, converting this one is generally neutral to positive — and strongly positive if it makes the home usable for someone who is currently avoiding that bathroom.' },
-      { q: 'Can the shower be made fully barrier-free?', a: 'Sometimes. A truly zero-threshold entry needs the pan recessed into the floor structure, which depends on what is under it — joist direction and depth decide it. We check before quoting, and if it is not possible we can usually get down to a low bevelled threshold instead.' },
+      { q: 'Can the shower be made fully barrier-free?', a: 'Sometimes. A truly zero-threshold entry needs the pan recessed into the floor structure, which depends on what is under it — joist direction and depth decide it. We check before quoting, and if it is not possible we can usually get down to a low beveled threshold instead.' },
     ],
     imageCategory: 'bath-and-shower',
   }),

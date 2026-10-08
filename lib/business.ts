@@ -87,7 +87,7 @@ export const business = {
     postalCode: null as string | null,
     addressCountry: 'US',
   },
-  geo: { latitude: 38.6582, longitude: -77.2497 }, // Woodbridge, VA town centre
+  geo: { latitude: 38.6582, longitude: -77.2497 }, // Woodbridge, VA town center
 
   /** "Mon-Fri 8am-8pm; Sat-Sun 9am-4pm" — live site + export. */
   hours: [
@@ -110,7 +110,7 @@ export const business = {
   foundedYear: null as number | null,
   licenseNumber: null as string | null,
 
-  regions: ['Northern Virginia', 'Maryland', 'Greater DC Metro'],
+  regions: ['Northern Virginia', 'Maryland'],
 } as const;
 
 export type Business = typeof business;

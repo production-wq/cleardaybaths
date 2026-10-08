@@ -22,7 +22,7 @@ import { Phone, ArrowRight, Check } from '@/components/Icons';
 export const metadata: Metadata = {
   title: 'Bathroom Remodeling in Northern Virginia & Maryland',
   description:
-    'Clear Day Bath Solutions installs tub-to-shower conversions, walk-in bathtubs, accessible bathrooms and full bath remodels across Northern Virginia, Maryland and the DC metro. Locally owned. Free in-home estimates.',
+    'Clear Day Bath Solutions installs tub-to-shower conversions, walk-in bathtubs, accessible bathrooms and full bath remodels across Northern Virginia and Maryland. Locally owned. Free in-home estimates.',
   alternates: { canonical: '/' },
 };
 
@@ -49,7 +49,7 @@ export default async function HomePage() {
       <Hero
         image="/img/gallery/shower-replacement15.webp"
         title={<>Premier Bathroom Remodeling in Northern Virginia &amp; Maryland</>}
-        lead="Locally owned and dedicated to quality across the Greater DC Metro area — from tub-to-shower conversions to full custom bathrooms."
+        lead="Locally owned and dedicated to quality across Northern Virginia and Maryland — from tub-to-shower conversions to full custom bathrooms."
       />
 
       {/* Experience a CLEAR difference */}
@@ -113,7 +113,7 @@ export default async function HomePage() {
                          title="Why homeowners choose" accent="Clear Day Bath Solutions" />
             <div className="prose-cd mt-5">
               <p>
-                We are a local company, not a franchise routing you through a call centre. The person
+                We are a local company, not a franchise routing you through a call center. The person
                 who quotes your bathroom is accountable for how it turns out, and you can reach us
                 afterwards.
               </p>
@@ -148,7 +148,7 @@ export default async function HomePage() {
             )}
             <div className="absolute -bottom-6 left-6 rounded-card bg-teal px-6 py-5 text-white shadow-lg">
               <p className="font-display text-xl font-bold">Woodbridge, VA</p>
-              <p className="mt-1 text-xs text-white/80">Serving Northern Virginia,<br />Maryland &amp; the DC metro</p>
+              <p className="mt-1 text-xs text-white/80">Serving Northern Virginia<br />&amp; Maryland</p>
             </div>
           </div>
         </div>
@@ -165,11 +165,11 @@ export default async function HomePage() {
       </Section>
 
       {/* Service areas */}
-      <Section tone="dark" image="/img/gallery/bath-and-shower-remodel1.webp" imageFocus="left">
+      <Section tone="dark" image="/img/gallery/bathroom-remodeling9.webp" imageFocus="left">
         <div className="grid items-start gap-12 lg:grid-cols-2">
           <div>
             <SectionHead align="left" eyebrow="Where we work"
-                         title="Proudly serving NoVA, Maryland" accent="& the DC metro" />
+                         title="Proudly serving NoVA, Maryland" />
             <p className="mt-5 text-white/75">
               Based in Woodbridge and working across both states. Pick your city to see what we do
               there, what the housing stock is like, and what a project usually involves.

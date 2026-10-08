@@ -6,7 +6,7 @@
  * prevent that here:
  *
  *   1. Every city carries real, hand-researched facts in data/cities.json
- *      (county, neighbouring towns, and a `note` about the actual housing
+ *      (county, neighboring towns, and a `note` about the actual housing
  *      stock). Those drive the paragraphs rather than decorating them.
  *   2. Sentence frames are chosen by a hash of the city slug, so two adjacent
  *      cities do not land on the same opener.
@@ -55,7 +55,7 @@ const OPENERS = [
   (c: City, s: string) => `Clear Day Bath Solutions provides ${s} throughout ${c.name}, ${c.state} and the surrounding ${c.county} area.`,
   (c: City, s: string) => `We handle ${s} across ${c.name} and the rest of ${c.county}, working out of our base in ${business.address.addressLocality}, ${business.address.addressRegion}.`,
   (c: City, s: string) => `If you are looking at ${s} in ${c.name}, ${c.state}, we work in ${c.county} every week and can usually see the job quickly.`,
-  (c: City, s: string) => `${c.name} homeowners come to us for ${s} — we cover the whole of ${c.county} and the neighbouring communities.`,
+  (c: City, s: string) => `${c.name} homeowners come to us for ${s} — we cover the whole of ${c.county} and the neighboring communities.`,
 ];
 
 const LOCAL_FRAMES = [
@@ -96,7 +96,7 @@ export function cityHubCopy(c: City): CityCopy {
         h: `What we do in ${c.name}`,
         p: [
           `Our work in ${c.name} splits roughly three ways: conversions that swap an unused tub for a walkable shower, replacements where a surround or pan has failed, and accessibility work for people planning to stay in their homes. All three are contained to the wet area, so the rest of the bathroom generally stays untouched.`,
-          `Every job starts with an in-home measure. We look at the opening, the drain position and what the walls are likely to be hiding, and you get a written price from that rather than from a catalogue.`,
+          `Every job starts with an in-home measure. We look at the opening, the drain position and what the walls are likely to be hiding, and you get a written price from that rather than from a catalog.`,
         ],
       },
       {
@@ -110,7 +110,7 @@ export function cityHubCopy(c: City): CityCopy {
     faqs: [
       {
         q: `Do you charge for an estimate in ${c.name}?`,
-        a: `No. The in-home measure and the written price are free, and there is no obligation to book. We would rather spend an hour finding out your bathroom is not the job you thought it was than sell you the wrong scope.`,
+        a: `No. The in-home measure and the written price are free, and there is no obligation to buy. We would rather spend an hour finding out your bathroom is not the job you thought it was than sell you the wrong scope.`,
       },
       {
         q: `How quickly can you start a project in ${c.name}, ${c.state}?`,
@@ -146,11 +146,11 @@ export function cityServiceCopy(c: City, service: ServiceSlug): CityCopy {
     faqs: [
       {
         q: `How much does ${label} cost in ${c.name}?`,
-        a: `We do not publish a price, because the honest answer depends on your opening, what is behind the wall and what you choose to put in. What we can promise is a written, itemised figure after an in-home measure — not a range designed to get us in the door and revised upward later.`,
+        a: `We do not publish a price, because the honest answer depends on your opening, what is behind the wall and what you choose to put in. What we can promise is a written, itemized figure after an in-home measure — not a range designed to get us in the door and revised upward later.`,
       },
       {
         q: `Do you serve all of ${c.county}?`,
-        a: `Yes, along with the neighbouring communities. ${nearbyLine(c)} If you are unsure, call ${business.phone.display} and we will tell you straight away rather than booking a visit we cannot honour.`,
+        a: `Yes, along with the neighboring communities. ${nearbyLine(c)} If you are unsure, call ${business.phone.display} and we will tell you straight away rather than booking a visit we cannot honor.`,
       },
     ],
   };

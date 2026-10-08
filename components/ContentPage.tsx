@@ -81,7 +81,7 @@ export default async function ContentPage({
             <div className="not-prose mt-10 rounded-panel bg-mint p-7">
               <h2 className="font-display text-xl font-bold text-ink">Ready to get started?</h2>
               <p className="mt-2 text-sm text-ink/75">
-                Free in-home measure, written price, no obligation to book.
+                Free in-home measure, written price, no obligation to buy.
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
                 <Link href="/get-quote/" className="btn-primary">Get free quote <ArrowRight /></Link>

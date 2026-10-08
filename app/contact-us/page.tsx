@@ -13,7 +13,7 @@ const path = '/contact-us/';
 
 export const metadata: Metadata = meta({
   title: 'Contact Clear Day Bath Solutions',
-  description: `Call ${business.phone.display} or send a message for a free in-home bathroom remodeling estimate across Northern Virginia, Maryland and the DC metro.`,
+  description: `Call ${business.phone.display} or send a message for a free in-home bathroom remodeling estimate across Northern Virginia and Maryland.`,
   path,
 });
 
@@ -24,7 +24,7 @@ export default function Page() {
       <Hero
         eyebrow="Get in touch"
         title="Contact Clear Day"
-        lead="Free in-home measure, written pricing, no obligation to book."
+        lead="Free in-home measure, written pricing, no obligation to buy."
         align="center"
         image="/img/gallery/bath-and-shower-remodel56.webp"
         breadcrumb={<Breadcrumbs trail={[{ label: 'Contact Us', href: path }]} />}
@@ -33,7 +33,7 @@ export default function Page() {
       <Section tone="cream">
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
-            <h2 className="text-display-md">Talk to a person, not a call centre</h2>
+            <h2 className="text-display-md">Talk to a person, not a call center</h2>
             <p className="mt-4 leading-relaxed text-ink/75">
               We are locally owned and based in {business.address.addressLocality},{' '}
               {business.address.addressRegion}. Whoever picks up can answer a question about your
@@ -61,7 +61,7 @@ export default function Page() {
               <li className="flex items-center gap-3 text-ink/75">
                 <MapPin width={20} height={20} className="text-teal" />
                 {business.address.addressLocality}, {business.address.addressRegion} — serving
-                Northern Virginia, Maryland &amp; the DC metro
+                Northern Virginia &amp; Maryland
               </li>
               <li className="flex items-center gap-3 text-ink/75">
                 <Clock width={20} height={20} className="text-teal" /> {business.hoursDisplay}

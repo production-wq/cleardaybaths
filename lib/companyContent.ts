@@ -20,24 +20,24 @@ export const companyPages: Record<string, CompanyPage> = {
     h1: 'About Clear Day Bath Solutions',
     eyebrow: 'Who we are',
     title: 'About Clear Day Bath Solutions',
-    description: 'Locally owned bathroom remodelers serving Northern Virginia, Maryland and the DC metro from Woodbridge, VA.',
+    description: 'Locally owned bathroom remodelers serving Northern Virginia and Maryland from Woodbridge, VA.',
     lead: 'Locally owned, working in the counties we live in, and accountable for every job we quote.',
     heroImage: '/img/gallery/about-us1.webp',
     intro: [
-      'Clear Day Bath Solutions is a bathroom remodeling company based in Woodbridge, Virginia, working across Northern Virginia, Maryland and the greater DC metro.',
-      'We are not a franchise. There is no call centre between you and the person who quotes your bathroom, and no commissioned closer working from a national price book. That structure is the whole reason we can tell you when a smaller job will get you what you want.',
+      'Clear Day Bath Solutions is a bathroom remodeling company based in Woodbridge, Virginia, working across Northern Virginia and Maryland.',
+      'We are not a franchise. There is no call center between you and the person who quotes your bathroom, and no commissioned closer working from a national price book. That structure is the whole reason we can tell you when a smaller job will get you what you want.',
     ],
     sections: [
       { h: 'How we quote', p: [
-        'Every estimate starts with an in-home measure. We look at the opening, the drain position, the condition of what surrounds it, and what the wall is likely to be hiding. You get a written, itemised price from that visit — not a range designed to get us in the door and revised upward once the tile is off.',
+        'Every estimate starts with an in-home measure. We look at the opening, the drain position, the condition of what surrounds it, and what the wall is likely to be hiding. You get a written, itemized price from that visit — not a range designed to get us in the door and revised upward once the tile is off.',
         'If we find something behind the wall that changes the job, we show you before we cover it up. That is the moment when trust in a contractor is either earned or lost.',
       ] },
-      { h: 'What we specialise in', p: [
+      { h: 'What we specialize in', p: [
         'Wet-area work: tub-to-shower conversions, shower and surround replacement, walk-in and therapeutic tubs, and accessible bathrooms for people who intend to stay in their homes.',
         'That focus is deliberate. The wet area is where the money, the risk and the craft all sit, and it is the part of a bathroom that fails invisibly when it is done badly.',
       ] },
       { h: 'Where we work', p: [
-        'Prince William, Fairfax, Stafford, Fauquier, Loudoun and King George counties in Virginia. Frederick, Washington, Howard, Anne Arundel, Montgomery, Prince George’s and Charles counties in Maryland. Plus the District.',
+        'Prince William, Fairfax, Stafford, Fauquier, Loudoun and King George counties in Virginia. Frederick, Washington, Howard, Anne Arundel, Montgomery, Prince George’s and Charles counties in Maryland.',
         'Working the same area consistently means we know which jurisdictions pull a permit for a like-for-like swap and which do not, and what we are likely to find behind the wall in a given decade of housing.',
       ] },
     ],
@@ -106,7 +106,7 @@ export const companyPages: Record<string, CompanyPage> = {
         'Moving plumbing is the most expensive individual decision available in a bathroom. If the budget is tight, that is the first thing to leave alone.',
       ] },
       { h: 'What you get from us', p: [
-        'A free in-home measure and a written, itemised price. Not a range, not a figure that moves once work starts, and no obligation to book.',
+        'A free in-home measure and a written, itemized price. Not a range, not a figure that moves once work starts, and no obligation to buy.',
         'If we find something during the work that genuinely changes the scope, you see it and approve it before we proceed.',
       ] },
     ],

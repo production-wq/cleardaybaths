@@ -21,7 +21,7 @@ export const marqueeItems = [
 
 export const quoteBenefits = [
   'Free in-home measure and written price',
-  'No obligation and no pressure to book',
+  'No obligation and no pressure to buy',
   'Local installers who work in your county',
 ] as const;
 
