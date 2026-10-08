@@ -25,7 +25,7 @@ export default function Page() {
       <Hero
         eyebrow="Our work"
         title="Project gallery"
-        lead="Real Clear Day installations across Northern Virginia and Maryland."
+        lead="Real Clear Day installations across Northern Virginia, Maryland and the DC metro."
         align="center"
         image="/img/gallery/shower-replacement13.webp"
         breadcrumb={<Breadcrumbs trail={[{ label: 'Gallery', href: path }]} />}

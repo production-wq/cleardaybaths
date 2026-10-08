@@ -13,7 +13,7 @@ const path = '/contact-us/';
 
 export const metadata: Metadata = meta({
   title: 'Contact Clear Day Bath Solutions',
-  description: `Call ${business.phone.display} or send a message for a free in-home bathroom remodeling estimate across Northern Virginia and Maryland.`,
+  description: `Call ${business.phone.display} or send a message for a free in-home bathroom remodeling estimate across Northern Virginia, Maryland and the DC metro.`,
   path,
 });
 

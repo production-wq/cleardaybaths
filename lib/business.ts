@@ -110,7 +110,7 @@ export const business = {
   foundedYear: null as number | null,
   licenseNumber: null as string | null,
 
-  regions: ['Northern Virginia', 'Maryland'],
+  regions: ['Northern Virginia', 'Maryland', 'Greater DC Metro'],
 } as const;
 
 export type Business = typeof business;

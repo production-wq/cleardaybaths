@@ -15,7 +15,7 @@ const path = '/service-areas/';
 
 export const metadata: Metadata = meta({
   title: 'Service Areas — Northern Virginia, Maryland & DC',
-  description: 'Every city and county Clear Day Bath Solutions serves across Northern Virginia and Maryland.',
+  description: 'Every city and county Clear Day Bath Solutions serves across Northern Virginia, Maryland and the Washington DC metro.',
   path,
 });
 
@@ -30,7 +30,7 @@ export default function Page() {
       <Hero
         eyebrow="Where we work"
         title="Service areas"
-        lead={`Based in ${business.address.addressLocality}, ${business.address.addressRegion} and working across Northern Virginia and Maryland.`}
+        lead={`Based in ${business.address.addressLocality}, ${business.address.addressRegion} and working across Northern Virginia, Maryland and the DC metro.`}
         align="center"
         image="/img/gallery/bathroom-remodeling9.webp"
         breadcrumb={<Breadcrumbs trail={[{ label: 'Service Areas', href: path }]} />}

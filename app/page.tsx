@@ -22,7 +22,7 @@ import { Phone, ArrowRight, Check } from '@/components/Icons';
 export const metadata: Metadata = {
   title: 'Bathroom Remodeling in Northern Virginia & Maryland',
   description:
-    'Clear Day Bath Solutions installs tub-to-shower conversions, walk-in bathtubs, accessible bathrooms and full bath remodels across Northern Virginia and Maryland. Locally owned. Free in-home estimates.',
+    'Clear Day Bath Solutions installs tub-to-shower conversions, walk-in bathtubs, accessible bathrooms and full bath remodels across Northern Virginia, Maryland and the DC metro. Locally owned. Free in-home estimates.',
   alternates: { canonical: '/' },
 };
 
@@ -49,7 +49,7 @@ export default async function HomePage() {
       <Hero
         image="/img/gallery/shower-replacement15.webp"
         title={<>Premier Bathroom Remodeling in Northern Virginia &amp; Maryland</>}
-        lead="Locally owned and dedicated to quality across Northern Virginia and Maryland — from tub-to-shower conversions to full custom bathrooms."
+        lead="Locally owned and dedicated to quality across the Greater DC Metro area — from tub-to-shower conversions to full custom bathrooms."
       />
 
       {/* Experience a CLEAR difference */}

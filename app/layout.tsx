@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: `%s | ${business.name}`,
   },
   description:
-    'Tub-to-shower conversions, walk-in bathtubs, accessible bathrooms and full bath remodels across Northern Virginia and Maryland. Locally owned. Free estimates.',
+    'Tub-to-shower conversions, walk-in bathtubs, accessible bathrooms and full bath remodels across Northern Virginia, Maryland and the DC metro. Locally owned. Free estimates.',
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website', siteName: business.name, locale: 'en_US', url: SITE_URL,
