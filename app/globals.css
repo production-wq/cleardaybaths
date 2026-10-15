@@ -82,3 +82,13 @@
   left: auto !important;
   position: fixed !important;
 }
+
+/* On mobile the sticky Call/Quote bar (~68px) sits along the bottom, so lift
+   the widget above it. The bar is hidden from the lg breakpoint up. */
+@media (max-width: 1023px) {
+  .uwy,
+  .userway_buttons_wrapper {
+    bottom: calc(88px + env(safe-area-inset-bottom)) !important;
+    right: 16px !important;
+  }
+}
