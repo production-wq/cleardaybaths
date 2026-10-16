@@ -91,4 +91,11 @@
     bottom: calc(88px + env(safe-area-inset-bottom)) !important;
     right: 16px !important;
   }
+
+  /* Zoho SalesIQ chat bubble — same lift so it clears the sticky bar. */
+  .zsiq_floatmain,
+  .zsiq_floatmain.zsiq_flt_rel,
+  #zsiq_float {
+    bottom: calc(88px + env(safe-area-inset-bottom)) !important;
+  }
 }
