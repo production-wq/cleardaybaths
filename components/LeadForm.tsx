@@ -5,9 +5,7 @@ import { useFormStatus } from 'react-dom';
 import { usePathname } from 'next/navigation';
 import { submitLead, type LeadState } from '@/app/actions/submit-lead';
 import { serviceSelectOptions } from '@/lib/content';
-import { business } from '@/lib/business';
 import legal from '@/data/legal.json';
-import { Check } from './Icons';
 
 function Field({
   name, label, type = 'text', required = true, error, ...rest
@@ -43,24 +41,6 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
   const [state, action] = useActionState<LeadState, FormData>(submitLead, { ok: false });
   const pathname = usePathname();
   const err = state.errors ?? {};
-
-  if (state.ok) {
-    return (
-      <div className="rounded-panel bg-forest-800 p-8 text-center ring-1 ring-white/10">
-        <span className="mx-auto grid h-14 w-14 place-items-center rounded-full bg-teal">
-          <Check width={28} height={28} />
-        </span>
-        <h2 className="mt-5 font-display text-2xl font-bold text-white">Thanks — we have your details</h2>
-        <p className="mt-3 text-sm text-white/80">
-          Someone from the team will call you to arrange your free in-home measure. If you would
-          rather not wait, call us on{' '}
-          <a href={business.phone.href} className="font-semibold text-sage underline underline-offset-2">
-            {business.phone.display}
-          </a>.
-        </p>
-      </div>
-    );
-  }
 
   return (
     <form action={action} noValidate className="rounded-panel bg-forest-800 p-6 ring-1 ring-white/10 sm:p-8">

@@ -1,6 +1,7 @@
 'use server';
 
 import { z } from 'zod';
+import { redirect } from 'next/navigation';
 import { business } from '@/lib/business';
 import { serviceSelectOptions } from '@/lib/content';
 
@@ -39,7 +40,7 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   const lead = parsed.data;
 
   // Silently accept honeypot hits so bots get no signal about what tripped.
-  if (lead.company) return { ok: true };
+  if (lead.company) redirect('/thank-you/');
 
   const key = process.env.RESEND_API_KEY;
   if (!key) {
@@ -87,5 +88,6 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
     };
   }
 
-  return { ok: true };
+  // redirect() throws, so it must stay outside the try/catch above.
+  redirect('/thank-you/');
 }
