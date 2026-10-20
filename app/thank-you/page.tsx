@@ -6,6 +6,7 @@ import Mascot from '@/components/Mascot';
 import { business } from '@/lib/business';
 import { meta } from '@/lib/seo';
 import { Phone, Check } from '@/components/Icons';
+import LeadConversion from '@/components/LeadConversion';
 
 /** Conversion confirmation — noindex so it never competes in search. */
 export const metadata: Metadata = meta({
@@ -18,6 +19,7 @@ export const metadata: Metadata = meta({
 export default function Page() {
   return (
     <>
+      <LeadConversion />
       <Section tone="cream" className="min-h-[60vh]">
         <div className="relative mx-auto max-w-xl py-10 text-center">
           <Mascot n={7} width={140} className="-top-6 right-0" />
