@@ -30,6 +30,23 @@ function Field({
   );
 }
 
+/** Renders `[Label]` markers in legal copy as links, so the wording itself stays verbatim in data/legal.json. */
+function LegalText({ text, links }: { text: string; links: Record<string, string> }) {
+  return (
+    <>
+      {text.split(/\[([^\]]+)\]/).map((part, i) =>
+        i % 2 === 0 ? part : (
+          // New tab, so following a link mid-form does not throw away what was typed.
+          <a key={i} href={links[part]} target="_blank" rel="noopener noreferrer"
+             className="text-sage underline underline-offset-2">
+            {part}
+          </a>
+        ),
+      )}
+    </>
+  );
+}
+
 function Submit() {
   const { pending } = useFormStatus();
   return (
@@ -108,6 +125,16 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
         </label>
       </p>
       {err.consent && <span className="mt-1 block text-xs text-red-300">{err.consent}</span>}
+
+      {/* Optional SMS opt-in, kept separate from the consent above — see data/legal.json. Do not reword. */}
+      <p className="mt-3 flex gap-3">
+        <input id="lead-sms-consent" name="smsConsent" type="checkbox"
+               aria-describedby="lead-sms-consent-text"
+               className="mt-1 h-4 w-4 shrink-0 accent-teal" />
+        <label id="lead-sms-consent-text" htmlFor="lead-sms-consent" className="text-[0.7rem] leading-relaxed text-white/70">
+          <LegalText text={legal.smsConsent.text} links={legal.smsConsent.links} />
+        </label>
+      </p>
 
       <Submit />
 
