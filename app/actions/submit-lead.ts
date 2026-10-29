@@ -14,6 +14,8 @@ const Lead = z.object({
   service: z.enum(serviceSelectOptions as unknown as [string, ...string[]]),
   message: z.string().trim().max(2000).optional().default(''),
   consent: z.literal('on', { errorMap: () => ({ message: 'Please accept the consent notice to continue' }) }),
+  // Optional SMS opt-in; the browser only sends this field when ticked.
+  smsConsent: z.literal('on').optional(),
   // Honeypot: a real person never fills a field they cannot see.
   company: z.string().max(0).optional().default(''),
   sourcePath: z.string().max(300).optional().default('/'),
@@ -65,6 +67,7 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
     lead.message || '(no message)',
     '',
     `E-SIGN consent accepted at ${new Date().toISOString()}`,
+    `SMS opt-in: ${lead.smsConsent ? 'YES' : 'no'}`,
   ].join('\n');
 
   try {

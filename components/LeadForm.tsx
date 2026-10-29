@@ -2,6 +2,7 @@
 
 import { useActionState } from 'react';
 import { useFormStatus } from 'react-dom';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { submitLead, type LeadState } from '@/app/actions/submit-lead';
 import { serviceSelectOptions } from '@/lib/content';
@@ -88,6 +89,22 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
         </label>
       </p>
       {err.consent && <span className="mt-1 block text-xs text-red-300">{err.consent}</span>}
+
+      {/* Separate, optional SMS opt-in. Not required to submit the form. */}
+      <p className="mt-4 flex gap-3">
+        <input id="lead-sms-consent" name="smsConsent" type="checkbox"
+               aria-describedby="lead-sms-consent-text"
+               className="mt-1 h-4 w-4 shrink-0 accent-teal" />
+        <label id="lead-sms-consent-text" htmlFor="lead-sms-consent" className="text-[0.7rem] leading-relaxed text-white/70">
+          By providing your phone number, you agree to receive SMS account, customer care and
+          marketing notifications from Clear Day Bath Solutions. Message frequency may vary.
+          Standard Message and Data Rates may apply. Reply STOP to opt out. Reply HELP for help.
+          Please see{' '}
+          <Link href="/terms-and-conditions/" className="underline underline-offset-2 hover:text-white">Terms</Link>{' '}
+          and{' '}
+          <Link href="/privacy-policy/" className="underline underline-offset-2 hover:text-white">Privacy Policy</Link>
+        </label>
+      </p>
 
       <Submit />
 
