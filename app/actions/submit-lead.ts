@@ -1,9 +1,18 @@
 'use server';
 
 import { z } from 'zod';
+import nodemailer from 'nodemailer';
 import { redirect } from 'next/navigation';
 import { business } from '@/lib/business';
 import { serviceSelectOptions } from '@/lib/content';
+
+// Leads go to the admin inboxes only; the submitter is never emailed.
+// LEAD_TO_EMAIL (comma-separated) overrides the default list.
+const LEAD_RECIPIENTS = (process.env.LEAD_TO_EMAIL ?? `${business.email.leads},quotes@cleardaybaths.com`)
+  .split(',').map((e) => e.trim()).filter(Boolean);
+
+const FAIL_MESSAGE =
+  `We could not submit the form just now. Please call us on ${business.phone.display} and we will take your details directly.`;
 
 const Lead = z.object({
   firstName: z.string().trim().min(1, 'First name is required').max(80),
@@ -45,16 +54,15 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   // Silently accept honeypot hits so bots get no signal about what tripped.
   if (lead.company) redirect('/thank-you/');
 
-  const key = process.env.RESEND_API_KEY;
-  if (!key) {
+  const host = process.env.SMTP_HOST;
+  const user = process.env.SMTP_USER;
+  const pass = process.env.SMTP_PASS;
+  if (!host || !user || !pass) {
     // Never drop a lead silently — a failed send must be loud in the logs.
-    console.error('[lead] RESEND_API_KEY is not set; lead NOT delivered', {
+    console.error('[lead] SMTP_HOST / SMTP_USER / SMTP_PASS not set; lead NOT delivered', {
       email: lead.email, zip: lead.zip, service: lead.service,
     });
-    return {
-      ok: false,
-      message: `We could not submit the form just now. Please call us on ${business.phone.display} and we will take your details directly.`,
-    };
+    return { ok: false, message: FAIL_MESSAGE };
   }
 
   const body = [
@@ -72,24 +80,20 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   ].join('\n');
 
   try {
-    const res = await fetch('https://api.resend.com/emails', {
-      method: 'POST',
-      headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        from: process.env.LEAD_FROM_EMAIL ?? 'website@cleardaybaths.com',
-        to: [process.env.LEAD_TO_EMAIL ?? business.email.leads],
-        reply_to: lead.email,
-        subject: `New quote request — ${lead.firstName} ${lead.lastName} (${lead.zip})`,
-        text: body,
-      }),
+    const port = Number(process.env.SMTP_PORT ?? 465);
+    const transporter = nodemailer.createTransport({
+      host, port, secure: port === 465, auth: { user, pass },
     });
-    if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
+    await transporter.sendMail({
+      from: process.env.LEAD_FROM_EMAIL ?? user,
+      to: LEAD_RECIPIENTS,
+      replyTo: lead.email,
+      subject: `New quote request — ${lead.firstName} ${lead.lastName} (${lead.zip})`,
+      text: body,
+    });
   } catch (err) {
     console.error('[lead] delivery failed', err);
-    return {
-      ok: false,
-      message: `We could not submit the form just now. Please call us on ${business.phone.display} and we will take your details directly.`,
-    };
+    return { ok: false, message: FAIL_MESSAGE };
   }
 
   // redirect() throws, so it must stay outside the try/catch above.
