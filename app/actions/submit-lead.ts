@@ -2,7 +2,7 @@
 
 import { z } from 'zod';
 import { redirect } from 'next/navigation';
-import { business, SITE_URL } from '@/lib/business';
+import { business } from '@/lib/business';
 import { serviceSelectOptions } from '@/lib/content';
 
 // Leads go to the admin inboxes only; the submitter is never emailed.
@@ -30,8 +30,12 @@ const Lead = z.object({
   sourcePath: z.string().max(300).optional().default('/'),
 });
 
+export type LeadDelivery = { url: string; fields: Record<string, string> };
+
 export type LeadState = {
   ok: boolean;
+  /** Validated payload the browser relays to FormSubmit (it blocks server-side posts). */
+  delivery?: LeadDelivery;
   errors?: Record<string, string>;
   message?: string;
 };
@@ -53,41 +57,27 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   // Silently accept honeypot hits so bots get no signal about what tripped.
   if (lead.company) redirect('/thank-you/');
 
-  try {
-    // FormSubmit.co relays the submission to the admin inbox — no mailbox
-    // password or API key needed. The submitter is never emailed.
-    const res = await fetch(`https://formsubmit.co/ajax/${LEAD_RECIPIENTS[0]}`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-        Origin: SITE_URL,
-        Referer: `${SITE_URL}/`,
-      },
-      body: JSON.stringify({
-        _subject: `New quote request — ${lead.firstName} ${lead.lastName} (${lead.zip})`,
-        _cc: LEAD_RECIPIENTS.slice(1).join(','),
-        _replyto: lead.email,
-        _captcha: 'false',
-        _template: 'table',
-        name: `${lead.firstName} ${lead.lastName}`,
-        email: lead.email,
-        phone: lead.phone,
-        zip: lead.zip,
-        service: lead.service,
-        page: lead.sourcePath,
-        message: lead.message || '(no message)',
-        call_email_consent: lead.consent ? `YES, ${new Date().toISOString()}` : 'no',
-        sms_opt_in: lead.smsConsent ? 'YES' : 'no',
-      }),
-    });
-    const out = await res.json().catch(() => ({}));
-    if (!res.ok || String(out.success) !== 'true') throw new Error(`${res.status} ${JSON.stringify(out)}`);
-  } catch (err) {
-    console.error('[lead] delivery failed', err);
-    return { ok: false, message: FAIL_MESSAGE };
-  }
-
-  // redirect() throws, so it must stay outside the try/catch above.
-  redirect('/thank-you/');
+  // FormSubmit.co answers server-to-server requests with 403, so the browser
+  // posts the (already validated) lead itself. No password or API key needed;
+  // the submitter is never emailed.
+  const delivery: LeadDelivery = {
+    url: `https://formsubmit.co/ajax/${LEAD_RECIPIENTS[0]}`,
+    fields: {
+      _subject: `New quote request — ${lead.firstName} ${lead.lastName} (${lead.zip})`,
+      _cc: LEAD_RECIPIENTS.slice(1).join(','),
+      _replyto: lead.email,
+      _captcha: 'false',
+      _template: 'table',
+      name: `${lead.firstName} ${lead.lastName}`,
+      email: lead.email,
+      phone: lead.phone,
+      zip: lead.zip,
+      service: lead.service,
+      page: lead.sourcePath,
+      message: lead.message || '(no message)',
+      call_email_consent: lead.consent ? `YES, ${new Date().toISOString()}` : 'no',
+      sms_opt_in: lead.smsConsent ? 'YES' : 'no',
+    },
+  };
+  return { ok: true, delivery };
 }
