@@ -1,13 +1,12 @@
 'use server';
 
 import { z } from 'zod';
-import nodemailer from 'nodemailer';
 import { redirect } from 'next/navigation';
-import { business } from '@/lib/business';
+import { business, SITE_URL } from '@/lib/business';
 import { serviceSelectOptions } from '@/lib/content';
 
 // Leads go to the admin inboxes only; the submitter is never emailed.
-// LEAD_TO_EMAIL (comma-separated) overrides the default list.
+// First address is the primary; the rest are CC'd. LEAD_TO_EMAIL (comma-separated) overrides.
 const LEAD_RECIPIENTS = (process.env.LEAD_TO_EMAIL ?? `${business.email.leads},quotes@cleardaybaths.com`)
   .split(',').map((e) => e.trim()).filter(Boolean);
 
@@ -54,43 +53,36 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
   // Silently accept honeypot hits so bots get no signal about what tripped.
   if (lead.company) redirect('/thank-you/');
 
-  const host = process.env.SMTP_HOST;
-  const user = process.env.SMTP_USER;
-  const pass = process.env.SMTP_PASS;
-  if (!host || !user || !pass) {
-    // Never drop a lead silently — a failed send must be loud in the logs.
-    console.error('[lead] SMTP_HOST / SMTP_USER / SMTP_PASS not set; lead NOT delivered', {
-      email: lead.email, zip: lead.zip, service: lead.service,
-    });
-    return { ok: false, message: FAIL_MESSAGE };
-  }
-
-  const body = [
-    `Name:    ${lead.firstName} ${lead.lastName}`,
-    `Phone:   ${lead.phone}`,
-    `Email:   ${lead.email}`,
-    `ZIP:     ${lead.zip}`,
-    `Service: ${lead.service}`,
-    `Page:    ${lead.sourcePath}`,
-    '',
-    lead.message || '(no message)',
-    '',
-    `Call/email consent (E-SIGN): ${lead.consent ? `YES, ${new Date().toISOString()}` : 'no'}`,
-    `SMS opt-in: ${lead.smsConsent ? 'YES' : 'no'}`,
-  ].join('\n');
-
   try {
-    const port = Number(process.env.SMTP_PORT ?? 465);
-    const transporter = nodemailer.createTransport({
-      host, port, secure: port === 465, auth: { user, pass },
+    // FormSubmit.co relays the submission to the admin inbox — no mailbox
+    // password or API key needed. The submitter is never emailed.
+    const res = await fetch(`https://formsubmit.co/ajax/${LEAD_RECIPIENTS[0]}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+        Origin: SITE_URL,
+        Referer: `${SITE_URL}/`,
+      },
+      body: JSON.stringify({
+        _subject: `New quote request — ${lead.firstName} ${lead.lastName} (${lead.zip})`,
+        _cc: LEAD_RECIPIENTS.slice(1).join(','),
+        _replyto: lead.email,
+        _captcha: 'false',
+        _template: 'table',
+        name: `${lead.firstName} ${lead.lastName}`,
+        email: lead.email,
+        phone: lead.phone,
+        zip: lead.zip,
+        service: lead.service,
+        page: lead.sourcePath,
+        message: lead.message || '(no message)',
+        call_email_consent: lead.consent ? `YES, ${new Date().toISOString()}` : 'no',
+        sms_opt_in: lead.smsConsent ? 'YES' : 'no',
+      }),
     });
-    await transporter.sendMail({
-      from: process.env.LEAD_FROM_EMAIL ?? user,
-      to: LEAD_RECIPIENTS,
-      replyTo: lead.email,
-      subject: `New quote request — ${lead.firstName} ${lead.lastName} (${lead.zip})`,
-      text: body,
-    });
+    const out = await res.json().catch(() => ({}));
+    if (!res.ok || String(out.success) !== 'true') throw new Error(`${res.status} ${JSON.stringify(out)}`);
   } catch (err) {
     console.error('[lead] delivery failed', err);
     return { ok: false, message: FAIL_MESSAGE };
