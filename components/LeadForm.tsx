@@ -81,7 +81,7 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
 
       {/* Verbatim TCPA / E-SIGN disclosure — see data/legal.json. Do not reword. */}
       <p className="mt-4 flex gap-3">
-        <input id="lead-consent" name="consent" type="checkbox" required
+        <input id="lead-consent" name="consent" type="checkbox"
                aria-describedby="lead-consent-text"
                className="mt-1 h-4 w-4 shrink-0 accent-teal" />
         <label id="lead-consent-text" htmlFor="lead-consent" className="text-[0.7rem] leading-relaxed text-white/70">

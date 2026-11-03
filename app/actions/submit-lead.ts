@@ -13,7 +13,8 @@ const Lead = z.object({
   zip: z.string().trim().regex(/^\d{5}(-\d{4})?$/, 'Enter a 5-digit ZIP code'),
   service: z.enum(serviceSelectOptions as unknown as [string, ...string[]]),
   message: z.string().trim().max(2000).optional().default(''),
-  consent: z.literal('on', { errorMap: () => ({ message: 'Please accept the consent notice to continue' }) }),
+  // Both consent checkboxes are optional; the browser only sends them when ticked.
+  consent: z.literal('on').optional(),
   // Optional SMS opt-in; the browser only sends this field when ticked.
   smsConsent: z.literal('on').optional(),
   // Honeypot: a real person never fills a field they cannot see.
@@ -66,7 +67,7 @@ export async function submitLead(_prev: LeadState, formData: FormData): Promise<
     '',
     lead.message || '(no message)',
     '',
-    `E-SIGN consent accepted at ${new Date().toISOString()}`,
+    `Call/email consent (E-SIGN): ${lead.consent ? `YES, ${new Date().toISOString()}` : 'no'}`,
     `SMS opt-in: ${lead.smsConsent ? 'YES' : 'no'}`,
   ].join('\n');
 
