@@ -1,11 +1,13 @@
+import { connection } from 'next/server';
 import type { MetadataRoute } from 'next';
 import { allUrls } from '@/lib/routes';
-import { allPosts } from '@/lib/blog';
+import { publishedPosts } from '@/lib/blog';
 import { abs } from '@/lib/business';
 
 /** Every live URL. /thank-you/ is noindex, so it is excluded. */
-export default function sitemap(): MetadataRoute.Sitemap {
-  const postDates = new Map(allPosts.map((p) => [p.path, p.date]));
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  await connection();
+  const postDates = new Map(publishedPosts().map((p) => [p.path, p.date]));
   const EXCLUDE = new Set(['/thank-you/']);
 
   return allUrls()

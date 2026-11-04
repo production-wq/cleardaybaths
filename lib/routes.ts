@@ -1,3 +1,4 @@
+import { publishedPosts, pageCount } from './blog';
 /**
  * The routing registry. This is what makes the zero-traffic-loss guarantee
  * mechanical rather than aspirational.
@@ -60,7 +61,7 @@ export const cityBySlug = new Map(cities.map((c) => [c.slug, c]));
 
 /** Every URL the built site will serve, preserved + newly built. */
 export function allUrls(): string[] {
-  return [...new Set([...preserved.map((p) => p.url), ...routesData.build])].sort();
+  return [...new Set([...preserved.map((p) => p.url).filter(u => !u.startsWith('/blog/') || u === '/blog/'), ...routesData.build.filter(u => !u.startsWith('/blog/') || u === '/blog/'), ...publishedPosts().map(p => p.path), ...Array.from({ length: pageCount() - 1 }, (_, i) => `/blog/page/${i + 2}/`)])].sort();
 }
 
 /* ------------------------------------------------------------------ *

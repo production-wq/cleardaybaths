@@ -1,3 +1,4 @@
+import { connection } from 'next/server';
 import type { Metadata } from 'next';
 import BlogIndex from '@/components/BlogIndex';
 import { meta } from '@/lib/seo';
@@ -8,6 +9,7 @@ export const metadata: Metadata = meta({
   path: '/blog/',
 });
 
-export default function Page() {
+export default async function Page() {
+  await connection();
   return <BlogIndex page={1} />;
 }

@@ -2,10 +2,11 @@ import type { Metadata } from 'next';
 import { business, abs, SITE_URL } from './business';
 
 export function meta({
-  title, description, path, image = '/img/brand/logo-square.png', noindex = false, type = 'website',
+  title, description, path, image = '/img/brand/logo-square.png', imageWidth = 1200, imageHeight = 1200, imageAlt = business.name, noindex = false, type = 'website',
 }: {
   title: string; description: string; path: string;
   image?: string; noindex?: boolean; type?: 'website' | 'article';
+  imageWidth?: number; imageHeight?: number; imageAlt?: string;
 }): Metadata {
   return {
     title,
@@ -15,7 +16,7 @@ export function meta({
     openGraph: {
       type, title: `${title} | ${business.name}`, description,
       url: abs(path), siteName: business.name, locale: 'en_US',
-      images: [{ url: abs(image), width: 1200, height: 1200, alt: business.name }],
+      images: [{ url: abs(image), width: imageWidth, height: imageHeight, alt: imageAlt }],
     },
     twitter: { card: 'summary_large_image', title, description, images: [abs(image)] },
   };

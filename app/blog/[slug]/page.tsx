@@ -1,3 +1,5 @@
+import { connection } from 'next/server';
+import BlogArticle from '@/components/BlogArticle';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -8,35 +10,35 @@ import SidebarQuoteCard from '@/components/SidebarQuoteCard';
 import CtaBand from '@/components/CtaBand';
 import Marquee from '@/components/Marquee';
 import { JsonLdScript, graph, articleNode, breadcrumbNode } from '@/lib/schema';
-import { allPosts, postBySlug, formatDate } from '@/lib/blog';
+import { publishedPosts, postBySlug, formatDate } from '@/lib/blog';
 import { byCategory, pick } from '@/lib/gallery';
 import { meta } from '@/lib/seo';
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return allPosts.map((p) => ({ slug: p.slug }));
-}
-
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  await connection();
   const { slug } = await params;
   const post = postBySlug(slug);
-  if (!post) return {};
+  if (!post) notFound();
   return meta({
     title: post.seoTitle?.trim() || post.title,
     description: post.seoDesc?.trim() || post.excerpt.slice(0, 155),
     path: post.path,
     type: 'article',
+    image: post.image?.src,
+    imageWidth: post.image?.width,
+    imageHeight: post.image?.height,
+    imageAlt: post.image?.alt,
   });
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+  await connection();
   const { slug } = await params;
   const post = postBySlug(slug);
   if (!post) notFound();
 
-  const hero = pick(byCategory('bath-and-shower'), 1, slug)[0];
-  const related = allPosts.filter((p) => p.slug !== slug).slice(0, 3);
+  const hero = post.image ?? pick(byCategory('bath-and-shower'), 1, slug)[0];
+  const related = publishedPosts().filter((p) => p.slug !== slug).slice(0, 3);
   const crumbs = [{ label: 'Blog', href: '/blog/' }, { label: post.title, href: post.path }];
 
   return (
@@ -65,10 +67,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
 
       <Section tone="cream">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1.9fr)_minmax(0,1fr)]">
-          <article className="prose-cd">
-            {post.body.map((p, i) => (
-              <p key={i} className={i === 0 ? 'text-lg leading-relaxed text-ink/85' : ''}>{p}</p>
-            ))}
+          <article className="prose-cd" data-published-slug={post.slug}>
+            <BlogArticle post={post} />
 
             {related.length > 0 && (
               <aside className="not-prose mt-12 border-t border-forest-900/10 pt-8">

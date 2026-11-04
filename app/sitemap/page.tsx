@@ -1,3 +1,4 @@
+import { connection } from 'next/server';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Hero from '@/components/Hero';
@@ -8,7 +9,7 @@ import { JsonLdScript, graph, breadcrumbNode } from '@/lib/schema';
 import { serviceHubs } from '@/lib/services';
 import { cities, allUrls } from '@/lib/routes';
 import { cityHref } from '@/components/CityChips';
-import { allPosts } from '@/lib/blog';
+import { publishedPosts } from '@/lib/blog';
 import { footerNav, legalNav, utilityNav } from '@/lib/nav';
 import { meta } from '@/lib/seo';
 
@@ -20,7 +21,8 @@ export const metadata: Metadata = meta({
   path,
 });
 
-export default function Page() {
+export default async function Page() {
+  await connection();
   const company = footerNav.find((g) => g.label === 'Company')?.children ?? [];
   return (
     <>
@@ -85,7 +87,7 @@ export default function Page() {
             <Link href="/blog/" className="hover:text-teal">Blog</Link>
           </h2>
           <ul className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            {allPosts.map((p) => (
+            {publishedPosts().map((p) => (
               <li key={p.slug}><Link href={p.path} className="text-sm text-ink/70 hover:text-teal">{p.title}</Link></li>
             ))}
           </ul>

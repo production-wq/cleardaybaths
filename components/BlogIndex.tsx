@@ -11,6 +11,7 @@ import { ArrowRight } from './Icons';
 
 export default function BlogIndex({ page }: { page: number }) {
   const posts = postsForPage(page);
+  const totalPages = pageCount();
   const thumbs = byCategory('bath-and-shower');
 
   return (
@@ -27,12 +28,12 @@ export default function BlogIndex({ page }: { page: number }) {
       <Section tone="cream">
         <ul className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {posts.map((p) => {
-            const img = pick(thumbs, 1, p.slug)[0];
+            const img = p.image ?? pick(thumbs, 1, p.slug)[0];
             return (
               <li key={p.slug} className="card overflow-hidden">
                 <Link href={p.path} className="group block">
                   {img && (
-                    <Image src={img.src} alt="" width={img.width} height={img.height}
+                    <Image src={img.src} alt={p.image?.alt ?? ""} width={img.width} height={img.height}
                            className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                   )}
                   <div className="p-6">
@@ -50,9 +51,9 @@ export default function BlogIndex({ page }: { page: number }) {
           })}
         </ul>
 
-        {pageCount > 1 && (
+        {totalPages > 1 && (
           <nav aria-label="Blog pagination" className="mt-12 flex justify-center gap-2">
-            {Array.from({ length: pageCount }, (_, i) => i + 1).map((n) => (
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((n) => (
               <Link key={n} href={n === 1 ? '/blog/' : `/blog/page/${n}/`}
                     aria-current={n === page ? 'page' : undefined}
                     className={`grid h-10 min-w-10 place-items-center rounded-full px-3 text-sm font-semibold ${
