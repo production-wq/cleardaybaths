@@ -20,7 +20,7 @@ export default function BlogArticle({ post }: { post: Post }) {
       </div>}
     </section>)}
     <h2>Plan your next step with Clear Day Bath Solutions</h2>
-    <p>{article.cta} <Link href="/get-quote/">Request your consultation.</Link></p>
+    <p>{article.cta} <Link href="/get-quote/#quote">Request your consultation.</Link></p>
     <h2>Frequently Asked Questions</h2>
     {article.faqs.map(faq => <section key={faq.question}><h3>{faq.question}</h3><p>{faq.answer}</p></section>)}
     {!!post.links?.length && <nav aria-label="Related services and planning resources"><h2>Explore your options</h2><ul>{post.links.map(link => <li key={link.href}><Link href={link.href}>{link.label}</Link></li>)}</ul></nav>}

@@ -20,7 +20,7 @@ export default function StickyCallBar() {
         >
           <Phone width={16} height={16} className="text-teal" /> Call Now
         </a>
-        <Link href="/get-quote/" className="btn-primary flex-1">
+        <Link href="/get-quote/#quote" className="btn-primary flex-1">
           Free Quote <ArrowRight />
         </Link>
       </div>

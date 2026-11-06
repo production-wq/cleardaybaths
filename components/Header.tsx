@@ -85,7 +85,7 @@ export default function Header() {
             <a href={business.phone.href} className="hidden items-center gap-1.5 text-sm font-bold text-ink xl:flex">
               <Phone width={16} height={16} className="text-teal" /> {business.phone.display}
             </a>
-            <Link href="/get-quote/" className="btn-primary hidden text-xs sm:inline-flex">Get Free Quote</Link>
+            <Link href="/get-quote/#quote" className="btn-primary hidden text-xs sm:inline-flex">Get Free Quote</Link>
             <button
               type="button"
               onClick={() => setOpen((v) => !v)}
@@ -125,7 +125,7 @@ export default function Header() {
             </details>
           ))}
           <div className="mt-4 grid gap-2 pb-4">
-            <Link href="/get-quote/" className="btn-primary w-full">Get Free Quote</Link>
+            <Link href="/get-quote/#quote" onClick={() => setOpen(false)} className="btn-primary w-full">Get Free Quote</Link>
             <a href={business.phone.href} className="btn-outline w-full">
               <Phone width={16} height={16} /> Call {business.phone.display}
             </a>

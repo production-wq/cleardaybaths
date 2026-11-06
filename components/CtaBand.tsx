@@ -13,7 +13,7 @@ import { Phone, Check } from './Icons';
  */
 export default function CtaBand({ id = 'quote' }: { id?: string }) {
   return (
-    <section id={id} className="on-dark relative isolate overflow-hidden bg-forest-950 text-white">
+    <section className="on-dark relative isolate overflow-hidden bg-forest-950 text-white">
       <PhotoBackdrop src="/img/gallery/shower-replacement15.webp" focus="left" intensity="strong" />
       <div className="container-page relative z-10 grid items-center gap-12 py-section lg:grid-cols-2">
         <div>
@@ -43,7 +43,7 @@ export default function CtaBand({ id = 'quote' }: { id?: string }) {
           <p className="mt-2 text-sm text-white/55">{business.hoursDisplay}</p>
         </div>
 
-        <LeadForm />
+        <LeadForm id={id} />
       </div>
     </section>
   );

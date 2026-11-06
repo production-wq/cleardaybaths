@@ -21,7 +21,7 @@ export default function SidebarQuoteCard({ currentPath }: { currentPath?: string
         <p className="relative z-10 mt-2 text-sm text-white/70">
           No obligation, no pressure — just a written price after an in-home measure.
         </p>
-        <Link href="/get-quote/" className="btn-primary relative z-10 mt-5 w-full">Request my quote</Link>
+        <Link href="/get-quote/#quote" className="btn-primary relative z-10 mt-5 w-full">Request my quote</Link>
         <a href={business.phone.href} data-analytics="call-click" data-location="sidebar"
            className="relative z-10 mt-4 flex items-center justify-center gap-2 font-display text-lg font-bold text-white hover:text-sage">
           <Phone width={18} height={18} className="text-sage" /> {business.phone.display}

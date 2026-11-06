@@ -30,7 +30,7 @@ export default function Hero({
             <h1 className="mt-4 text-display-xl [text-shadow:0_2px_24px_rgba(13,27,23,.5)]">{title}</h1>
             {lead && <p className="mt-5 text-lg leading-relaxed text-white/85">{lead}</p>}
             <div className={`mt-9 flex flex-wrap gap-3 ${centred ? 'justify-center' : ''}`}>
-              <Link href="/get-quote/" className="btn-primary shadow-lg shadow-forest-950/30">
+              <Link href="/get-quote/#quote" className="btn-primary shadow-lg shadow-forest-950/30">
                 Get Free Quote <ArrowRight />
               </Link>
               <a href={business.phone.href} data-analytics="call-click" data-location="hero"

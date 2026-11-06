@@ -84,7 +84,7 @@ export default async function ContentPage({
                 Free in-home measure, written price, no obligation to buy.
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
-                <Link href="/get-quote/" className="btn-primary">Get free quote <ArrowRight /></Link>
+                <Link href="/get-quote/#quote" className="btn-primary">Get free quote <ArrowRight /></Link>
                 <a href={business.phone.href} data-analytics="call-click" data-location="inline-cta"
                    className="btn-outline bg-white">
                   <Phone width={16} height={16} className="text-teal" /> {business.phone.display}

@@ -1,12 +1,11 @@
 'use client';
 
-import { useActionState, useEffect, useState } from 'react';
+import { useActionState } from 'react';
 import { useFormStatus } from 'react-dom';
 import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { submitLead, type LeadState } from '@/app/actions/submit-lead';
 import { serviceSelectOptions } from '@/lib/content';
-import { business } from '@/lib/business';
 import legal from '@/data/legal.json';
 
 function Field({
@@ -30,51 +29,22 @@ function Field({
   );
 }
 
-function Submit({ busy }: { busy: boolean }) {
+function Submit() {
   const { pending } = useFormStatus();
   return (
-    <button type="submit" disabled={pending || busy} className="btn-primary mt-1 w-full">
-      {pending || busy ? 'Sending…' : 'Start my project'}
+    <button type="submit" disabled={pending} className="btn-primary mt-1 w-full">
+      {pending ? 'Sending…' : 'Start my project'}
     </button>
   );
 }
 
-export default function LeadForm({ heading = 'Request your free quote' }: { heading?: string }) {
-  const [state, action] = useActionState<LeadState, FormData>(submitLead, { ok: false });
+export default function LeadForm({ heading = 'Request your free quote', id }: { heading?: string; id?: string }) {
   const pathname = usePathname();
-  const router = useRouter();
-  const [sending, setSending] = useState(false);
-  const [sendError, setSendError] = useState('');
+  const [state, action] = useActionState<LeadState, FormData>(submitLead, { ok: false });
   const err = state.errors ?? {};
 
-  // Relay the validated lead to FormSubmit from the browser, then go to the thank-you page.
-  useEffect(() => {
-    const d = state.delivery;
-    if (!d) return;
-    let cancelled = false;
-    setSending(true);
-    setSendError('');
-    fetch(d.url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify(d.fields),
-    })
-      .then(async (res) => {
-        const out = await res.json().catch(() => ({}));
-        if (!res.ok || String(out.success) !== 'true') throw new Error(`${res.status}`);
-        if (!cancelled) router.push('/thank-you/');
-      })
-      .catch((err) => {
-        console.error('[lead] FormSubmit failed', err);
-        if (cancelled) return;
-        setSending(false);
-        setSendError(`We could not submit the form just now. Please call us on ${business.phone.display} and we will take your details directly.`);
-      });
-    return () => { cancelled = true; };
-  }, [state, router]);
-
   return (
-    <form action={action} noValidate className="rounded-panel bg-forest-800 p-6 ring-1 ring-white/10 sm:p-8">
+    <form id={id} action={action} noValidate className="scroll-mt-24 lg:scroll-mt-32 rounded-panel bg-forest-800 p-6 ring-1 ring-white/10 sm:p-8">
       <h2 className="font-display text-xl font-bold text-white">{heading}</h2>
       <input type="hidden" name="sourcePath" value={pathname} />
       {/* Honeypot — hidden from people, irresistible to bots. */}
@@ -136,11 +106,11 @@ export default function LeadForm({ heading = 'Request your free quote' }: { head
         </label>
       </p>
 
-      <Submit busy={sending} />
+      <Submit />
 
-      {(sendError || (!state.ok && state.message)) && (
+      {(!state.ok && state.message) && (
         <p role="alert" className="mt-3 rounded-xl bg-red-500/15 px-4 py-3 text-sm text-red-200">
-          {sendError || state.message}
+          {state.message}
         </p>
       )}
     </form>
