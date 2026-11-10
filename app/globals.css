@@ -99,3 +99,18 @@
     bottom: calc(88px + env(safe-area-inset-bottom)) !important;
   }
 }
+
+/* Out-of-area modal (components/OutOfAreaModal.tsx).
+   A native modal <dialog> makes the page behind it inert but does not stop it
+   scrolling, so lock the document while one is open. */
+html:has(dialog[open]) { overflow: hidden; }
+
+@keyframes out-of-area-in {
+  from { opacity: 0; transform: translateY(8px) scale(.98); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes out-of-area-fade { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: no-preference) {
+  .out-of-area[open] { animation: out-of-area-in .18s ease-out; }
+  .out-of-area[open]::backdrop { animation: out-of-area-fade .18s ease-out; }
+}

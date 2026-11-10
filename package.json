@@ -23,7 +23,8 @@
     "check:site-url": "tsx scripts/check-site-url.ts",
     "content:generate": "tsx scripts/content/generate.mts",
     "content:assemble": "tsx scripts/content/assemble.mts",
-    "test:publishing": "tsx scripts/content/test.ts"
+    "test:publishing": "tsx scripts/content/test.ts",
+    "test:zips": "tsx scripts/test-service-zips.ts"
   },
   "dependencies": {
     "next": "^16.3.5",
